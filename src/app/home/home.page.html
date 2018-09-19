@@ -1,12 +1,21 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title text-center>
+      Check Czech
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content padding text-center>
+  <ion-card>
+    <ion-card-content>
+      <ion-input required type="text" placeholder="Write the word." [(ngModel)]='inputWord'></ion-input>
+    </ion-card-content>  
+  </ion-card>
+  <ion-button shape="round" color="primary" fill="outline" (click)='analyzator()'>Analyze</ion-button>
+  <ion-card>
+    <ion-card-content>
+    {{ outputWord }}
+    </ion-card-content>  
+  </ion-card>
 </ion-content>
