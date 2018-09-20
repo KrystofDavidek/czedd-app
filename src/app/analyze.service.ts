@@ -10,7 +10,7 @@ export class AnalyzeService {
   public word = '';
   public outputWord = '';
 
-  public analyzator(inputWord) {
+  public analyze(inputWord) {
     this.outputWord = inputWord.split("").reverse().join("")
     return this.outputWord
   }

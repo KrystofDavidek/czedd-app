@@ -9,10 +9,10 @@
 <ion-content padding text-center>
   <ion-card>
     <ion-card-content>
-      <ion-input required type="text" placeholder="Write the word." [(ngModel)]='inputWord'></ion-input>
+      <ion-input required type="text" placeholder="Write the word." (keyup.enter)="anaylze()" [(ngModel)]='inputWord'></ion-input>
     </ion-card-content>  
   </ion-card>
-  <ion-button shape="round" color="primary" fill="outline" (click)='analyzator()'>Analyze</ion-button>
+  <ion-button shape="round" color="primary" fill="outline" (click)='anaylze()'>Analyze</ion-button>
   <ion-card>
     <ion-card-content>
     {{ outputWord }}

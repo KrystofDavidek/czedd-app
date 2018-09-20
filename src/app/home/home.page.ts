@@ -8,7 +8,7 @@ import { AnalyzeService } from '../analyze.service';
 })
 export class HomePage implements OnInit {
 
-  constructor(public analyze:AnalyzeService) { }
+  constructor(public analyzator:AnalyzeService) { }
 
   ngOnInit() {
   }
@@ -16,7 +16,7 @@ export class HomePage implements OnInit {
   public inputWord = ''
   public outputWord = ''
   
-  public analyzator() {
-    this.outputWord = this.analyze.analyzator(this.inputWord)
+  public anaylze() {
+    this.outputWord = this.analyzator.analyze(this.inputWord)
 }
   }
