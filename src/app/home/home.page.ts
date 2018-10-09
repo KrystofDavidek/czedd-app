@@ -14,9 +14,9 @@ export class HomePage implements OnInit {
   }
 
   public inputWord = ''
-  public outputWord = ''
+  public outputWord
   
-  public anaylze() {
-    this.outputWord = this.analyzator.analyze(this.inputWord)
-}
+  public async anaylze() {
+    this.outputWord = await this.analyzator.analyze(this.inputWord)
+  }
   }

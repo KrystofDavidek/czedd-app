@@ -1,0 +1,4450 @@
+2969	adoptovatel	adoptovatel	N	2973
+2973	adoptovat	adoptovat_:W	V
+4573	agropodnikatel	agropodnikatel	N	4570
+4570	agropodnikání	agropodnikání	NC
+5591	akceptovatel	akceptovatel	N	5595
+5595	akceptovat	akceptovat_:T_:W	V
+6962	Alcatel	Alcatel_;K	N
+7749	Aliatel	Aliatel_;K	N
+10352	Amstel	Amstel_;R	N
+12077	animovatel	animovatel	N	12081
+12081	animovat	animovat_:T	V
+12717	Antel	Antel_;S	N
+12943	anticestovatel	anticestovatel	N	68578
+68578	cestovatel	cestovatel	N	68586
+68586	cestovat	cestovat_:T	V
+14064	antisběratel	antisběratel	N	636065
+636065	sběratel	sběratel	N	636154
+636154	sbírat	sbírat_:T	V	642573
+642573	sebrat	sebrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+14955	aparthotel	aparthotel	N
+15247	aplikovatel	aplikovatel	N	15251
+15251	aplikovat	aplikovat_:T_:W	V
+16427	arcinepřátel	arcinepřátel	NC
+16428	arcinepřítel	arcinepřítel	NC
+19823	Atel	Atel_;K	N
+20283	Attel	Attel_;S	N
+21022	Autel	Autel_;K	N
+24051	badatel	badatel	N	24059
+24059	bádat	bádat_:T	V
+24444	bagatel	bagatel	N
+25791	balamutitel	balamutitel	N	25795
+25795	balamutit	balamutit_:T	V
+26387	balitel	balitel	N	26394
+26394	balit	balit_:T	V
+29392	Bartel	Bartel_;S	N
+29860	barvitel	barvitel	N	29869
+29869	barvit	barvit_:T	V	29801
+29801	barva	barva	N
+30816	Batel	Batel_;S	N
+31528	bavitel	bavitel	N	31532
+31532	bavit	bavit_:T	V
+32707	bědovatel	bědovatel	N	32711
+32711	bědovat	bědovat_:T	V
+33106	Bechtel	Bechtel-1_;S	N
+33106	Bechtel	Bechtel-1_;S	N
+33138	Beidtel	Beidtel_;S	N
+36002	Berkmortel	Berkmortel_;S	N
+36350	Bernkastel	Bernkastel_;G	N
+36517	Bertel	Bertel_;Y	N
+37129	betel	betel	N
+37343	Beutel	Beutel_;S	N
+39477	bibliocestovatel	bibliocestovatel	NC
+40776	bílojetel	bílojetel_;L	N
+41387	biododavatel	biododavatel	NC
+41586	biohotel	biohotel	NC
+41621	biochovatel	biochovatel	N	41623
+41623	biochov	biochov	NC
+41780	biokotel	biokotel	NC
+42142	biopěstitel	biopěstitel	NC
+42200	biopodnikatel	biopodnikatel	N	42204
+42204	biopodnikat	biopodnikat_:T	VC
+42291	biopřítel	biopřítel	NC
+42307	biopytel	biopytel	NC
+42466	biospotřebitel	biospotřebitel	N	42463
+42463	biospotřeba	biospotřeba	NC
+42779	biozpracovatel	biozpracovatel	NC
+43062	biřmovatel	biřmovatel	N	43066
+43066	biřmovat	biřmovat_:T	V
+43425	Bittel	Bittel_;S	N
+44644	Blatel	Blatel_;K	N
+47137	bodatel	bodatel	N	47142
+47142	bodat	bodat_:T	V
+50844	Borstel	Borstel_;S	N
+50897	Bortel	Bortel_;S	N
+51139	bořitel	bořitel	N	51151
+51151	bořit	bořit_:T	V
+51568	botel	botel	N
+52215	bouratel	bouratel	N	52219
+52219	bourat	bourat_:T	V
+53223	Brachtel	Brachtel_;S	N
+53722	bránitel	bránitel	N	53726
+53726	bránit	bránit_:T_^(klást_překážky,přechodník)	V
+54006	Brátel	Brátel_;S	N
+56353	brojitel	brojitel	N	56357
+56357	brojit	brojit_:T	V
+57908	Brunsbüttel	Brunsbüttel_;S	N
+58494	brzditel	brzditel	N	58498
+58498	brzdit	brzdit_:T	V	58471
+58471	brzda	brzda	N
+59945	buditel	buditel	N	59953
+59953	budit	budit_:T	V
+60045	budovatel	budovatel	N	60053
+60053	budovat	budovat_:T	V
+60599	Buchtel	Buchtel_;S	N
+61234	bulíkovatel	bulíkovatel	N	61238
+61238	bulíkovat	bulíkovat_:T	V
+61910	burcovatel	burcovatel	N	61914
+61914	burcovat	burcovat_:T	V
+63426	bydlitel	bydlitel	N
+63834	Bytel	Bytel_;S	N
+65898	Cartel	Cartel_;K_;u	N
+66570	ceditel	ceditel	N	66575
+66575	cedit	cedit_:T	V
+67745	cenitel	cenitel	N	67749
+67749	cenit	cenit_:T	V
+68578	cestovatel	cestovatel	N	68586
+68586	cestovat	cestovat_:T	V
+71153	Clubhotel	Clubhotel_;K	N
+71531	Cochetel	Cochetel_;S	N
+72084	Contactel	Contactel_;K	N
+73559	ctitel	ctitel	N	73566
+73566	ctít	ctít_:T	V
+74615	cvičitel	cvičitel	N	74622
+74622	cvičit	cvičit_:T	V
+75127	cyklocestovatel	cyklocestovatel	NC
+75207	cyklohotel	cyklohotel	NC
+75425	cyklopodnikatel	cyklopodnikatel	NC
+75480	cyklopřítel	cyklopřítel	NC
+75738	cyklozaměstnavatel	cyklozaměstnavatel	NC
+78005	čekatel	čekatel	N	78013
+78013	čekat	čekat_:T	V
+79324	černoodběratel	černoodběratel	N
+79765	čerpatel	čerpatel	N	79769
+79769	čerpat	čerpat_:T	V
+81525	činitel	činitel	N	81533
+81533	činit	činit_:T	V
+81954	čistitel	čistitel_,a	N	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+82146	čitatel	čitatel	N	82152
+82152	čítat	čítat_:T	V	82030
+82030	číst	číst_:T	V
+82374	členitel	členitel	N	82380
+82380	členit	členit_:T	V
+86168	čumitel	čumitel	N
+88472	darovatel	darovatel	N	88476
+88476	darovat	darovat_:T_:W	V
+88727	datel	datel	N
+88801	Dattel	Dattel_;K	N
+90429	definovatel	definovatel	N	90433
+90433	definovat	definovat_:T_:W	V
+92501	dělitel	dělitel	N	92509
+92509	dělit	dělit_:T	V
+96429	dešifrovatel	dešifrovatel	N	96433
+96433	dešifrovat	dešifrovat_:T_:W	V	704047
+704047	šifrovat	šifrovat_:T	V
+96659	dětel	dětel_;L	N
+103365	dlužitel	dlužitel	N	103369
+103369	dlužit	dlužit_:T	V
+105643	dobyvatel	dobyvatel	N	105653
+105653	dobývat	dobývat_:T	V	105628
+105628	dobýt	dobýt_:W	V	63899
+63899	být	být_:T	V
+106684	dodatel	dodatel	N	106732
+106732	dodat	dodat_:W	V	88807
+88807	dát	dát_:T	V
+106743	dodavatel	dodavatel	N	106753
+106753	dodávat	dodávat_:T_^(*4at)	V	106732
+106732	dodat	dodat_:W	V	88807
+88807	dát	dát_:T	V
+107561	dodržovatel	dodržovatel	N	107565
+107565	dodržovat	dodržovat_:T	V	107551
+107551	dodržet	dodržet_:W	V	140369
+140369	držet	držet_:T	V
+109284	dohližitel	dohližitel	N	109278
+109278	dohlížet	dohlížet_:T	V	109203
+109203	dohlédat	dohlédat_:T	V
+109285	dohlížitel	dohlížitel	N	109278
+109278	dohlížet	dohlížet_:T	V	109203
+109203	dohlédat	dohlédat_:T	V
+111113	dojednatel	dojednatel	N	111117
+111117	dojednat	dojednat_:W	V	234072
+234072	jednat	jednat_:T	V
+111732	dokazatel	dokazatel	N
+111746	dokazovatel	dokazovatel	N	111750
+111750	dokazovat	dokazovat_:T	V	111736
+111736	dokázat	dokázat_:W	V	251291
+251291	kázat	kázat_:T	V
+112739	dokonavatel	dokonavatel	N
+112776	dokončitel	dokončitel	N	112780
+112780	dokončit	dokončit_:W	V	266066
+266066	končit	končit_:T	V
+112790	dokončovatel	dokončovatel	N	112794
+112794	dokončovat	dokončovat_:T	V	112780
+112780	dokončit	dokončit_:W	V	266066
+266066	končit	končit_:T	V
+118544	donucovatel	donucovatel	N	118548
+118548	donucovat	donucovat_:T	V	118606
+118606	donutit	donutit_:W	V	386485
+386485	nutit	nutit_:T	V
+120463	dopisovatel	dopisovatel	N	120471
+120471	dopisovat	dopisovat_:T	V	122719
+122719	dopsat	dopsat_:W	V
+120831	doplnitel	doplnitel	N	120835
+120835	doplnit	doplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+120854	doplňovatel	doplňovatel	N	120858
+120858	doplňovat	doplňovat_:T	V	120835
+120835	doplnit	doplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+121334	doporučitel	doporučitel	N	121338
+121338	doporučit	doporučit_:W	V	491380
+491380	poručit	poručit_:W	V	623641
+623641	ručit	ručit_:T	V
+121348	doporučovatel	doporučovatel	N	121352
+121352	doporučovat	doporučovat_:T	V	121338
+121338	doporučit	doporučit_:W	V	491380
+491380	poručit	poručit_:W	V	623641
+623641	ručit	ručit_:T	V
+121641	dopracovatel	dopracovatel	N	121645
+121645	dopracovat	dopracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+121743	dopravovatel	dopravovatel	N	121747
+121747	dopravovat	dopravovat_:T	V	121717
+121717	dopravit	dopravit_:W	V	505547
+505547	pravit	pravit_:W	V
+124191	doručitel	doručitel	N	124198
+124198	doručit	doručit_:W	V	623641
+623641	ručit	ručit_:T	V
+124232	doručovatel	doručovatel	N	124240
+124240	doručovat	doručovat_:T	V	124198
+124198	doručit	doručit_:W	V	623641
+623641	ručit	ručit_:T	V
+124755	dosaditel	dosaditel	N	124759
+124759	dosadit	dosadit_:W	V	630094
+630094	sadit	sadit_:W	V
+124999	dosažitel	dosažitel	N
+127113	dostavitel	dostavitel	N	127117
+127117	dostavit	dostavit_:W_^(se,na_dané_místo)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+127133	dostavovatel	dostavovatel	N	127137
+127137	dostavovat	dostavovat_:T	V	127117
+127117	dostavit	dostavit_:W_^(se,na_dané_místo)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+130676	dotazatel	dotazatel	N
+130698	dotazovatel	dotazovatel	N	130705
+130705	dotazovat	dotazovat_:T	V	130678
+130678	dotázat	dotázat_:W	V	721511
+721511	tázat	tázat_:T	V
+131739	dotvořitel	dotvořitel	N	131743
+131743	dotvořit	dotvořit_:W	V	743018
+743018	tvořit	tvořit_:T	V
+132001	doučovatel	doučovatel	N	132005
+132005	doučovat	doučovat_:T	V	131991
+131991	doučit	doučit_:W	V	746361
+746361	učit	učit_:T	V
+133715	dovolatel	dovolatel	N	133719
+133719	dovolat	dovolat_:W	V	803716
+803716	volat	volat_:T	V
+134001	dovršitel	dovršitel	N	134005
+134005	dovršit	dovršit_:W	V	809861
+809861	vršit	vršit_:T	V
+135841	dozíratel	dozíratel	N	135845
+135845	dozírat	dozírat_:T	V	956485
+956485	zírat	zírat_:T	V
+136247	dozorovatel	dozorovatel	N	136251
+136251	dozorovat	dozorovat_:T	V
+137865	drásatel	drásatel	N	137869
+137869	drásat	drásat_:T	V
+138143	drážditel	drážditel	N	138147
+138147	dráždit	dráždit_:T	V
+138206	dražitel	dražitel	N	138210
+138210	dražit	dražit_:T	V
+138505	Dreiseitel	Dreiseitel_;S	N
+139493	drobnochovatel	drobnochovatel	NC
+139952	drtitel	drtitel	N	139956
+139956	drtit	drtit_:T	V
+140378	držitel	držitel	N	140369
+140369	držet	držet_:T	V
+140711	dřevokotel	dřevokotel	NC
+140849	dřevostavitel	dřevostavitel	NC
+140885	dřevozpracovatel	dřevozpracovatel	NC
+143105	dusitel	dusitel	N	143112
+143112	dusit	dusit_:T	V
+145642	dvojkostel	dvojkostel	NC
+146017	dvojpostel	dvojpostel	NC
+146082	dvojpytel	dvojpytel	NC
+146554	dvojzastupitel	dvojzastupitel	NC
+147895	dvoupostel	dvoupostel	N
+151688	ekokazatel	ekokazatel	NC
+151818	ekopodnikatel	ekopodnikatel	NC
+152589	elektrokotel	elektrokotel	NC
+154435	endotel	endotel_;U	NC
+155444	epitel	epitel	NC
+157525	Ettel	Ettel_;S	N
+157932	euročinitel	euročinitel	NC
+158035	euromyslitel	euromyslitel	NC
+158185	Eurotel	Eurotel_;K	N
+159270	exhlasatel	exhlasatel	N
+159570	exmajitel	exmajitel	N
+160074	expodnikatel	expodnikatel	N
+160328	expřítel	expřítel	N
+160355	exředitel	exředitel	N
+160432	exspolumajitel	exspolumajitel	N
+160843	exučitel	exučitel	N
+160874	exvelitel	exvelitel	N
+160909	exvyšetřovatel	exvyšetřovatel	N
+160917	exzastupitel	exzastupitel	N
+162319	falšovatel	falšovatel	N	162326
+162326	falšovat	falšovat_:T	V
+164195	fedrovatel	fedrovatel	N	164199
+164199	fedrovat	fedrovat_:T	V
+164377	Feistmantel	Feistmantel_;S	N
+164612	Feltel	Feltel_;S	N
+165481	Ferstel	Ferstel_;S	N
+165779	Feustel	Feustel_;S	N
+167342	financovatel	financovatel	N	167346
+167346	financovat	financovat_:T	V
+170375	fondovatel	fondovatel	N
+170899	formovatel	formovatel	N	170903
+170903	formovat	formovat_:T	V
+171049	fortel	fortel	N
+171147	Fořtel	Fořtel_;S	N
+171380	fotel	fotel	N
+175107	funitel	funitel	N
+178254	gaypřítel	gaypřítel	N
+179860	Gerstel	Gerstel_;S	N
+180773	Gintel	Gintel_;S	N
+182202	Goetel	Goetel_;S	N
+183538	Göttel	Göttel_;S	N
+184317	grandhotel	grandhotel	N
+188783	Hachtel	Hachtel_;S	N
+189134	hajitel	hajitel	N
+189135	hájitel	hájitel	N	189140
+189140	hájit	hájit_:T_^(bránit,_obhajovat)	V
+191248	hanitel	hanitel	N	191252
+191252	hanit	hanit_:T_^(vyjadřovat_se_záporně)	V
+191381	hanobitel	hanobitel	N	191388
+191388	hanobit	hanobit_:T	V
+191511	Hantel	Hantel_;S	N
+191971	harašitel	harašitel	N	191975
+191975	harašit	harašit_:T	V
+192652	Hartel	Hartel_;S	N
+192653	Härtel	Härtel_;S	N
+192991	hasitel	hasitel	N	192996
+192996	hasit	hasit_:T	V
+194967	Hechtel	Hechtel_;S	N
+195193	Heissenbüttel	Heissenbüttel_;S	N
+196385	hemžitel	hemžitel	N	196389
+196389	hemžit	hemžit_:T	V
+197506	Hertel	Hertel_;S	N
+198323	Hietel	Hietel_;S	N
+199461	hlasatel	hlasatel	N	199469
+199469	hlásat	hlásat_:T	V	199503
+199503	hlásit	hlásit_:T	V
+199892	hledatel	hledatel	N	199898
+199898	hledat	hledat_:T	V
+200477	hloubitel	hloubitel	N	200481
+200481	hloubit	hloubit_:T	V
+200925	hmatatel	hmatatel	N	200929
+200929	hmatat	hmatat_:T	V
+202069	hodnotitel	hodnotitel	N	202076
+202076	hodnotit	hodnotit_:T	V
+202629	hojitel	hojitel	N	202633
+202633	hojit	hojit_:T	V
+204234	honitel	honitel	N	204238
+204238	honit	honit_:T	V
+204936	horlitel	horlitel	N	204943
+204943	horlit	horlit_:T	V
+205033	Hornbostel	Hornbostel_;S	N
+205400	horovatel	horovatel	N	205404
+205404	horovat	horovat_:T	V
+206072	hostel	hostel	N
+206154	hostitel	hostitel	N	206162
+206162	hostit	hostit_:T	V
+206373	hotel	hotel	N
+206416	hotovitel	hotovitel	N	206423
+206423	hotovit	hotovit_:T	V	206441
+206441	hotový	hotový	A
+208577	hromaditel	hromaditel	N	208581
+208581	hromadit	hromadit_:T_^(získávat_ve_větším_množství;_přech.)	V
+209901	hřímatel	hřímatel	N	209905
+209905	hřímat	hřímat_:T	V
+210218	hubitel	hubitel	N	210225
+210225	hubit	hubit_:T_^(např._hmyz)	V
+211983	hustitel	hustitel	N	211987
+211987	hustit	hustit_:T	V	212033
+212033	hustý	hustý	A
+212178	Hüttel	Hüttel_;S	N
+212548	hybatel	hybatel	N	212554
+212554	hýbat	hýbat_:T	V	201677
+201677	hnout	hnout_:W	V
+216602	chlácholitel	chlácholitel	N	216606
+216606	chlácholit	chlácholit_:T	V
+217566	chmelitel	chmelitel	N	217570
+217570	chmelit	chmelit_:T	V
+218635	chovatel	chovatel	N	218643
+218643	chovat	chovat_:T	V
+218762	chránitel	chránitel	N	218769
+218769	chránit	chránit_:T	V
+219106	Christel	Christel_;S	N
+219237	chrlitel	chrlitel	N	219241
+219241	chrlit	chrlit_:T	V
+220616	chvalitel	chvalitel	N
+221538	identifikovatel	identifikovatel	NC	221542
+221542	identifikovat	identifikovat_:T_:W	VC
+226202	Intel	Intel_;K	N
+226518	interhotel	interhotel	NC
+234057	jednatel	jednatel	N	234072
+234072	jednat	jednat_:T	V
+234919	jednotitel	jednotitel	N	234923
+234923	jednotit	jednotit_:T	V
+236524	jetel	jetel	N
+236541	Jetel	Jetel_;S	N
+237665	jímatel	jímatel	N	237669
+237669	jímat	jímat_:T	V	238554
+238554	jmout	jmout	V
+238264	jistitel	jistitel	N	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+238349	jitřitel	jitřitel	N	238353
+238353	jitřit	jitřit_:T	V
+238523	jmenovatel	jmenovatel	N	238530
+238530	jmenovat	jmenovat_:T_:W	V
+240450	Juniorhotel	Juniorhotel_;K	N
+244576	Kambartel	Kambartel_;S	N
+247563	karatel	karatel	N	247587
+247587	kárat	kárat_:T	V
+248959	kartel	kartel	N
+249623	kastel	kastel_^(středověký_vícevěžový_hrad;;nástavba_na_lodi;;druh_opevnění)	N
+250036	kaštel	kaštel	N
+251282	kazatel	kazatel	N	251291
+251291	kázat	kázat_:T	V
+251397	kazitel	kazitel	N	251401
+251401	kazit	kazit_:T	V
+251933	Keitel	Keitel_;S	N
+254836	Kittel	Kittel_;S	N
+255273	klamatel	klamatel	N	255275
+255275	klamat	klamat_:T	V
+258885	klučitel	klučitel	N	258889
+258889	klučit	klučit_:T	V
+259470	kněhtlačitel	kněhtlačitel	N
+259721	knihopodnikatel	knihopodnikatel	NC
+259883	Knittel	Knittel_;S	N
+261137	kódovatel	kódovatel	N	261141
+261141	kódovat	kódovat_:T	V
+264729	komolitel	komolitel	N	264733
+264733	komolit	komolit_:T	V	264745
+264745	komolý	komolý	A
+265710	konatel	konatel	N	265720
+265720	konat	konat_:T	V
+265962	koncipovatel	koncipovatel	N	265966
+265966	koncipovat	koncipovat_:T_:W	V
+266355	konejšitel	konejšitel	N	266359
+266359	konejšit	konejšit_:T	V
+268942	konzumovatel	konzumovatel	N	268946
+268946	konzumovat	konzumovat_:T	V
+271180	korumpovatel	korumpovatel	N	271184
+271184	korumpovat	korumpovat_:T_:W	V
+272249	kostel	kostel	N
+272976	Koštel	Koštel_;S	N
+273200	kotel	kotel	N
+274657	kovatel	kovatel	N	274663
+274663	kovat	kovat_:T	V	274347
+274347	kout	kout_:T_^(např._železo)	V
+274844	kovotlačitel	kovotlačitel	N	728377
+728377	tlačit	tlačit_:T	V
+277042	krasosmutnitel	krasosmutnitel	N	277044
+277044	krasosmutnit	krasosmutnit_:T	VC
+279045	Kristel	Kristel_;Y	N
+279226	kritizovatel	kritizovatel	N	279230
+279230	kritizovat	kritizovat_:T	V
+279455	krmitel	krmitel	N	279461
+279461	krmit	krmit_:T	V
+280030	kropitel	kropitel	N	280035
+280035	kropit	kropit_:T	V
+280147	krotitel	krotitel	N	280154
+280154	krotit	krotit_:T	V
+280341	kroužkovatel	kroužkovatel	N	280345
+280345	kroužkovat	kroužkovat_:T	V
+282591	křisitel	křisitel	N
+282592	křísitel	křísitel	N	282600
+282600	křísit	křísit_:T	V
+282947	křížitel	křížitel	N	282951
+282951	křížit	křížit_:T	V
+283029	křižovatel	křižovatel	N	283037
+283037	křižovat	křižovat_:T	V
+283200	křtitel	křtitel	N	283209
+283209	křtít	křtít_:T	V
+283206	Křtitel	Křtitel_;S	N
+283328	kšandonositel	kšandonositel_,h	N
+285489	kultivovatel	kultivovatel	N	285493
+285493	kultivovat	kultivovat_:T	V
+286422	kupitel	kupitel	N	286520
+286520	kupovat	kupovat_:T	V	274157
+274157	koupit	koupit_:W_^(něco_sobě/někomu)	V
+287733	Küttel	Küttel_;S	N
+288702	kvazizaměstnavatel	kvazizaměstnavatel	NC
+289557	kydatel	kydatel	N	289561
+289561	kydat	kydat_:T	V
+290365	kývatel	kývatel	N	290369
+290369	kývat	kývat_:T	V
+291296	lahvovatel	lahvovatel	N	291300
+291300	lahvovat	lahvovat_:T	V
+292065	lamatel	lamatel	N
+294973	léčitel	léčitel	N	294981
+294981	léčit	léčit_:T	V
+297184	lepitel	lepitel	N	297189
+297189	lepit	lepit_:T	V
+298959	líbatel	líbatel	N	298963
+298963	líbat	líbat_:T	V
+299643	líčitel	líčitel	N	299647
+299647	líčit	líčit_:T	V
+303569	Loettel	Loettel_;S	N
+304345	lomitel	lomitel	N	304350
+304350	lomit	lomit_:T	V
+304961	losovatel	losovatel	N	304965
+304965	losovat	losovat_:T	V
+307854	luštitel	luštitel	N	307861
+307861	luštit	luštit_:T	V
+308860	lžimajitel	lžimajitel	NC
+311236	majitel	majitel	N	332701
+332701	mít	mít_:T	V
+311958	makroukazatel	makroukazatel	NC
+312820	malodběratel	malodběratel	NC
+312824	malododavatel	malododavatel	NC
+313000	maloodběratel	maloodběratel	N	313005
+313005	maloodběr	maloodběr	NC
+313019	malopěstitel	malopěstitel	NC
+313037	malopodnikatel	malopodnikatel	NC
+313121	malospotřebitel	malospotřebitel	NC
+313546	mámitel	mámitel	N	313550
+313550	mámit	mámit_:T	V
+314178	manévrovatel	manévrovatel	N	314182
+314182	manévrovat	manévrovat_:T	V
+314764	Mantel	Mantel_;G	N
+314988	mapovatel	mapovatel	N	314992
+314992	mapovat	mapovat_:T	V
+316661	martel	martel_,h	N
+316667	Martel	Martel_;S	N
+317189	mařitel	mařitel	N	317193
+317193	mařit	mařit_:T	V
+319109	Mattel	Mattel_;S	N
+321129	Mediatel	Mediatel_;K	N
+323521	měnitel	měnitel	N	323528
+323528	měnit	měnit_:T	V
+323673	menšitel	menšitel	N	323678
+323678	menšit	menšit_:T	V
+323703	Mentel	Mentel_;S	N
+324329	měřitel	měřitel	N	324337
+324337	měřit	měřit_:T	V
+325941	mezidodavatel	mezidodavatel	NC
+325992	mezihostitel	mezihostitel	NC
+326186	meziodběratel	meziodběratel	NC
+326602	mezizasilatel	mezizasilatel	NC
+326603	mezizasílatel	mezizasílatel	NC
+328154	mikrohotel	mikrohotel	N	206373
+206373	hotel	hotel	N
+329634	milovatel	milovatel	N	329638
+329638	milovat	milovat_:T	V
+331658	mírnitel	mírnitel	N	331665
+331665	mírnit	mírnit_:T	V
+331955	mísitel	mísitel	N	331959
+331959	mísit	mísit_:T	V
+332072	místodržitel	místodržitel	NC
+332138	místoředitel	místoředitel	NC
+333299	mlčitel	mlčitel	N
+333736	mlžitel	mlžitel	N	333740
+333740	mlžit	mlžit_:T	V
+334516	množitel	množitel	N	334523
+334523	množit	množit_:T	V
+334649	Mobitel	Mobitel_;K	N
+334732	mocnitel	mocnitel	N	334736
+334736	mocnit	mocnit_:T	V
+337181	monstrhotel	monstrhotel	NC
+338838	motel	motel	N
+338934	motocestovatel	motocestovatel	NC
+340749	mstitel	mstitel	N	340756
+340756	mstít	mstít_:T	V	340728
+340728	msta	msta	N
+340963	mučitel	mučitel	N	340970
+340970	mučit	mučit_:T	V
+341242	Mühlviertel	Mühlviertel_;G	N
+342150	multiuživatel	multiuživatel	NC
+342890	Mustel	Mustel_;S	N
+343822	myslitel	myslitel	N	343799
+343799	myslet	myslet_:T	V
+344105	mýtitel	mýtitel	N	344109
+344109	mýtit	mýtit_:T	V
+344963	naběratel	naběratel	N
+345129	nabízitel	nabízitel	N	345125
+345125	nabízet	nabízet_:T	V
+346076	nabyvatel	nabyvatel	N	346084
+346084	nabývat	nabývat_:T	V	346063
+346063	nabýt	nabýt_:W	V	63899
+63899	být	být_:T	V
+348092	nadělovatel	nadělovatel	N	348096
+348096	nadělovat	nadělovat_:T	V	348078
+348078	nadělit	nadělit_:W	V	92509
+92509	dělit	dělit_:T	V
+349690	nadržovatel	nadržovatel	N	349694
+349694	nadržovat	nadržovat_:T	V
+349765	nadředitel	nadředitel	N
+350091	nadučitel	nadučitel	N
+351737	nahlašovatel	nahlašovatel	N	351741
+351741	nahlašovat	nahlašovat_:T	V	351703
+351703	nahlásit	nahlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+354037	najimatel	najimatel	N
+354038	najímatel	najímatel	N	354046
+354046	najímat	najímat_:T	V	354115
+354115	najmout	najmout_:W	V	238554
+238554	jmout	jmout	V
+354491	nakazitel	nakazitel	N	354495
+354495	nakazit	nakazit_:W	V	251401
+251401	kazit	kazit_:T	V
+354642	nakladatel	nakladatel	N	354652
+354652	nakládat	nakládat_:T	V	354723
+354723	naklást	naklást_:W	V	255647
+255647	klást	klást_:T	V
+356351	nakukovatel	nakukovatel	N	356355
+356355	nakukovat	nakukovat_:T	V
+356490	nakupovatel	nakupovatel	N	356494
+356494	nakupovat	nakupovat_:T	V	355739
+355739	nakoupit	nakoupit_:W	V	274157
+274157	koupit	koupit_:W_^(něco_sobě/někomu)	V
+357208	naléhatel	naléhatel	N	357212
+357212	naléhat	naléhat_:T	V	295831
+295831	lehnout	lehnout_:W	V	298764
+298764	ležet	ležet_:T	V	295729
+295729	léhat	léhat_:T	V	295728
+295728	lehat	lehat_:T	V	295807
+295807	lehký	lehký	A
+361811	naplnitel	naplnitel	N	361815
+361815	naplnit	naplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+361827	naplňovatel	naplňovatel	N	361831
+361831	naplňovat	naplňovat_:T	V	361815
+361815	naplnit	naplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+362004	napodobitel	napodobitel	N	362012
+362012	napodobit	napodobit_:W	V
+362032	napodobovatel	napodobovatel	N	362036
+362036	napodobovat	napodobovat_:T	V	362012
+362012	napodobit	napodobit_:W	V
+362355	napomahatel	napomahatel	N	362359
+362359	napomáhat	napomáhat_:T	V	362427
+362427	napomoci	napomoci_:W	V	485870
+485870	pomoci	pomoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+362389	napomínatel	napomínatel	N	362393
+362393	napomínat	napomínat_:T	V
+362994	napravitel	napravitel	N	362998
+362998	napravit	napravit_:W	V	505547
+505547	pravit	pravit_:W	V
+363026	napravovatel	napravovatel	N	363030
+363030	napravovat	napravovat_:T	V	362998
+362998	napravit	napravit_:W	V	505547
+505547	pravit	pravit_:W	V
+364520	narkokartel	narkokartel	NC
+364731	nárokovatel	nárokovatel	N	364735
+364735	nárokovat	nárokovat_:T	V
+365135	narušitel	narušitel	N	365142
+365142	narušit	narušit_:W	V	625144
+625144	rušit	rušit_:T	V
+365152	narušovatel	narušovatel	N	365156
+365156	narušovat	narušovat_:T	V	365142
+365142	narušit	narušit_:W	V	625144
+625144	rušit	rušit_:T	V
+365538	nařizovatel	nařizovatel	N	365542
+365542	nařizovat	nařizovat_:T	V	365467
+365467	nařídit	nařídit_:W	V	629085
+629085	řídit	řídit_:T	V
+366687	následovatel	následovatel	N	366694
+366694	následovat	následovat_:T	V	661738
+661738	sledovat	sledovat_:T	V
+366795	naslouchatel	naslouchatel_,h	N	366802
+366802	naslouchat	naslouchat_:T	V
+367106	násobitel	násobitel	N	367113
+367113	násobit	násobit_:T	V
+367885	nastavovatel	nastavovatel	N	367889
+367889	nastavovat	nastavovat_:T	V	367860
+367860	nastavit	nastavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+368149	nastolitel	nastolitel	N	368153
+368153	nastolit	nastolit_:W	V
+368163	nastolovatel	nastolovatel	N	368167
+368167	nastolovat	nastolovat_:T	V	368153
+368153	nastolit	nastolit_:W	V
+368302	nastražitel	nastražitel	N	368306
+368306	nastražit	nastražit_:W	V	685635
+685635	stražit	stražit_:T	V
+368754	nastupitel	nastupitel	N
+372598	naučitel	naučitel	N	372602
+372602	naučit	naučit_:W	V	746361
+746361	učit	učit_:T	V
+373306	navazovatel	navazovatel	N	373310
+373310	navazovat	navazovat_:T	V	373262
+373262	navázat	navázat_:W	V	780307
+780307	vázat	vázat_:T_^(např._provazem;_se_k_čemu)	V
+373954	navnaďovatel	navnaďovatel	N	373958
+373958	navnaďovat	navnaďovat_:T	V	373944
+373944	navnadit	navnadit_:W	V	799653
+799653	vnadit	vnadit_:T	V
+374347	navratitel	navratitel	N
+374404	navrhovatel	navrhovatel	N	374411
+374411	navrhovat	navrhovat_:T	V	374386
+374386	navrhnout	navrhnout_:W	V	809045
+809045	vrhnout	vrhnout_:W	V	809018
+809018	vrhat	vrhat_:T	V
+374559	navštěvovatel	navštěvovatel	N	374563
+374563	navštěvovat	navštěvovat_:T	V	374589
+374589	navštívit	navštívit_:W	V
+375726	nazíratel	nazíratel	N	375731
+375731	nazírat	nazírat_:T	V	376128
+376128	nazřít	nazřít_:W	V	992807
+992807	zřít	zřít_:T	V
+379533	nepodnikatel	nepodnikatel	N
+379683	nepředplatitel	nepředplatitel	N
+379710	nepřítel	nepřítel	N
+380021	nesjednotitel	nesjednotitel	N
+380106	nesoutěžitel	nesoutěžitel	N
+380131	nespisovatel	nespisovatel	N
+380273	nesubdodavatel	nesubdodavatel	N
+380634	neučitel	neučitel	N
+380688	Neuchatel	Neuchatel_;G	N
+380700	neukazatel	neukazatel	N
+380708	neuklízitel	neuklízitel	N
+380762	neumětel	neumětel	N
+381176	neuživatel	neuživatel	N
+381362	nevolitel	nevolitel	N
+381460	nevyzyvatel	nevyzyvatel	N
+381595	nezaměstnavatel	nezaměstnavatel	N
+381606	nezastupitel	nezastupitel	N
+382017	ničitel	ničitel	N	382024
+382024	ničit	ničit_:T	V
+383121	Nittel	Nittel_;S	N
+384616	nositel	nositel	N	384625
+384625	nosit	nosit_:T	V	380249
+380249	nést	nést_:T	V
+385512	novomajitel	novomajitel	NC
+385612	novopodnikatel	novopodnikatel	NC
+387269	občerstvovatel	občerstvovatel	N	387273
+387273	občerstvovat	občerstvovat_:T	V	387256
+387256	občerstvit	občerstvit_:W	V
+387351	obdarovatel	obdarovatel	N	387355
+387355	obdarovat	obdarovat_:W	V	88476
+88476	darovat	darovat_:T_:W	V
+387369	obdarovávatel	obdarovávatel	N	387373
+387373	obdarovávat	obdarovávat_:T_^(*4at)	V	387355
+387355	obdarovat	obdarovat_:W	V	88476
+88476	darovat	darovat_:T_:W	V
+387425	obdělávatel	obdělávatel	N	387432
+387432	obdělávat	obdělávat_:T_^(*4at)	V	387412
+387412	obdělat	obdělat_:W	V	92241
+92241	dělat	dělat_:T	V
+387468	obdivovatel	obdivovatel	N	387475
+387475	obdivovat	obdivovat_:T	V
+387510	obdržitel	obdržitel	N	387505
+387505	obdržet	obdržet_:T	V	140369
+140369	držet	držet_:T	V
+388048	obesílatel	obesílatel	N	388053
+388053	obesílat	obesílat_:T	V	388074
+388074	obeslat	obeslat_:W	V
+388486	obhajovatel	obhajovatel	N	388490
+388490	obhajovat	obhajovat_:T	V	388470
+388470	obhájit	obhájit_:W	V	189140
+189140	hájit	hájit_:T_^(bránit,_obhajovat)	V
+388615	obhospodařovatel	obhospodařovatel	N	388622
+388622	obhospodařovat	obhospodařovat_:T	V	388605
+388605	obhospodařit	obhospodařit_:W	V	205965
+205965	hospodařit	hospodařit_:T	V	205977
+205977	hospodář	hospodář	N
+388972	objednatel	objednatel	N	388976
+388976	objednat	objednat_:W	V	234072
+234072	jednat	jednat_:T	V
+388988	objednavatel	objednavatel	N	388996
+388996	objednávat	objednávat_:T_^(*4at)	V	388976
+388976	objednat	objednat_:W	V	234072
+234072	jednat	jednat_:T	V
+389076	objevitel	objevitel	N	389084
+389084	objevit	objevit_:W	V	236635
+236635	jevit	jevit_:T	V
+389098	objevovatel	objevovatel	N	389102
+389102	objevovat	objevovat_:T	V	389084
+389084	objevit	objevit_:W	V	236635
+236635	jevit	jevit_:T	V
+389168	objímatel	objímatel	N	389172
+389172	objímat	objímat_:T	V	238554
+238554	jmout	jmout	V
+389291	obklíčitel	obklíčitel	N	389295
+389295	obklíčit	obklíčit_:W	V
+389325	obkličovatel	obkličovatel	N	389329
+389329	obkličovat	obkličovat_:T	V	389295
+389295	obklíčit	obklíčit_:W	V
+389378	obklopovatel	obklopovatel	N	389382
+389382	obklopovat	obklopovat_:T	V	389368
+389368	obklopit	obklopit_:W	V	258393
+258393	klopit	klopit_:T	V
+389696	oblažitel	oblažitel	N	389700
+389700	oblažit	oblažit_:W	V	44938
+44938	blažit	blažit_:T	V
+389710	oblažovatel	oblažovatel	N	389714
+389714	oblažovat	oblažovat_:T	V	389700
+389700	oblažit	oblažit_:W	V	44938
+44938	blažit	blažit_:T	V
+389760	oblbovatel	oblbovatel	N	389764
+389764	oblbovat	oblbovat_:T	V	389738
+389738	oblbnout	oblbnout_:W_,h	V	45006
+45006	blbnout	blbnout_:T	V	45034
+45034	blbý	blbý	A
+389794	oblehatel	oblehatel	N
+389795	obléhatel	obléhatel	N	389803
+389803	obléhat	obléhat_:T	V
+389984	obletovatel	obletovatel	N	389988
+389988	obletovat	obletovat_:T	V	389967
+389967	oblétnout	oblétnout_:W	V	389949
+389949	oblétat	oblétat_:T	V
+390085	oblibovatel	oblibovatel	N	390089
+390089	oblibovat	oblibovat_:T	V	390075
+390075	oblíbit	oblíbit_:W	V	299220
+299220	líbit	líbit_:T	V
+390416	obluzovatel	obluzovatel	N	390420
+390420	obluzovat	obluzovat_:T	V	390344
+390344	obloudit	obloudit_:W	V	305284
+305284	loudit	loudit_:T	V
+390802	obnovitel	obnovitel	N	390809
+390809	obnovit	obnovit_:W	V
+390823	obnovovatel	obnovovatel	N	390827
+390827	obnovovat	obnovovat_:T	V	390809
+390809	obnovit	obnovit_:W	V
+390883	obohacovatel	obohacovatel	N	390887
+390887	obohacovat	obohacovat_:T	V	390906
+390906	obohatit	obohatit_:W	V
+390902	obohatitel	obohatitel	N	390906
+390906	obohatit	obohatit_:W	V
+391320	obratel	obratel	N
+391330	obratitel	obratitel	N
+391582	obroditel	obroditel	N	391589
+391589	obrodit	obrodit_:W	V	599295
+599295	rodit	rodit_:T	V
+391689	obrozovatel	obrozovatel	N	391693
+391693	obrozovat	obrozovat_:T	V	391589
+391589	obrodit	obrodit_:W	V	599295
+599295	rodit	rodit_:T	V
+391718	Obrtel	Obrtel_;S	N
+391802	obrušovatel	obrušovatel	N	391807
+391807	obrušovat	obrušovat_:T	V
+392010	obsahovatel	obsahovatel	N	392014
+392014	obsahovat	obsahovat_:T	V	391993
+391993	obsáhnout	obsáhnout_:W	V	630480
+630480	sáhnout	sáhnout_:W	V	630456
+630456	sahat	sahat_:T	V
+392056	obsazovatel	obsazovatel	N	392060
+392060	obsazovat	obsazovat_:T	V	391986
+391986	obsadit	obsadit_:W	V	630094
+630094	sadit	sadit_:W	V
+392262	obsluhovatel	obsluhovatel	N	392269
+392269	obsluhovat	obsluhovat_:T	V	392247
+392247	obsloužit	obsloužit_:W	V	663105
+663105	sloužit	sloužit_:T	V
+392306	obstaratel	obstaratel	N	392312
+392312	obstarat	obstarat_:W	V	678887
+678887	starat	starat_:T_^(se)	V
+392324	obstaravatel	obstaravatel	N
+392748	obšťastňovatel	obšťastňovatel	N	392752
+392752	obšťastňovat	obšťastňovat_:T	V	392738
+392738	obšťastnit	obšťastnit_:W	V
+392973	obtěžovatel	obtěžovatel	N	392977
+392977	obtěžovat	obtěžovat_:T	V	393056
+393056	obtížit	obtížit_:W	V	728170
+728170	tížit	tížit_^(rozkaz._tvar_slovesa)	V
+393245	obveselovatel	obveselovatel	N	393249
+393249	obveselovat	obveselovat_:T	V	393231
+393231	obveselit	obveselit_:W	V	787537
+787537	veselit	veselit_:T	V	787595
+787595	veselý	veselý	A
+393269	obvinitel	obvinitel	N	393273
+393273	obvinit	obvinit_:W	V	793626
+793626	vinit	vinit_:T	V
+393283	obviňovatel	obviňovatel	N	393287
+393287	obviňovat	obviňovat_:T	V	393273
+393273	obvinit	obvinit_:W	V	793626
+793626	vinit	vinit_:T	V
+393379	obyvatel	obyvatel	N	393389
+393389	obývat	obývat_:T	V
+393459	obžalovatel	obžalovatel	N	393463
+393463	obžalovat	obžalovat_:W	V	1003573
+1003573	žalovat	žalovat_:T	V
+393708	ocenitel	ocenitel	N	393712
+393712	ocenit	ocenit_:W	V	67749
+67749	cenit	cenit_:T	V
+393722	oceňovatel	oceňovatel	N	393726
+393726	oceňovat	oceňovat_:T	V	393712
+393712	ocenit	ocenit_:W	V	67749
+67749	cenit	cenit_:T	V
+394540	očišťovatel	očišťovatel	N	394544
+394544	očišťovat	očišťovat_:T	V	394501
+394501	očistit	očistit_:W	V	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+394578	očkovatel	očkovatel	N	394582
+394582	očkovat	očkovat_:T	V
+395006	odbahňovatel	odbahňovatel	N	395010
+395010	odbahňovat	odbahňovat_:T	V	394996
+394996	odbahnit	odbahnit_:W	V	24757
+24757	bahnit	bahnit_:T	V
+395118	odbavovatel	odbavovatel	N	395122
+395122	odbavovat	odbavovat_:T	V	395108
+395108	odbavit	odbavit_:W	V	31532
+31532	bavit	bavit_:T	V
+395256	odběratel	odběratel	N	395330
+395330	odbírat	odbírat_:T	V	397412
+397412	odebrat	odebrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+395625	odbourávatel	odbourávatel	N	395629
+395629	odbourávat	odbourávat_:T_^(*4at)	V	395615
+395615	odbourat	odbourat_:W	V	52219
+52219	bourat	bourat_:T	V
+396108	odcizitel	odcizitel	N	396112
+396112	odcizit	odcizit_:W	V
+396391	odčerpavatel	odčerpavatel	N
+396489	odčitatel	odčitatel	N	396495
+396495	odčítat	odčítat_:T	V	396476
+396476	odčíst	odčíst_:W	V	82030
+82030	číst	číst_:T	V
+396810	oddělitel	oddělitel	N	396814
+396814	oddělit	oddělit_:W	V	92509
+92509	dělit	dělit_:T	V
+397393	odebíratel	odebíratel	N	397397
+397397	odebírat	odebírat_:T	V	397412
+397412	odebrat	odebrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+397430	odečitatel	odečitatel	N
+397431	odečítatel	odečítatel	N	397438
+397438	odečítat	odečítat_:T	V	397416
+397416	odečíst	odečíst_:W	V	82030
+82030	číst	číst_:T	V
+397628	odemykatel	odemykatel	N	397632
+397632	odemykat	odemykat_:T	V
+397766	odepisovatel	odepisovatel	N	397770
+397770	odepisovat	odepisovat_:T	V	397809
+397809	odepsat	odepsat_:W	V	579330
+579330	psát	psát_:T	V
+397897	odesilatel	odesilatel	N	397906
+397906	odesílat	odesílat_:T	V	397924
+397924	odeslat	odeslat_:W	V
+397898	odesílatel	odesílatel	N	397906
+397906	odesílat	odesílat_:T	V	397924
+397924	odeslat	odeslat_:W	V
+398085	odevzdatel	odevzdatel	N	398089
+398089	odevzdat	odevzdat_:W	V	867667
+867667	vzdát	vzdát_:W	V	88807
+88807	dát	dát_:T	V
+398831	odhalitel	odhalitel	N	398835
+398835	odhalit	odhalit_:W	V	189828
+189828	halit	halit_:T	V
+398846	odhalovatel	odhalovatel	N	398850
+398850	odhalovat	odhalovat_:T	V	398835
+398835	odhalit	odhalit_:W	V	189828
+189828	halit	halit_:T	V
+399013	odhlašovatel	odhlašovatel	N	399017
+399017	odhlašovat	odhlašovat_:T	V	398975
+398975	odhlásit	odhlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+400670	odkazovatel	odkazovatel	N	400674
+400674	odkazovat	odkazovat_:T	V	400659
+400659	odkázat	odkázat_:W	V	251291
+251291	kázat	kázat_:T	V
+400706	odkladatel	odkladatel	N
+402334	odkupitel	odkupitel	N
+402928	odlehčovatel	odlehčovatel	N	402932
+402932	odlehčovat	odlehčovat_:T	V	402915
+402915	odlehčit	odlehčit_:W	V
+403716	odložitel	odložitel	N	403720
+403720	odložit	odložit_:W	V
+404166	odměňovatel	odměňovatel	N	404170
+404170	odměňovat	odměňovat_:T	V	404156
+404156	odměnit	odměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+404681	odmocnitel	odmocnitel	N	404685
+404685	odmocnit	odmocnit_:W	V	334736
+334736	mocnit	mocnit_:T	V
+406548	odpiratel	odpiratel	N	406552
+406552	odpírat	odpírat_:T	V	397804
+397804	odepřít	odepřít_:W	V	576617
+576617	přít	přít_^(se,o_něco)	V
+406744	odplatitel	odplatitel	N	406748
+406748	odplatit	odplatit_:W	V	463659
+463659	platit	platit_:T	V
+407458	odporovatel	odporovatel	N	407462
+407462	odporovat	odporovat_:T	V
+407655	odpovídatel	odpovídatel	N	407659
+407659	odpovídat	odpovídat_:T	V	407629
+407629	odpovědět	odpovědět_:W	V	499790
+499790	povědět	povědět_:W	V	782421
+782421	vědět	vědět_:T	V
+408346	odpustitel	odpustitel	N	408348
+408348	odpustit	odpustit_:W	V	583066
+583066	pustit	pustit_:W	V
+408663	odrazovatel	odrazovatel	N	408669
+408669	odrazovat	odrazovat_:T	V	408431
+408431	odradit	odradit_:W	V	585478
+585478	radit	radit_:T	V
+410161	odsiřovatel	odsiřovatel	N	410165
+410165	odsiřovat	odsiřovat_:T	V	410149
+410149	odsířit	odsířit_:W	V	656342
+656342	sířit	sířit_:T	V
+410844	odstátňovatel	odstátňovatel	N	410848
+410848	odstátňovat	odstátňovat_:T	V	410834
+410834	odstátnit	odstátnit_:W	V
+410916	odstavitel	odstavitel	N	410920
+410920	odstavit	odstavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+411201	odstraňovatel	odstraňovatel	N	411205
+411205	odstraňovat	odstraňovat_:T	V	411170
+411170	odstranit	odstranit_:W	V
+411648	odstupitel	odstupitel	N
+411840	odsuzovatel	odsuzovatel	N	411844
+411844	odsuzovat	odsuzovat_:T	V	410502
+410502	odsoudit	odsoudit_:W	V	669319
+669319	soudit	soudit_:T	V
+413918	odtučňovatel	odtučňovatel	N	413922
+413922	odtučňovat	odtučňovat_:T	V	413908
+413908	odtučnit	odtučnit_:W	V
+414184	odúročitel	odúročitel	N	414187
+414187	odúročit	odúročit_:W	V	762596
+762596	úročit	úročit_:T	V
+414267	oduševňovatel	oduševňovatel	N	414271
+414271	oduševňovat	oduševňovat_:T	V	414257
+414257	oduševnit	oduševnit_:W	V
+414314	odůvodnitel	odůvodnitel	N	414318
+414318	odůvodnit	odůvodnit_:W	V
+415318	odvolatel	odvolatel	N	415314
+415314	odvolat	odvolat	A	803716
+803716	volat	volat_:T	V
+415335	odvolavatel	odvolavatel	N
+415446	odvratitel	odvratitel	N
+416013	odzbrojitel	odzbrojitel	N	416017
+416017	odzbrojit	odzbrojit_:W	V	937552
+937552	zbrojit	zbrojit_:T	V
+416027	odzbrojovatel	odzbrojovatel	N	416031
+416031	odzbrojovat	odzbrojovat_:T	V	416017
+416017	odzbrojit	odzbrojit_:W	V	937552
+937552	zbrojit	zbrojit_:T	V
+417780	ohlašovatel	ohlašovatel	N	417787
+417787	ohlašovat	ohlašovat_:T	V	417740
+417740	ohlásit	ohlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+417874	ohledatel	ohledatel	N	417881
+417881	ohledat	ohledat_:W	V	199898
+199898	hledat	hledat_:T	V
+418050	ohlupovatel	ohlupovatel	N	418054
+418054	ohlupovat	ohlupovat_:T	V	418019
+418019	ohloupit	ohloupit_:W	V
+418794	ohrozitel	ohrozitel	N	418798
+418798	ohrozit	ohrozit_:W	V	208968
+208968	hrozit	hrozit_:T	V
+418812	ohrožovatel	ohrožovatel	N	418816
+418816	ohrožovat	ohrožovat_:T	V	418798
+418798	ohrozit	ohrozit_:W	V	208968
+208968	hrozit	hrozit_:T	V
+419061	ohybatel	ohybatel	N
+419505	ochranitel	ochranitel	N	419513
+419513	ochránit	ochránit_:W	V	218769
+218769	chránit	chránit_:T	V
+419536	ochraňovatel	ochraňovatel	N	419543
+419543	ochraňovat	ochraňovat_:T	V	419513
+419513	ochránit	ochránit_:W	V	218769
+218769	chránit	chránit_:T	V
+419748	ochutnavatel	ochutnavatel	N
+420596	oklešťovatel	oklešťovatel	N	420600
+420600	oklešťovat	oklešťovat_:T	V	420583
+420583	okleštit	okleštit_:W	V	256734
+256734	kleštit	kleštit_:T	V
+421317	okouzlovatel	okouzlovatel	N	421321
+421321	okouzlovat	okouzlovat_:W	V	421307
+421307	okouzlit	okouzlit_:W	V	274377
+274377	kouzlit	kouzlit_:T	V
+421475	okrašlovatel	okrašlovatel	N	421481
+421481	okrašlovat	okrašlovat_:T	V
+422082	okupovatel	okupovatel	N	422086
+422086	okupovat	okupovat_:T	V
+422140	okusitel	okusitel	N	422144
+422144	okusit	okusit_:W	V
+422385	Olbramkostel	Olbramkostel_;G	N
+423984	omezitel	omezitel	N	423988
+423988	omezit	omezit_:W	V
+424080	omilostňovatel	omilostňovatel	N	424084
+424084	omilostňovat	omilostňovat_:T	V	424070
+424070	omilostnit	omilostnit_:W	V
+424189	omladitel	omladitel	N	424193
+424193	omladit	omladit_:W	V	333027
+333027	mladit	mladit_:T	V	333174
+333174	mladý	mladý	A
+424226	omlazovatel	omlazovatel	N	424230
+424230	omlazovat	omlazovat_:T	V	424193
+424193	omladit	omladit_:W	V	333027
+333027	mladit	mladit_:T	V	333174
+333174	mladý	mladý	A
+424294	omluvitel	omluvitel	N	424298
+424298	omluvit	omluvit_:T	V	333568
+333568	mluvit	mluvit_:T	V
+424335	Omnitel	Omnitel_;K	N
+425391	opakovatel	opakovatel	N	425395
+425395	opakovat	opakovat_:T	V
+425875	opatrovatel	opatrovatel	N	425882
+425882	opatrovat	opatrovat_:T	V	425917
+425917	opatřit	opatřit_:W	V	450159
+450159	patřit	patřit_:T	V
+425927	opatřovatel	opatřovatel	N	425931
+425931	opatřovat	opatřovat_:T	V	425917
+425917	opatřit	opatřit_:W	V	450159
+450159	patřit	patřit_:T	V
+425985	opečovatel	opečovatel	N	425989
+425989	opečovat	opečovat_:W	V	451557
+451557	pečovat	pečovat_:T	V
+425999	opečovávatel	opečovávatel	N	426003
+426003	opečovávat	opečovávat_:T_^(*4at)	V	425989
+425989	opečovat	opečovat_:W	V	451557
+451557	pečovat	pečovat_:T	V
+426372	opěvatel	opěvatel	N	426376
+426376	opěvat	opěvat_:T	V
+426427	opěvovatel	opěvovatel	N	426431
+426431	opěvovat	opěvovat_:T	V	426376
+426376	opěvat	opěvat_:T	V
+426731	opisovatel	opisovatel	N	426735
+426735	opisovat	opisovat_:T	V	428694
+428694	opsat	opsat_:W	V	579330
+579330	psát	psát_:T	V
+427211	oplocovatel	oplocovatel	N	427215
+427215	oplocovat	oplocovat_:T	V	427319
+427319	oplotit	oplotit_:W	V
+427244	oplodnitel	oplodnitel	N	427248
+427248	oplodnit	oplodnit_:W	V
+427258	oplodňovatel	oplodňovatel	N	427262
+427262	oplodňovat	oplodňovat_:T	V	427248
+427248	oplodnit	oplodnit_:W	V
+427342	oplozovatel	oplozovatel	N	427346
+427346	oplozovat	oplozovat_:T	V	427231
+427231	oplodit	oplodit_:W	V	465563
+465563	plodit	plodit_:T	V
+427898	opovrhovatel	opovrhovatel	N	427902
+427902	opovrhovat	opovrhovat_:T	V	427881
+427881	opovrhnout	opovrhnout_:W	V	500489
+500489	povrhnout	povrhnout_:W	V	809045
+809045	vrhnout	vrhnout_:W	V	809018
+809018	vrhat	vrhat_:T	V
+428041	opracovatel	opracovatel	N	428045
+428045	opracovat	opracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+428116	oprašovatel	oprašovatel	N	428121
+428121	oprašovat	oprašovat_:T	V
+428183	opravitel	opravitel	N	428187
+428187	opravit	opravit_:W	V	505547
+505547	pravit	pravit_:W	V
+428283	opravovatel	opravovatel	N	428287
+428287	opravovat	opravovat_:T	V	428187
+428187	opravit	opravit_:W	V	505547
+505547	pravit	pravit_:W	V
+429110	opylovatel	opylovatel	N	429114
+429114	opylovat	opylovat_:T	V	429096
+429096	opylit	opylit_:W	V
+430354	orodovatel	orodovatel	N	430358
+430358	orodovat	orodovat_:T	V
+430576	ortel	ortel	N
+431180	osazovatel	osazovatel	N	431184
+431184	osazovat	osazovat_:T	V	430927
+430927	osadit	osadit_:W	V	630094
+630094	sadit	sadit_:W	V
+431602	osidlovatel	osidlovatel	N	431610
+431610	osidlovat	osidlovat_:T	V
+431603	osídlovatel	osídlovatel	N	431611
+431611	osídlovat	osídlovat_:T	V	431583
+431583	osídlit	osídlit_:W	V	654459
+654459	sídlit	sídlit_:T	V
+431886	oslabovatel	oslabovatel	N	431890
+431890	oslabovat	oslabovat_:T	V	431864
+431864	oslabit	oslabit_:W	V
+431969	oslavovatel	oslavovatel	N	431973
+431973	oslavovat	oslavovat_:T	V	431955
+431955	oslavit	oslavit_:W	V	661576
+661576	slavit	slavit_:T	V
+432153	oslňovatel	oslňovatel	N	432157
+432157	oslňovat	oslňovat_:T	V	432140
+432140	oslnit	oslnit_:W	V
+432184	oslovitel	oslovitel	N	432188
+432188	oslovit	oslovit_:W	V
+433804	osmyslitel	osmyslitel	N
+433814	osmyslovatel	osmyslovatel	N	433818
+433818	osmyslovat	osmyslovat_:T	V
+433874	osnovatel	osnovatel	N	433882
+433882	osnovat	osnovat_:T	V
+433892	osnovavatel	osnovavatel	N
+433977	osočitel	osočitel	N	433981
+433981	osočit	osočit_:W	V	667314
+667314	sočit	sočit_:T	V
+433991	osočovatel	osočovatel	N	433995
+433995	osočovat	osočovat_:T	V	433981
+433981	osočit	osočit_:W	V	667314
+667314	sočit	sočit_:T	V
+434182	ospravedlnitel	ospravedlnitel	N	434186
+434186	ospravedlnit	ospravedlnit_:W	V
+434196	ospravedlňovatel	ospravedlňovatel	N	434200
+434200	ospravedlňovat	ospravedlňovat_:T	V	434186
+434186	ospravedlnit	ospravedlnit_:W	V
+435225	osvědčovatel	osvědčovatel	N	435229
+435229	osvědčovat	osvědčovat_:T	V	435215
+435215	osvědčit	osvědčit_:T	V	694534
+694534	svědčit	svědčit_:T	V
+435266	osvětitel	osvětitel	N
+435267	Osvětitel	Osvětitel_;S	N
+435295	osvětlovatel	osvětlovatel	N	435299
+435299	osvětlovat	osvětlovat_:T	V	435277
+435277	osvětlit	osvětlit_:W	V
+435343	osvěžovatel	osvěžovatel	N	435347
+435347	osvěžovat	osvěžovat_:T	V	435328
+435328	osvěžit	osvěžit_:W	V
+435392	osvoboditel	osvoboditel	N	435399
+435399	osvobodit	osvobodit_:W	V
+435450	osvojitel	osvojitel	N	435457
+435457	osvojit	osvojit_:W	V
+435467	osvojovatel	osvojovatel	N	435471
+435471	osvojovat	osvojovat_:T	V	435457
+435457	osvojit	osvojit_:W	V
+435844	ošetřovatel	ošetřovatel	N	435852
+435852	ošetřovat	ošetřovat_:T	V	435829
+435829	ošetřit	ošetřit_:W	V	703593
+703593	šetřit	šetřit_:T	V
+437438	oteplovatel	oteplovatel	N	437442
+437442	oteplovat	oteplovat_:T	V	437425
+437425	oteplit	oteplit_:W	V
+437546	otevíratel	otevíratel	N	437550
+437550	otevírat	otevírat_:T	V	437575
+437575	otevřít	otevřít_:W	V
+438011	otravovatel	otravovatel	N	438015
+438015	otravovat	otravovat_:T	V	437998
+437998	otrávit	otrávit_:W	V	733224
+733224	trávit	trávit_:T	V
+438116	otročitel	otročitel	N	438120
+438120	otročit	otročit_:T_:W	V
+438367	Ottel	Ottel_;S	N
+439340	ověřitel	ověřitel	N	439344
+439344	ověřit	ověřit_:W	V	787462
+787462	věřit	věřit_:T	V
+439355	ověřovatel	ověřovatel	N	439362
+439362	ověřovat	ověřovat_:T	V	439344
+439344	ověřit	ověřit_:W	V	787462
+787462	věřit	věřit_:T	V
+439723	ovlivňovatel	ovlivňovatel	N	439727
+439727	ovlivňovat	ovlivňovat_:T	V	439713
+439713	ovlivnit	ovlivnit_:W	V
+440211	ozařovatel	ozařovatel	N	440215
+440215	ozařovat	ozařovat_:T	V	440199
+440199	ozářit	ozářit_:W	V	915280
+915280	zářit	zářit_:T	V
+440370	ozdravovatel	ozdravovatel	N	440374
+440374	ozdravovat	ozdravovat_:T	V	440357
+440357	ozdravit	ozdravit_:W	V	941905
+941905	zdravit	zdravit_:T	V
+440563	označovatel	označovatel	N	440567
+440567	označovat	označovat_:T	V	440531
+440531	označit	označit_:W	V	971711
+971711	značit	značit_:T	V
+440621	oznamovatel	oznamovatel	N	440628
+440628	oznamovat	oznamovat_:T	V	440588
+440588	oznámit	oznámit_:T	V
+440891	ozvláštňovatel	ozvláštňovatel_,h	N	440897
+440897	ozvláštňovat	ozvláštňovat_:T	V	440883
+440883	ozvláštnit	ozvláštnit_:W	V
+441027	ožebračovatel	ožebračovatel	N	441031
+441031	ožebračovat	ožebračovat_:T	V	441017
+441017	ožebračit	ožebračit_:W	V
+441213	oživitel	oživitel	N	441217
+441217	oživit	oživit_:W	V	1006760
+1006760	živit	živit_:T	V
+441240	oživovatel	oživovatel	N	441244
+441244	oživovat	oživovat_:T	V	441217
+441217	oživit	oživit_:W	V	1006760
+1006760	živit	živit_:T	V
+441520	pábitel	pábitel	N	441528
+441528	pábit	pábit_:T	V
+441961	padělatel	padělatel	N	441969
+441969	padělat	padělat_:W	V	92241
+92241	dělat	dělat_:T	V
+442627	pachatel	pachatel	N	442635
+442635	páchat	páchat_:T	V
+442760	pachtovatel	pachtovatel	N	442764
+442764	pachtovat	pachtovat_:T	V
+443033	pakatel	pakatel	N
+443631	paleoobyvatel	paleoobyvatel	NC
+447392	Parkhotel	Parkhotel_;K	N
+448841	pastel	pastel	N	448827
+448827	pasta	pasta	N
+449195	pašovatel	pašovatel	N	449199
+449199	pašovat	pašovat_:T	V
+449385	Patel	Patel_;S	N
+451424	pečetitel	pečetitel	N	451429
+451429	pečetit	pečetit_:T	V
+451472	pečitel	pečitel	N
+451549	pečovatel	pečovatel	N	451557
+451557	pečovat	pečovat_:T	V
+455609	pěstitel	pěstitel	N	455615
+455615	pěstit	pěstit_:T	V
+455647	pěstovatel	pěstovatel	N	455651
+455651	pěstovat	pěstovat_:T	V	455615
+455615	pěstit	pěstit_:T	V
+459193	píditel	píditel	N	459198
+459198	pídit	pídit_:T	V
+460456	Pimentel	Pimentel_;S	N
+461303	pisatel	pisatel	N	579330
+579330	psát	psát_:T	V
+461932	Pitel	Pitel_;S	N
+463155	plánovatel	plánovatel	N	463159
+463159	plánovat	plánovat_:T	V
+463655	platitel	platitel	N	463659
+463659	platit	platit_:T	V
+463991	plavitel	plavitel	N	463995
+463995	plavit	plavit_:T	V
+464453	plenitel	plenitel	N	464460
+464460	plenit	plenit_:T	V
+464917	plevelitel	plevelitel	N	464921
+464921	plevelit	plevelit_:T	V
+465260	plivatel	plivatel	N	465265
+465265	plivat	plivat_:T	V
+465400	plnitel	plnitel	N	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+465556	ploditel	ploditel	N	465563
+465563	plodit	plodit_:T	V
+466163	plundrovatel	plundrovatel_,h	N	466169
+466169	plundrovat	plundrovat_:T	V
+466873	pobádatel	pobádatel_,h	N	466879
+466879	pobádat	pobádat_:W	V	24059
+24059	bádat	bádat_:T	V
+467070	poběratel	poběratel	N
+467186	pobiratel	pobiratel	N
+467187	pobíratel	pobíratel	N	467192
+467192	pobírat	pobírat_:T	V	467567
+467567	pobrat	pobrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+467822	pobuřovatel	pobuřovatel	N	467829
+467829	pobuřovat	pobuřovat_:T	V	467530
+467530	pobouřit	pobouřit_:W	V	52341
+52341	bouřit	bouřit_:T	V
+468180	poctitel	poctitel	N	468184
+468184	poctít	poctít_:W	V	468172
+468172	pocta	pocta	N
+468566	počešťovatel	počešťovatel	N	468570
+468570	počešťovat	počešťovat_:T	V	468556
+468556	počeštit	počeštit_:W	V	80897
+80897	češtit	češtit_:T_,s	V
+468996	podatel	podatel	N	469006
+469006	podat	podat_:W_^(něco_[někomu]_[někam])	V	88807
+88807	dát	dát_:T	V
+469026	podavatel	podavatel	N	469033
+469033	podávat	podávat_:T_^(něco_[někomu]_[někam])_(*4at)	V	469006
+469006	podat	podat_:W_^(něco_[někomu]_[někam])	V	88807
+88807	dát	dát_:T	V
+469199	podbízitel	podbízitel	N
+469280	podceňovatel	podceňovatel	N	469284
+469284	podceňovat	podceňovat_:T	V	469267
+469267	podcenit	podcenit_:W	V	67749
+67749	cenit	cenit_:T	V
+469418	poddodavatel	poddodavatel	N
+469801	podepisovatel	podepisovatel	N	469805
+469805	podepisovat	podepisovat_:T	V	469840
+469840	podepsat	podepsat_:W	V	579330
+579330	psát	psát_:T	V
+471605	podmanitel	podmanitel	N	471612
+471612	podmanit	podmanit_:W	V
+471625	podmaňovatel	podmaňovatel	N	471629
+471629	podmaňovat	podmaňovat_:T	V	471612
+471612	podmanit	podmanit_:W	V
+472043	podněcovatel	podněcovatel	N	472050
+472050	podněcovat	podněcovat_:T	V	472152
+472152	podnítit	podnítit_:W	V
+472097	podnikatel	podnikatel	N	472109
+472109	podnikat	podnikat_:T	V
+472148	podnítitel	podnítitel	N	472152
+472152	podnítit	podnítit_:W	V
+472377	podotykatel	podotykatel	N
+472584	podpisatel	podpisatel	N
+472617	podpisovatel	podpisovatel	N	472621
+472621	podpisovat	podpisovat_:T	V	469840
+469840	podepsat	podepsat_:W	V	579330
+579330	psát	psát_:T	V
+472826	podporavatel	podporavatel	N
+472836	podporovatel	podporovatel	N	472843
+472843	podporovat	podporovat_:T	V	472881
+472881	podpořit	podpořit_:W	V
+472877	podpořitel	podpořitel	N	472881
+472881	podpořit	podpořit_:W	V
+473149	podrobitel	podrobitel	N	473153
+473153	podrobit	podrobit_:T	V	598894
+598894	robit	robit_:T	V
+473238	područitel	područitel	N
+473318	podrývatel	podrývatel	N	473322
+473322	podrývat	podrývat_:T	V	473302
+473302	podrýt	podrýt_:W	V	627165
+627165	rýt	rýt_:T	V
+473960	podstrkovatel	podstrkovatel	N	473964
+473964	podstrkovat	podstrkovat_:T	V	473929
+473929	podstrčit	podstrčit_:W	V	685731
+685731	strčit	strčit_:W	V
+474215	podšikovatel	podšikovatel	N
+474618	podučitel	podučitel	N
+474840	podvelitel	podvelitel	N
+475067	podvrhovatel	podvrhovatel	N	475074
+475074	podvrhovat	podvrhovat_:T	V	475050
+475050	podvrhnout	podvrhnout_:W	V	809045
+809045	vrhnout	vrhnout_:W	V	809018
+809018	vrhat	vrhat_:T	V
+476079	pohlcovatel	pohlcovatel	N	476083
+476083	pohlcovat	pohlcovat_:T	V	476277
+476277	pohltit	pohltit_:W	V
+476766	pohrdatel	pohrdatel	N	476770
+476770	pohrdat	pohrdat_:T	V
+477170	pohybovatel	pohybovatel	N	477174
+477174	pohybovat	pohybovat_:T	V	476365
+476365	pohnout	pohnout_:W	V	201677
+201677	hnout	hnout_:W	V
+477822	pochybovatel	pochybovatel	N	477826
+477826	pochybovat	pochybovat_:T	V
+478193	pojistitel	pojistitel	N	478197
+478197	pojistit	pojistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+478241	pojišťovatel	pojišťovatel	N	478249
+478249	pojišťovat	pojišťovat_:T	V	478197
+478197	pojistit	pojistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+478338	pojmenovatel	pojmenovatel	N	478342
+478342	pojmenovat	pojmenovat_:W	V	238530
+238530	jmenovat	jmenovat_:T_:W	V
+478352	pojmenovávatel	pojmenovávatel	N	478356
+478356	pojmenovávat	pojmenovávat_:T_^(*4at)	V	478342
+478342	pojmenovat	pojmenovat_:W	V	238530
+238530	jmenovat	jmenovat_:T_:W	V
+478683	pokazitel	pokazitel	N	478687
+478687	pokazit	pokazit_:W	V	251401
+251401	kazit	kazit_:T	V
+478765	pokladatel	pokladatel	N
+479290	pokojitel	pokojitel	N
+479461	pokořitel	pokořitel	N	479465
+479465	pokořit	pokořit_:W	V	271624
+271624	kořit	kořit_:T	V
+479475	pokořovatel	pokořovatel	N	479479
+479479	pokořovat	pokořovat_:T	V	479465
+479465	pokořit	pokořit_:W	V	271624
+271624	kořit	kořit_:T	V
+479729	pokračovatel	pokračovatel	N	479736
+479736	pokračovat	pokračovat_:T	V	479947
+479947	pokročit	pokročit_:W	V
+479840	pokrčovatel	pokrčovatel	N	479844
+479844	pokrčovat	pokrčovat_:T	V	479829
+479829	pokrčit	pokrčit_:W	V	277724
+277724	krčit	krčit_:T	V
+480390	pokušitel	pokušitel	N	479635
+479635	pokoušet	pokoušet_:T	V	480368
+480368	pokusit	pokusit_:W	V
+481190	polepšovatel	polepšovatel	N	481194
+481194	polepšovat	polepšovat_:T	V	481180
+481180	polepšit	polepšit_:W	V	297255
+297255	lepšit	lepšit_:T	V
+481621	polidšťovatel	polidšťovatel	N	481625
+481625	polidšťovat	polidšťovat_:T	V	481611
+481611	polidštit	polidštit_:W	V
+482869	polonepřítel	polonepřítel	NC
+485045	pomahatel	pomahatel	N	485049
+485049	pomáhat	pomáhat_:T	V	485870
+485870	pomoci	pomoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+485428	poměřovatel	poměřovatel	N	485432
+485432	poměřovat	poměřovat_:T	V	485418
+485418	poměřit	poměřit_:W	V	324337
+324337	měřit	měřit_:T	V
+486611	poněmčovatel	poněmčovatel	N	486615
+486615	poněmčovat	poněmčovat_:T	V	486601
+486601	poněmčit	poněmčit_:W	V
+486778	ponižovatel	ponižovatel	N	486782
+486782	ponižovat	ponižovat_:T	V	486768
+486768	ponížit	ponížit_:W	V
+486916	ponoukatel	ponoukatel	N	486923
+486923	ponoukat	ponoukat_:T	V
+488240	popichovatel	popichovatel	N	488244
+488244	popichovat	popichovat_:T	V
+488355	popíratel	popíratel	N	488362
+488362	popírat	popírat_:T	V	489869
+489869	popřít	popřít_:W	V	576617
+576617	přít	přít_^(se,o_něco)	V
+488433	popisovatel	popisovatel	N	488437
+488437	popisovat	popisovat_:T	V	489877
+489877	popsat	popsat_:W	V	579330
+579330	psát	psát_:T	V
+489607	popravitel	popravitel	N	489611
+489611	popravit	popravit_:W	V	505547
+505547	pravit	pravit_:W	V
+489907	poptavatel	poptavatel	N
+490114	popuzovatel	popuzovatel	N	490121
+490121	popuzovat	popuzovat_:T	V	489945
+489945	popudit	popudit_:W	V	581181
+581181	pudit	pudit_:T	V
+490585	pornonakladatel	pornonakladatel	NC
+490594	pornopodnikatel	pornopodnikatel	NC
+490632	porobitel	porobitel	N	490636
+490636	porobit	porobit_:W	V	598894
+598894	robit	robit_:T	V
+490894	porovnavatel	porovnavatel	N	490898
+490898	porovnávat	porovnávat_:T_^(*4at)	V	490884
+490884	porovnat	porovnat_:W	V	602389
+602389	rovnat	rovnat_:T	V	602480
+602480	rovný	rovný_^(přímý,_stejný,_spravedlivý)	A
+491119	Portel	Portel_;G	N
+491376	poručitel	poručitel	N	491380
+491380	poručit	poručit_:W	V	623641
+623641	ručit	ručit_:T	V
+491459	porušitel	porušitel	N	491463
+491463	porušit	porušit_:W	V	625144
+625144	rušit	rušit_:T	V
+491473	porušovatel	porušovatel	N	491477
+491477	porušovat	porušovat_:T	V	491463
+491463	porušit	porušit_:W	V	625144
+625144	rušit	rušit_:T	V
+491568	pořadatel	pořadatel	N	491577
+491577	pořádat	pořádat_:T	V
+491741	pořizovatel	pořizovatel	N	491748
+491748	pořizovat	pořizovat_:T	V	491708
+491708	pořídit	pořídit_:W	V	629085
+629085	řídit	řídit_:T	V
+492333	posilovatel	posilovatel	N	492337
+492337	posilovat	posilovat_:T	V	492287
+492287	posílit	posílit_:W	V	655165
+655165	sílit	sílit_:T_^(získávat_sílu;_přech.)	V
+492528	poskytovatel	poskytovatel	N	492535
+492535	poskytovat	poskytovat_:T	V	492511
+492511	poskytnout	poskytnout_:T	V
+493699	postel	postel	N
+493849	postihovatel	postihovatel	N	493853
+493853	postihovat	postihovat_:T	V	493832
+493832	postihnout	postihnout_:W	V	682057
+682057	stihnout	stihnout_:W	V	682034
+682034	stíhat	stíhat_:T	V
+494776	postupitel	postupitel	N	494149
+494149	postoupit	postoupit_:W	V
+494797	postupovatel	postupovatel	N	494801
+494801	postupovat	postupovat_:T	V	494149
+494149	postoupit	postoupit_:W	V
+495026	posunovatel	posunovatel	N	495031
+495031	posunovat	posunovat_:T	V	495013
+495013	posunout	posunout_:W	V	691436
+691436	sunout	sunout_:T	V
+495074	posuzovatel	posuzovatel	N	495081
+495081	posuzovat	posuzovat_:T	V	493062
+493062	posoudit	posoudit_:W	V	669319
+669319	soudit	soudit_:T	V
+495150	posvěcovatel	posvěcovatel	N	495154
+495154	posvěcovat	posvěcovat_:T	V	495174
+495174	posvětit	posvětit_:W	V	694899
+694899	světit	světit_:T	V
+495170	posvětitel	posvětitel	N	495174
+495174	posvětit	posvětit_:W	V	694899
+694899	světit	světit_:T	V
+495607	poškozovatel	poškozovatel	N	495611
+495611	poškozovat	poškozovat_:T	V	495577
+495577	poškodit	poškodit_:W	V	705982
+705982	škodit	škodit_:T	V
+497519	potěšitel	potěšitel	N	497523
+497523	potěšit	potěšit_:W	V	725173
+725173	těšit	těšit_:T	V
+497624	potíratel	potíratel	N	497628
+497628	potírat	potírat_:T	V	498376
+498376	potřít	potřít_:W	V	740616
+740616	třít	třít_:T	V
+497735	potlačitel	potlačitel	N	497739
+497739	potlačit	potlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+497750	potlačovatel	potlačovatel	N	497758
+497758	potlačovat	potlačovat_:T	V	497739
+497739	potlačit	potlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+498274	potřebovatel	potřebovatel	N	498278
+498278	potřebovat	potřebovat_:T	V
+498499	potupitel	potupitel	N	498503
+498503	potupit	potupit_:W	V	741832
+741832	tupit	tupit_:T	V	741959
+741959	tupý	tupý	A
+498638	potvrzovatel	potvrzovatel	N	498642
+498642	potvrzovat	potvrzovat_:T	V	498618
+498618	potvrdit	potvrdit_:W	V	743061
+743061	tvrdit	tvrdit_:T	V	743125
+743125	tvrdý	tvrdý	A
+498758	poučovatel	poučovatel	N	498765
+498765	poučovat	poučovat_:T	V	498739
+498739	poučit	poučit_:W	V	746361
+746361	učit	učit_:T	V
+498845	poukazatel	poukazatel	N	498847
+498847	poukázat	poukázat_:W	V	751531
+751531	ukázat	ukázat_:W	V	251291
+251291	kázat	kázat_:T	V
+498866	poukazovatel	poukazovatel	N	498873
+498873	poukazovat	poukazovat_:T	V	498847
+498847	poukázat	poukázat_:W	V	751531
+751531	ukázat	ukázat_:W	V	251291
+251291	kázat	kázat_:T	V
+499506	použivatel	použivatel	N
+499860	pověřitel	pověřitel	N	499864
+499864	pověřit	pověřit_:W	V	787462
+787462	věřit	věřit_:T	V
+499874	pověřovatel	pověřovatel	N	499878
+499878	pověřovat	pověřovat_:T	V	499864
+499864	pověřit	pověřit_:W	V	787462
+787462	věřit	věřit_:T	V
+499954	Povídatel	Povídatel_;R_;u_^(časopis)	N
+500343	povolovatel	povolovatel	N	500347
+500347	povolovat	povolovat_:T	V	500324
+500324	povolit	povolit_:W	V	803965
+803965	volit	volit_:T	V
+500424	povozitel	povozitel	N	500428
+500428	povozit	povozit_:W	V	806432
+806432	vozit	vozit_:T	V	789661
+789661	vézt	vézt_:T_^(něco/někoho_autem,_vlakem,...)	V
+501318	povzbuzovatel	povzbuzovatel	N	501322
+501322	povzbuzovat	povzbuzovat_:T	V	501295
+501295	povzbudit	povzbudit_:W	V	867553
+867553	vzbudit	vzbudit_:W	V	59953
+59953	budit	budit_:T	V
+501347	povzdvihovatel	povzdvihovatel	N
+502548	pozlatitel	pozlatitel	N	502552
+502552	pozlatit	pozlatit_:W	V	963817
+963817	zlatit	zlatit_:T	V
+502593	pozměňovatel	pozměňovatel	N	502597
+502597	pozměňovat	pozměňovat_:T	V	502583
+502583	pozměnit	pozměnit_:W	V	968286
+968286	změnit	změnit_:W	V	323528
+323528	měnit	měnit_:T	V
+502745	poznavatel	poznavatel	N	502749
+502749	poznávat	poznávat_:T_^(*4at)	V	502730
+502730	poznat	poznat_:W	V
+502827	pozorovatel	pozorovatel	N	502838
+502838	pozorovat	pozorovat_:T	V
+503120	pozůstavatel	pozůstavatel	N
+503141	pozůstavitel	pozůstavitel	N	503143
+503143	pozůstavit	pozůstavit_:W	V	997695
+997695	zůstavit	zůstavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+503270	požadovatel	požadovatel	N	503274
+503274	požadovat	požadovat_:T	V	503246
+503246	požádat	požádat_:W	V	1003128
+1003128	žádat	žádat_:T	V
+503722	poživatel	poživatel	N	503737
+503737	požívat	požívat_:T_^(*3t)	V	503690
+503690	požít	požít_:W	V	1006682
+1006682	žít	žít_:T	V
+503723	požívatel	požívatel	N	503737
+503737	požívat	požívat_:T_^(*3t)	V	503690
+503690	požít	požít_:W	V	1006682
+1006682	žít	žít_:T	V
+504657	praktikovatel	praktikovatel	N	504661
+504661	praktikovat	praktikovat_:T	V
+504826	pranýřovatel	pranýřovatel	N	504830
+504830	pranýřovat	pranýřovat_:T	V
+504854	praobyvatel	praobyvatel	N	393379
+393379	obyvatel	obyvatel	N	393389
+393389	obývat	obývat_:T	V
+505736	prazakladatel	prazakladatel	N	893039
+893039	zakladatel	zakladatel	N	893047
+893047	zakládat	zakládat_:T	V
+505835	pražitel	pražitel	N	505839
+505839	pražit	pražit_:T	V
+507190	Pretel	Pretel_;S	N
+507374	prezentovatel	prezentovatel	N	507378
+507378	prezentovat	prezentovat_:T_:W	V
+509270	probuditel	probuditel	N	509274
+509274	probudit	probudit_:W	V	59953
+59953	budit	budit_:T	V
+510082	pročišťovatel	pročišťovatel	N	510086
+510086	pročišťovat	pročišťovat_:T	V	510061
+510061	pročistit	pročistit_:W	V	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+510229	prodatel	prodatel	N	510233
+510233	prodat	prodat_:W	V	88807
+88807	dát	dát_:T	V
+510250	prodavatel	prodavatel	N
+510905	produkovatel	produkovatel	N	510909
+510909	produkovat	produkovat_:T	V
+512247	prohlašovatel	prohlašovatel	N	512251
+512251	prohlašovat	prohlašovat_:T	V	512212
+512212	prohlásit	prohlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+512363	prohlížitel	prohlížitel	N	512359
+512359	prohlížet	prohlížet_:T	V	512280
+512280	prohlédat	prohlédat_:T	V
+513566	projednatel	projednatel	N	513570
+513570	projednat	projednat_:W	V	234072
+234072	jednat	jednat_:T	V
+513660	projevitel	projevitel	N	513664
+513664	projevit	projevit_:W	V	236635
+236635	jevit	jevit_:T	V
+513780	projížditel	projížditel	N
+514022	prokazatel	prokazatel	N
+516062	prolamovatel	prolamovatel	N	516066
+516066	prolamovat	prolamovat_:T	V	516604
+516604	prolomit	prolomit_:W	V	304350
+304350	lomit	lomit_:T	V
+516856	promajímatel	promajímatel	N
+517197	proměnitel	proměnitel	N	517201
+517201	proměnit	proměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+517226	proměňovatel	proměňovatel	N	517233
+517233	proměňovat	proměňovat_:T	V	517201
+517201	proměnit	proměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+517621	promlčitel	promlčitel	N
+517660	promlouvatel	promlouvatel	N	517664
+517664	promlouvat	promlouvat_:T	V	517703
+517703	promluvit	promluvit_:W	V	333568
+333568	mluvit	mluvit_:T	V
+518297	pronajímatel	pronajímatel	N	518305
+518305	pronajímat	pronajímat_:T	V	518316
+518316	pronajmout	pronajmout_:W	V	354115
+354115	najmout	najmout_:W	V	238554
+238554	jmout	jmout	V
+518377	pronásledovatel	pronásledovatel	N	518384
+518384	pronásledovat	pronásledovat_:T	V	366694
+366694	následovat	následovat_:T	V	661738
+661738	sledovat	sledovat_:T	V
+518870	propagovatel	propagovatel	N	518874
+518874	propagovat	propagovat_:T	V
+518896	propachtovatel	propachtovatel	N	518900
+518900	propachtovat	propachtovat_:W	V	442764
+442764	pachtovat	pachtovat_:T	V
+520223	propojovatel	propojovatel	N	520227
+520227	propojovat	propojovat_:T	V	520210
+520210	propojit	propojit_:W	V	478278
+478278	pojit	pojit_:T	V
+520561	propůjčovatel	propůjčovatel	N	520565
+520565	propůjčovat	propůjčovat_:T	V	520550
+520550	propůjčit	propůjčit_:W	V	581619
+581619	půjčit	půjčit_:W	V
+521577	prosazovatel	prosazovatel	N	521581
+521581	prosazovat	prosazovat_:T	V	521484
+521484	prosadit	prosadit_:W	V	630094
+630094	sadit	sadit_:W	V
+522273	proslovovatel	proslovovatel	N	522277
+522277	proslovovat	proslovovat_:T	V	522262
+522262	proslovit	proslovit_:W	V
+523468	prostředkovatel	prostředkovatel	N	523472
+523472	prostředkovat	prostředkovat_:T	V
+524307	prošetřovatel	prošetřovatel	N	524311
+524311	prošetřovat	prošetřovat_:T	V	524297
+524297	prošetřit	prošetřit_:W	V	703593
+703593	šetřit	šetřit_:T	V
+525740	protěžovatel	protěžovatel	N	525747
+525747	protěžovat	protěžovat_:T	V
+527883	protlačovatel	protlačovatel	N	527887
+527887	protlačovat	protlačovat_:T	V	527873
+527873	protlačit	protlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+529425	prověřovatel	prověřovatel	N	529429
+529429	prověřovat	prověřovat_:T	V	529415
+529415	prověřit	prověřit_:W	V	787462
+787462	věřit	věřit_:T	V
+529911	provokovatel	provokovatel	N	529915
+529915	provokovat	provokovat_:T	V
+530025	provozovatel	provozovatel	N	530032
+530032	provozovat	provozovat_:T	V
+530759	prozrazovatel	prozrazovatel	N	530763
+530763	prozrazovat	prozrazovat_:T	V	530745
+530745	prozradit	prozradit_:W	V	988608
+988608	zradit	zradit_:W	V	585478
+585478	radit	radit_:T	V
+530986	proživatel	proživatel	N
+530987	prožívatel	prožívatel	N	530992
+530992	prožívat	prožívat_:T_^(*3t)	V	530973
+530973	prožít	prožít_:W	V	1006682
+1006682	žít	žít_:T	V
+532152	prvočinitel	prvočinitel	N
+532201	prvomajitel	prvomajitel	N
+532212	prvonabyvatel	prvonabyvatel	N
+532216	prvopachatel	prvopachatel	N
+532231	prvopojistitel	prvopojistitel	N
+532309	prvouživatel	prvouživatel	N
+532331	prvožadatel	prvožadatel	N
+532595	prznitel	prznitel	N	532599
+532599	prznit	prznit_:T	V
+533223	přebásnitel	přebásnitel	N	533227
+533227	přebásnit	přebásnit_:W	V	30350
+30350	básnit	básnit_:T	V
+533237	přebásňovatel	přebásňovatel	N	533241
+533241	přebásňovat	přebásňovat_:T	V	533227
+533227	přebásnit	přebásnit_:W	V	30350
+30350	básnit	básnit_:T	V
+533450	přebíratel	přebíratel	N	533454
+533454	přebírat	přebírat_:T	V	533701
+533701	přebrat	přebrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+534824	předatel	předatel	N
+534845	předavatel	předavatel	N
+535028	předcvičitel	předcvičitel	N	535032
+535032	předcvičit	předcvičit_:W	V	74622
+74622	cvičit	cvičit_:T	V
+535042	předcvičovatel	předcvičovatel	N	535046
+535046	předcvičovat	předcvičovat_:T	V	535032
+535032	předcvičit	předcvičit_:W	V	74622
+74622	cvičit	cvičit_:T	V
+535156	předčitatel	předčitatel	N	535165
+535165	předčítat	předčítat_:T	V
+535157	předčítatel	předčítatel	N	535165
+535165	předčítat	předčítat_:T	V
+535574	předepisovatel	předepisovatel	N	535578
+535578	předepisovat	předepisovat_:T	V	535609
+535609	předepsat	předepsat_:W	V	579330
+579330	psát	psát_:T	V
+536443	předjímatel	předjímatel	N	536448
+536448	předjímat	předjímat_:T	V
+536539	předkladatel	předkladatel	N	536546
+536546	předkládat	předkládat_:T	V
+537211	předložitel	předložitel	N	537215
+537215	předložit	předložit_:T	V
+537509	přednašovatel	přednašovatel	N
+538011	předplatitel	předplatitel	N	538018
+538018	předplatit	předplatit_:W	V	463659
+463659	platit	platit_:T	V
+538142	předpovídatel	předpovídatel	N	538146
+538146	předpovídat	předpovídat_:T	V	538121
+538121	předpovědět	předpovědět_:W	V	499790
+499790	povědět	povědět_:W	V	782421
+782421	vědět	vědět_:T	V
+538467	předražitel	předražitel	N	538471
+538471	předražit	předražit_:W	V	138210
+138210	dražit	dražit_:T	V
+538485	předražovatel	předražovatel	N	538489
+538489	předražovat	předražovat_:T	V	538471
+538471	předražit	předražit_:W	V	138210
+138210	dražit	dražit_:T	V
+539342	představitel	představitel	N	539350
+539350	představit	představit-1_:W_^(si_něco;_něco/někoho_někomu)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+539955	předurčovatel	předurčovatel	N	539959
+539959	předurčovat	předurčovat_:T	V	539945
+539945	předurčit	předurčit_:W	V	762233
+762233	určit	určit_:T_:W	V
+540160	předvídatel	předvídatel	N	540166
+540166	předvídat	předvídat_:T	V
+540196	předvoditel	předvoditel	N
+540328	předvychovatel	předvychovatel	N	540332
+540332	předvychovat	předvychovat_:W	V	828116
+828116	vychovat	vychovat_:W	V	218643
+218643	chovat	chovat_:T	V
+540602	předzpěvovatel	předzpěvovatel	N	540606
+540606	předzpěvovat	předzpěvovat_:T	V
+541289	přeformulovávatel	přeformulovávatel	N	541293
+541293	přeformulovávat	přeformulovávat_:T_^(*4at)	V	541279
+541279	přeformulovat	přeformulovat_:W	V	170947
+170947	formulovat	formulovat_:T_:W	V
+542038	přehližitel	přehližitel	N
+542039	přehlížitel	přehlížitel	N	542032
+542032	přehlížet	přehlížet_:T	V	541966
+541966	přehlédat	přehlédat_:T	V
+542272	přehodnocovatel	přehodnocovatel	N	542276
+542276	přehodnocovat	přehodnocovat_:T	V	542295
+542295	přehodnotit	přehodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+542291	přehodnotitel	přehodnotitel	N	542295
+542295	přehodnotit	přehodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+543218	přechovatel	přechovatel	N	543222
+543222	přechovat	přechovat_:W	V	218643
+218643	chovat	chovat_:T	V
+543239	přechovavatel	přechovavatel	N
+543240	přechovávatel	přechovávatel	N	543245
+543245	přechovávat	přechovávat_:T_^(*4at)	V	543222
+543222	přechovat	přechovat_:W	V	218643
+218643	chovat	chovat_:T	V
+544036	přejímatel	přejímatel	N	544044
+544044	přejímat	přejímat_:T	V	544138
+544138	přejmout	přejmout_^(převzít)	V	238554
+238554	jmout	jmout	V
+544122	přejmenovatel	přejmenovatel	N	544126
+544126	přejmenovat	přejmenovat_:W	V	238530
+238530	jmenovat	jmenovat_:T_:W	V
+544582	překladatel	překladatel	N	544590
+544590	překládat	překládat-1_:T_^(přemístit)	V
+545441	překonatel	překonatel	N	545445
+545445	překonat	překonat_:W	V	265720
+265720	konat	konat_:T	V
+545457	překonavatel	překonavatel	N	545463
+545463	překonávat	překonávat_:T_^(*4at)	V	545445
+545445	překonat	překonat_:W	V	265720
+265720	konat	konat_:T	V
+545458	překonávatel	překonávatel	N	545463
+545463	překonávat	překonávat_:T_^(*4at)	V	545445
+545445	překonat	překonat_:W	V	265720
+265720	konat	konat_:T	V
+545849	překračovatel	překračovatel	N	545853
+545853	překračovat	překračovat_:T	V	546008
+546008	překročit	překročit_:W	V
+546004	překročitel	překročitel	N	546008
+546008	překročit	překročit_:W	V
+546076	překrucovatel	překrucovatel	N	546080
+546080	překrucovat	překrucovat_:T	V
+546519	překvapovatel	překvapovatel	N	546523
+546523	překvapovat	překvapovat_:T	V	546505
+546505	překvapit	překvapit_:W	V
+547676	přemáhatel	přemáhatel	N	547680
+547680	přemáhat	přemáhat_:T	V	548492
+548492	přemoci	přemoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+548030	přeměňovatel	přeměňovatel	N	548034
+548034	přeměňovat	přeměňovat_:T	V	548020
+548020	přeměnit	přeměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+548290	přemísťovatel	přemísťovatel	N	548297
+548297	přemísťovat	přemísťovat_:T	V	548274
+548274	přemístit	přemístit_:W	V
+548435	přemnožitel	přemnožitel	N	548439
+548439	přemnožit	přemnožit_:W	V	334523
+334523	množit	množit_:T	V
+548662	přemostitel	přemostitel	N	548666
+548666	přemostit	přemostit_:W	V
+548758	přemožitel	přemožitel	N	548492
+548492	přemoci	přemoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+548947	přemýšlitel	přemýšlitel	N
+549289	přenositel	přenositel	N	549293
+549293	přenosit	přenosit_:W	V	384625
+384625	nosit	nosit_:T	V	380249
+380249	nést	nést_:T	V
+550686	přepisovatel	přepisovatel	N	550690
+550690	přepisovat	přepisovat_:T	V	551886
+551886	přepsat	přepsat_:W	V
+551412	přeposílatel	přeposílatel	N
+552617	přerozdělovatel	přerozdělovatel	N	552621
+552621	přerozdělovat	přerozdělovat_:T_:W	V	604482
+604482	rozdělovat	rozdělovat_:T	V	604464
+604464	rozdělit	rozdělit_:W	V	92509
+92509	dělit	dělit_:T	V
+552816	přerušovatel	přerušovatel	N	552820
+552820	přerušovat	přerušovat_:T	V	552805
+552805	přerušit	přerušit_:W	V	625144
+625144	rušit	rušit_:T	V
+553978	přeskupovatel	přeskupovatel	N	553982
+553982	přeskupovat	přeskupovat_:T	V	553968
+553968	přeskupit	přeskupit_:W	V	660405
+660405	skupit	skupit_:W	V	286426
+286426	kupit	kupit_:T	V
+555326	přestupitel	přestupitel	N	555005
+555005	přestoupit	přestoupit_:W	V
+555582	přesvědčovatel	přesvědčovatel	N	555586
+555586	přesvědčovat	přesvědčovat_:T	V	555569
+555569	přesvědčit	přesvědčit_:W	V	694534
+694534	svědčit	svědčit_:T	V
+558480	přetvořitel	přetvořitel	N	558484
+558484	přetvořit	přetvořit_:W	V	743018
+743018	tvořit	tvořit_:T	V
+559793	převoditel	převoditel	N
+560235	převychovatel	převychovatel	N	560239
+560239	převychovat	převychovat_:W	V	828116
+828116	vychovat	vychovat_:W	V	218643
+218643	chovat	chovat_:T	V
+560249	převychovávatel	převychovávatel	N	560253
+560253	převychovávat	převychovávat_:T_^(*4at)	V	560239
+560239	převychovat	převychovat_:W	V	828116
+828116	vychovat	vychovat_:W	V	218643
+218643	chovat	chovat_:T	V
+560374	převypravovatel	převypravovatel	N	560378
+560378	převypravovat	převypravovat_:T	V
+561046	přezkoumavatel	přezkoumavatel	N
+561047	přezkoumávatel	přezkoumávatel	N	561052
+561052	přezkoumávat	přezkoumávat_:T_^(*4at)	V	561034
+561034	přezkoumat	přezkoumat_:W	V	961046
+961046	zkoumat	zkoumat_:T	V
+561064	přezkoušitel	přezkoušitel	N
+561084	přezkušovatel	přezkušovatel	N	561088
+561088	přezkušovat	přezkušovat_:T	V
+561779	přežvýkatel	přežvýkatel	N	561783
+561783	přežvýkat	přežvýkat_:W	V	1008730
+1008730	žvýkat	žvýkat_:T	V
+562307	přibližovatel	přibližovatel	N	562311
+562311	přibližovat	přibližovat_:T	V	562292
+562292	přiblížit	přiblížit_:W	V	45720
+45720	blížit	blížit_:T	V
+563371	přičinitel	přičinitel	N	563375
+563375	přičinit	přičinit_:W	V	81533
+81533	činit	činit_:T	V
+563874	přidělovatel	přidělovatel	N	563878
+563878	přidělovat	přidělovat_:T	V	563857
+563857	přidělit	přidělit_:W	V	92509
+92509	dělit	dělit_:T	V
+564217	přidržovatel	přidržovatel	N	564221
+564221	přidržovat	přidržovat_:T	V	564200
+564200	přidržet	přidržet_:T	V	140369
+140369	držet	držet_:T	V
+564915	přihlašavatel	přihlašavatel	N
+564933	přihlašovatel	přihlašovatel	N	564937
+564937	přihlašovat	přihlašovat_:T	V	564911
+564911	přihlásit	přihlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+565049	přihlížitel	přihlížitel	N	565043
+565043	přihlížet	přihlížet_:T	V	565004
+565004	přihlédat	přihlédat_:T	V
+566269	přijatel	přijatel	N
+566369	přijímatel	přijímatel	N	566376
+566376	přijímat	přijímat_:T	V	566410
+566410	přijmout	přijmout_:W	V	238554
+238554	jmout	jmout	V
+566560	přikazatel	přikazatel	N
+566589	přikazovatel	přikazovatel	N	566593
+566593	přikazovat	přikazovat_:T	V	566562
+566562	přikázat	přikázat_:W	V	251291
+251291	kázat	kázat_:T	V
+567661	přikrašlovatel	přikrašlovatel	N	567669
+567669	přikrašlovat	přikrašlovat_:T	V
+567662	přikrášlovatel	přikrášlovatel	N	567670
+567670	přikrášlovat	přikrášlovat_:W	V	567643
+567643	přikrášlit	přikrášlit_:W	V	277105
+277105	krášlit	krášlit_:T	V
+569616	přimlouvatel	přimlouvatel	N	569620
+569620	přimlouvat	přimlouvat_:T	V	569642
+569642	přimluvit	přimluvit_:W	V	333568
+333568	mluvit	mluvit_:T	V
+570981	připisovatel	připisovatel	N	570985
+570985	připisovat	připisovat_:T	V	572008
+572008	připsat	připsat_:W	V	579330
+579330	psát	psát_:T	V
+571457	připodotýkatel	připodotýkatel	N
+571509	připojistitel	připojistitel	N	571511
+571511	připojistit	připojistit_:W	V	478197
+478197	pojistit	pojistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+571565	připojovatel	připojovatel	N	571569
+571569	připojovat	připojovat_:T	V	571545
+571545	připojit	připojit_:T	V	478278
+478278	pojit	pojit_:T	V
+571645	připomínkovatel	připomínkovatel	N	571649
+571649	připomínkovat	připomínkovat_:T	V
+571857	připravovatel	připravovatel	N	571861
+571861	připravovat	připravovat_:T	V	571832
+571832	připravit	připravit_:W	V
+573316	přislíbitel	přislíbitel	N	573320
+573320	přislíbit	přislíbit_:W	V	662260
+662260	slíbit	slíbit_:W	V	299220
+299220	líbit	líbit_:T	V
+573391	přisluhovatel	přisluhovatel	N	573395
+573395	přisluhovat	přisluhovat_:T	V	573368
+573368	přisloužit	přisloužit_:W	V	663105
+663105	sloužit	sloužit_:T	V
+573688	přispěvatel	přispěvatel	N	573739
+573739	přispívat	přispívat_:T_^(*4ět)	V	573685
+573685	přispět	přispět_:W	V	671665
+671665	spět	spět_:T	V
+573701	přispěvovatel	přispěvovatel	N
+573731	přispívatel	přispívatel	N	573739
+573739	přispívat	přispívat_:T_^(*4ět)	V	573685
+573685	přispět	přispět_:W	V	671665
+671665	spět	spět_:T	V
+574374	přistupitel	přistupitel	N
+574682	přisvojitel	přisvojitel	N	574689
+574689	přisvojit	přisvojit_:W	V
+576098	přítel	přítel	N
+576820	přitvořitel	přitvořitel	N	576824
+576824	přitvořit	přitvořit_:W	V	743018
+743018	tvořit	tvořit_:T	V
+577673	přivlastňovatel	přivlastňovatel	N	577677
+577677	přivlastňovat	přivlastňovat_:T	V	577663
+577663	přivlastnit	přivlastnit_:W	V	797531
+797531	vlastnit	vlastnit_:T_^(někdo_má_něco_ve_vlastnictví)	V
+577828	přivolavatel	přivolavatel	N
+578910	přizpůsobitel	přizpůsobitel	N	578914
+578914	přizpůsobit	přizpůsobit_:W	V	988104
+988104	způsobit	způsobit_:W	V	583019
+583019	působit	působit_:T_:W	V
+579243	přiživovatel	přiživovatel	N	579247
+579247	přiživovat	přiživovat_:T	V	579201
+579201	přiživit	přiživit_:W	V	1006760
+1006760	živit	živit_:T	V
+579627	pseudoléčitel	pseudoléčitel	N	294973
+294973	léčitel	léčitel	N	294981
+294981	léčit	léčit_:T	V
+579789	pseudopodnikatel	pseudopodnikatel	N	472097
+472097	podnikatel	podnikatel	N	472109
+472109	podnikat	podnikat_:T	V
+579939	pseudospasitel	pseudospasitel	N	671021
+671021	spasitel	spasitel	N	671029
+671029	spasit	spasit_:W	V
+580022	pseudoučitel	pseudoučitel	N	746329
+746329	učitel	učitel	N	746361
+746361	učit	učit_:T	V
+580044	pseudouživatel	pseudouživatel	N	775428
+775428	uživatel	uživatel	N	775440
+775440	užívat	užívat_:T_^(*3t)	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+580978	publikovatel	publikovatel	N	580982
+580982	publikovat	publikovat_:T_:W	V
+581615	půjčitel	půjčitel	N	581619
+581619	půjčit	půjčit_:W	V
+581636	půjčovatel	půjčovatel	N	581643
+581643	půjčovat	půjčovat_:T	V	581619
+581619	půjčit	půjčit_:W	V
+582157	Půlpytel	Půlpytel_;S	N
+583015	působitel	působitel	N	583019
+583019	působit	působit_:T_:W	V
+583101	pustošitel	pustošitel	N	583105
+583105	pustošit	pustošit_:T	V
+583284	putovatel	putovatel	N	583288
+583288	putovat	putovat_:T	V
+583903	pytel	pytel	N
+583905	Pytel	Pytel_;S	N
+584504	rabovatel	rabovatel	N	584508
+584508	rabovat	rabovat_:T	V
+585474	raditel	raditel	N	585478
+585478	radit	radit_:T	V
+585726	rádobypodnikatel	rádobypodnikatel	NC
+585748	rádobysběratel	rádobysběratel	NC
+585765	rádobyspisovatel	rádobyspisovatel	NC
+589146	razitel	razitel	N	589185
+589185	razit	razit_:T	V
+589524	realizovatel	realizovatel	N	589528
+589528	realizovat	realizovat_:T_:W	V
+590133	recyklovatel	recyklovatel	N	590137
+590137	recyklovat	recyklovat_:T	V
+594284	renovovatel	renovovatel	N	594288
+594288	renovovat	renovovat_:T_:W	V
+595081	reprodukovatel	reprodukovatel	N	595085
+595085	reprodukovat	reprodukovat_:T	V	510909
+510909	produkovat	produkovat_:T	V
+599291	roditel	roditel	N	599295
+599295	rodit	rodit_:T	V
+602381	rovnatel	rovnatel	N	602389
+602389	rovnat	rovnat_:T	V	602480
+602480	rovný	rovný_^(přímý,_stejný,_spravedlivý)	A
+604017	rozcvičovatel	rozcvičovatel	N	604021
+604021	rozcvičovat	rozcvičovat_:T	V	604002
+604002	rozcvičit	rozcvičit_:W	V	74622
+74622	cvičit	cvičit_:T	V
+604460	rozdělitel	rozdělitel	N	604464
+604464	rozdělit	rozdělit_:W	V	92509
+92509	dělit	dělit_:T	V
+604475	rozdělovatel	rozdělovatel	N	604482
+604482	rozdělovat	rozdělovat_:T	V	604464
+604464	rozdělit	rozdělit_:W	V	92509
+92509	dělit	dělit_:T	V
+604751	rozdmýchavatel	rozdmýchavatel	N
+605174	rozdrobitel	rozdrobitel	N	605178
+605178	rozdrobit	rozdrobit_:W	V	139452
+139452	drobit	drobit_:T	V
+606013	rozesílatel	rozesílatel	N	606020
+606020	rozesílat	rozesílat_:T	V	606084
+606084	rozeslat	rozeslat_:W	V
+606121	rozesmívatel	rozesmívatel	N	606125
+606125	rozesmívat	rozesmívat_:T	V	606089
+606089	rozesmát	rozesmát_:W	V	664055
+664055	smát	smát_:T	V
+607507	rozhlašovatel	rozhlašovatel	N	607514
+607514	rozhlašovat	rozhlašovat_:T	V	607489
+607489	rozhlásit	rozhlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+607745	rozhodovatel	rozhodovatel	N	607752
+607752	rozhodovat	rozhodovat_:T	V	607727
+607727	rozhodnout	rozhodnout_:W	V
+608208	rozhřešitel	rozhřešitel	N	608212
+608212	rozhřešit	rozhřešit_:W	V	209797
+209797	hřešit	hřešit_:T	V
+608352	rozhybatel	rozhybatel	N
+608673	rozchvatitel	rozchvatitel	N
+608942	rozjasňovatel	rozjasňovatel	N	608946
+608946	rozjasňovat	rozjasňovat_:T	V	608931
+608931	rozjasnit	rozjasnit_:W	V
+609113	rozjímatel	rozjímatel	N	609117
+609117	rozjímat	rozjímat_:T	V
+609423	rozkazovatel	rozkazovatel	N	609430
+609430	rozkazovat	rozkazovat_:T	V	609407
+609407	rozkázat	rozkázat_:W	V	251291
+251291	kázat	kázat_:T	V
+611951	rozlišovatel	rozlišovatel	N	611955
+611955	rozlišovat	rozlišovat_:T	V	611936
+611936	rozlišit	rozlišit_:W	V	302243
+302243	lišit	lišit_:T	V
+612198	rozložitel	rozložitel	N	612204
+612204	rozložit	rozložit_:W	V
+612266	rozluštitel	rozluštitel	N	612270
+612270	rozluštit	rozluštit_:W	V	307861
+307861	luštit	luštit_:T	V
+612716	rozmělňovatel	rozmělňovatel	N	612720
+612720	rozmělňovat	rozmělňovat_:T	V	612705
+612705	rozmělnit	rozmělnit_:W	V	323015
+323015	mělnit	mělnit_:T	V
+612945	rozmisťovatel	rozmisťovatel	N	612951
+612951	rozmisťovat	rozmisťovat_:T	V	612929
+612929	rozmístit	rozmístit_:W	V
+613128	rozmnožitel	rozmnožitel	N	613135
+613135	rozmnožit	rozmnožit_:W	V	334523
+334523	množit	množit_:T	V
+613149	rozmnožovatel	rozmnožovatel	N	613156
+613156	rozmnožovat	rozmnožovat_:T	V	613135
+613135	rozmnožit	rozmnožit_:W	V	334523
+334523	množit	množit_:T	V
+613687	rozněcovatel	rozněcovatel	N	613691
+613691	rozněcovat	rozněcovat_:T	V	613771
+613771	roznítit	roznítit_:W	V
+613919	rozohňovatel	rozohňovatel	N	613923
+613923	rozohňovat	rozohňovat_:T	V	613909
+613909	rozohnit	rozohnit_:W	V
+616047	rozpoznavatel	rozpoznavatel	N
+616154	rozprašovatel	rozprašovatel	N	616158
+616158	rozprašovat	rozprašovat_:T	V
+618449	rozsuditel	rozsuditel	N
+618491	rozsuzovatel	rozsuzovatel	N	618495
+618495	rozsuzovat	rozsuzovat_:T	V	618066
+618066	rozsoudit	rozsoudit_:W	V	669319
+669319	soudit	soudit_:T	V
+618558	rozsvěcovatel	rozsvěcovatel	N	618562
+618562	rozsvěcovat	rozsvěcovat_:T	V	618532
+618532	rozsvěcet	rozsvěcet_:T	V	618625
+618625	rozsvítit	rozsvítit_:W	V	695625
+695625	svítit	svítit_:T	V
+618833	rozšiřitel	rozšiřitel	N
+618850	rozšiřovatel	rozšiřovatel	N	618857
+618857	rozšiřovat	rozšiřovat_:T	V	618839
+618839	rozšířit	rozšířit_:W	V	705203
+705203	šířit	šířit_:T_^(rozšiřovat;_přech.)	V
+619761	roztáčitel	roztáčitel	N
+620099	roztínatel	roztínatel	N	620103
+620103	roztínat	roztínat_:T	V
+621386	rozveselovatel	rozveselovatel	N	621390
+621390	rozveselovat	rozveselovat_:T	V	621376
+621376	rozveselit	rozveselit_:W	V	787537
+787537	veselit	veselit_:T	V	787595
+787595	veselý	veselý	A
+621532	rozvíjitel	rozvíjitel	N
+622077	rozvratitel	rozvratitel	N
+622144	rozvrhovatel	rozvrhovatel	N	622148
+622148	rozvrhovat	rozvrhovat_:T	V	622126
+622126	rozvrhnout	rozvrhnout_:W	V	809045
+809045	vrhnout	vrhnout_:W	V	809018
+809018	vrhat	vrhat_:T	V
+623633	ručitel	ručitel	N	623641
+623641	ručit	ručit_:T	V
+625137	rušitel	rušitel	N	625144
+625144	rušit	rušit_:T	V
+626390	rychlopodnikatel	rychlopodnikatel	NC
+627935	ředitel	ředitel	N	629085
+629085	řídit	řídit_:T	V
+628596	řešitel	řešitel	N	628603
+628603	řešit	řešit_:T	V
+629069	řiditel	řiditel_,a	N	629085
+629085	řídit	řídit_:T	V
+632145	samoléčitel	samoléčitel	N	632148
+632148	samoléčit	samoléčit_:T	VC
+632223	samonakladatel	samonakladatel	NC
+632562	samopěstitel	samopěstitel	NC
+633007	samospasitel	samospasitel	NC
+633022	samospotřebitel	samospotřebitel	NC
+633093	samostavitel	samostavitel	NC
+633377	samovydavatel	samovydavatel	NC
+633489	samovzdělavatel	samovzdělavatel	N	633479
+633479	samovzdělat	samovzdělat_:W	VC
+633570	samozaměstnavatel	samozaměstnavatel	N	633560
+633560	samozaměstnat	samozaměstnat_:W	VC
+633607	samozásobitel	samozásobitel	N	917999
+917999	zásobit	zásobit_:W	V
+633829	samožadatel	samožadatel	NC
+633841	samoživitel	samoživitel	NC
+636065	sběratel	sběratel	N	636154
+636154	sbírat	sbírat_:T	V	642573
+642573	sebrat	sebrat_:W	V	54161
+54161	brát	brát_:T	V	868500
+868500	vzít	vzít_:W_^(př._sebrat_něco;_brát_ohled,_zřetel,...)	V
+636203	sbližovatel	sbližovatel	N	636207
+636207	sbližovat	sbližovat_:T	V	636193
+636193	sblížit	sblížit_:W	V	45720
+45720	blížit	blížit_:T	V
+636540	scelovatel	scelovatel	N	636544
+636544	scelovat	scelovat_:T	V	636523
+636523	scelit	scelit_:W	V
+637140	sčitatel	sčitatel	N	637148
+637148	sčítat	sčítat_:T	V	1008843
+1008843	sčíst	sčíst	V	82030
+82030	číst	číst_:T	V
+637141	sčítatel	sčítatel	N	637148
+637148	sčítat	sčítat_:T	V	1008843
+1008843	sčíst	sčíst	V	82030
+82030	číst	číst_:T	V
+637196	sdělitel	sdělitel	N	637200
+637200	sdělit	sdělit_:W	V	92509
+92509	dělit	dělit_:T	V
+637217	sdělovatel	sdělovatel	N	637221
+637221	sdělovat	sdělovat_:T	V	637200
+637200	sdělit	sdělit_:W	V	92509
+92509	dělit	dělit_:T	V
+637398	sdružovatel	sdružovatel	N	637402
+637402	sdružovat	sdružovat_:T	V	637382
+637382	sdružit	sdružit_:W	V	140225
+140225	družit	družit_:T	V
+637816	sebehanobitel	sebehanobitel	NC
+638016	sebekleštitel	sebekleštitel	NC
+640922	sebetrýznitel	sebetrýznitel	NC
+641379	sebeutvrzovatel	sebeutvrzovatel	NC	641383
+641383	sebeutvrzovat	sebeutvrzovat_:T	VC
+641933	sebezaměstnavatel	sebezaměstnavatel	NC
+646677	sepisovatel	sepisovatel	N	646681
+646681	sepisovat	sepisovat_:T	V	646721
+646721	sepsat	sepsat_:W	V	579330
+579330	psát	psát_:T	V
+647387	seřizovatel	seřizovatel	N	647391
+647391	seřizovat	seřizovat_:T	V	647360
+647360	seřídit	seřídit_:W	V	629085
+629085	řídit	řídit_:T	V
+647562	sesilatel	sesilatel	N
+647896	sestavitel	sestavitel	N	647903
+647903	sestavit	sestavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+647915	sestavovatel	sestavovatel	N	647919
+647919	sestavovat	sestavovat_:T	V	647903
+647903	sestavit	sestavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+648078	sestrojitel	sestrojitel	N	648082
+648082	sestrojit	sestrojit_:W	V	686461
+686461	strojit	strojit_:T	V
+648092	sestrojovatel	sestrojovatel	N	648096
+648096	sestrojovat	sestrojovat_:T	V	648082
+648082	sestrojit	sestrojit_:W	V	686461
+686461	strojit	strojit_:T	V
+650403	seznamovatel	seznamovatel	N	650407
+650407	seznamovat	seznamovat_:T	V	650388
+650388	seznámit	seznámit_:W	V
+651752	shrabovatel	shrabovatel	N	651756
+651756	shrabovat	shrabovat_:T	V	651710
+651710	shrabat	shrabat_:W	V	207134
+207134	hrabat	hrabat_:T	V
+651838	shromažditel	shromažditel	N	651842
+651842	shromáždit	shromáždit_:T	V
+651863	shromažďovatel	shromažďovatel	N	651870
+651870	shromažďovat	shromažďovat_:T	V	651842
+651842	shromáždit	shromáždit_:T	V
+653422	schovatel	schovatel	N	653429
+653429	schovat	schovat_:W	V	218643
+218643	chovat	chovat_:T	V
+653519	schraňovatel	schraňovatel	N	653523
+653523	schraňovat	schraňovat_:T	V
+653968	schvalovatel	schvalovatel	N	653975
+653975	schvalovat	schvalovat_:T	V	653951
+653951	schválit	schválit_:W	V	220620
+220620	chválit	chválit_:T	V
+656828	sjednatel	sjednatel	N	656832
+656832	sjednat	sjednat_:W	V	234072
+234072	jednat	jednat_:T	V
+656842	sjednavatel	sjednavatel	N	656846
+656846	sjednávat	sjednávat_:T_^(*4at)	V	656832
+656832	sjednat	sjednat_:W	V	234072
+234072	jednat	jednat_:T	V
+656860	sjednocovatel	sjednocovatel	N	656864
+656864	sjednocovat	sjednocovat_:T	V	656886
+656886	sjednotit	sjednotit_:W	V	234923
+234923	jednotit	jednotit_:T	V
+656879	sjednotitel	sjednotitel	N	656886
+656886	sjednotit	sjednotit_:W	V	234923
+234923	jednotit	jednotit_:T	V
+657968	skladatel	skladatel	N	657977
+657977	skládat	skládat_:T	V
+658015	skládkovatel	skládkovatel	N	658019
+658019	skládkovat	skládkovat_:T	V
+658061	skladovatel	skladovatel	N	658065
+658065	skladovat	skladovat_:T	V
+658676	skloubitel	skloubitel	N	658680
+658680	skloubit	skloubit_:W	V	258600
+258600	kloubit	kloubit_:T	V
+659269	skoropodnikatel	skoropodnikatel	NC
+660422	skupovatel	skupovatel	N	660426
+660426	skupovat	skupovat_:T	V	659480
+659480	skoupit	skoupit_:W	V	274157
+274157	koupit	koupit_:W_^(něco_sobě/někomu)	V
+661572	slavitel	slavitel	N	661576
+661576	slavit	slavit_:T	V
+661734	sledovatel	sledovatel	N	661738
+661738	sledovat	sledovat_:T	V
+662275	slibovatel	slibovatel	N	662279
+662279	slibovat	slibovat_:T	V	662260
+662260	slíbit	slíbit_:W	V	299220
+299220	líbit	líbit_:T	V
+663390	složitel	složitel	N	663396
+663396	složit	složit_:W	V
+663420	slučitel	slučitel	N
+664377	směnitel	směnitel	N	664384
+664384	směnit	směnit_:W	V	323528
+323528	měnit	měnit_:T	V
+664397	směnkovatel	směnkovatel	N	664401
+664401	směnkovat	směnkovat_:T	V
+664495	směrovatel	směrovatel	N	664499
+664499	směrovat	směrovat_:T	V
+664912	smířitel	smířitel	N	664919
+664919	smířit	smířit_:W	V	331856
+331856	mířit	mířit_:T_^(např._pistolí;_směřovat;_tvar_slovesa)	V
+664945	smiřovatel	smiřovatel	N	664952
+664952	smiřovat	smiřovat_:T	V	664919
+664919	smířit	smířit_:W	V	331856
+331856	mířit	mířit_:T_^(např._pistolí;_směřovat;_tvar_slovesa)	V
+665108	smlouvatel	smlouvatel	N	665112
+665112	smlouvat	smlouvat_:T	V	665162
+665162	smluvit	smluvit_:W	V	333568
+333568	mluvit	mluvit_:T	V
+665272	smolitel	smolitel	N	665276
+665276	smolit	smolit_:T	V
+666048	smývatel	smývatel	N	666054
+666054	smývat	smývat_:T	V	666036
+666036	smýt	smýt_:W	V	344224
+344224	mýt	mýt_:T	V
+666451	snímatel	snímatel	N	666455
+666455	snímat	snímat_:T	V	238554
+238554	jmout	jmout	V
+666575	snižovatel	snižovatel	N	666582
+666582	snižovat	snižovat_:T	V	666563
+666563	snížit	snížit_:W	V
+666697	snovatel	snovatel	N	666702
+666702	snovat	snovat_:T	V	666672
+666672	snout	snout_:W	V
+669174	soubuditel	soubuditel	N
+669230	součinitel	součinitel	N
+669648	souložitel	souložitel	N	669652
+669652	souložit	souložit_:T	V
+670063	soustřeďovatel	soustřeďovatel	N	670067
+670067	soustřeďovat	soustřeďovat_:T	V	670047
+670047	soustředit	soustředit_:W	V
+670114	soutěžitel	soutěžitel	N	670122
+670122	soutěžit	soutěžit_:T	V
+670259	souznitel	souznitel	N	670263
+670263	souznít	souznít_:W	V	974714
+974714	znít	znít_:T	V
+670941	Spartel	Spartel_;G	N
+671021	spasitel	spasitel	N	671029
+671029	spasit	spasit_:W	V
+672150	spisovatel	spisovatel	N	672159
+672159	spisovat	spisovat_:T	V	646721
+646721	sepsat	sepsat_:W	V	579330
+579330	psát	psát_:T	V
+672675	splnitel	splnitel	N	672679
+672679	splnit	splnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+672689	splňovatel	splňovatel	N	672693
+672693	splňovat	splňovat_:T	V	672679
+672679	splnit	splnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+672990	spojovatel	spojovatel	N	672997
+672997	spojovat	spojovat_:T	V	672935
+672935	spojit	spojit_:W	V	478278
+478278	pojit	pojit_:T	V
+673316	spolubadatel	spolubadatel	NC
+673360	spolubydlitel	spolubydlitel	NC
+673371	spolucestovatel	spolucestovatel	NC	673375
+673375	spolucestovat	spolucestovat-1_:T	VC
+673397	spolucvičitel	spolucvičitel	NC
+673401	spolučinitel	spolučinitel	NC
+673487	spoludlužitel	spoludlužitel	NC
+673529	spoludržitel	spoludržitel	N	673525
+673525	spoludržet	spoludržet_:T	VC
+673621	spolufinancovatel	spolufinancovatel	N	673625
+673625	spolufinancovat	spolufinancovat_:T	VC
+673684	spoluhybatel	spoluhybatel	NC
+673752	spolujednatel	spolujednatel	NC
+673864	spolumajitel	spolumajitel	NC
+673932	spolunabyvatel	spolunabyvatel	NC
+673945	spolunakladatel	spolunakladatel	NC
+673958	spolunavrhovatel	spolunavrhovatel	N	673962
+673962	spolunavrhovat	spolunavrhovat_:T	VC
+674025	spolunositel	spolunositel	NC
+674040	spoluobjevitel	spoluobjevitel	N	674044
+674044	spoluobjevit	spoluobjevit_:W	VC
+674048	spoluobnovitel	spoluobnovitel	NC
+674055	spoluobyvatel	spoluobyvatel	NC
+674192	spolupachatel	spolupachatel	NC
+674292	spolupodnikatel	spolupodnikatel	N	674296
+674296	spolupodnikat	spolupodnikat_:T	VC
+674309	spolupodpisatel	spolupodpisatel	N	674311
+674311	spolupodpis	spolupodpis	NC
+674335	spolupojistitel	spolupojistitel	N	674337
+674337	spolupojistit	spolupojistit_:W	VC
+674362	spolupořadatel	spolupořadatel	N	674370
+674370	spolupořádat	spolupořádat_:T	VC
+674414	spolupozorovatel	spolupozorovatel	NC
+674506	spolupropachtovatel	spolupropachtovatel	NC
+674517	spoluprovozovatel	spoluprovozovatel	N	674521
+674521	spoluprovozovat	spoluprovozovat_:T	VC
+674588	spolupředkladatel	spolupředkladatel	N	674592
+674592	spolupředkládat	spolupředkládat_:T	VC
+674630	spolupřekladatel	spolupřekladatel	NC
+674654	spolupřihlašovatel	spolupřihlašovatel	NC
+674658	spolupřijatel	spolupřijatel	NC
+674851	spoluručitel	spoluručitel	N	674854
+674854	spoluručit	spoluručit_:T	VC
+674869	spoluředitel	spoluředitel	NC
+674873	spoluřešitel	spoluřešitel	NC
+674936	spoluskladatel	spoluskladatel	NC
+674957	spolusoutěžitel	spolusoutěžitel	NC
+675028	spolustavitel	spolustavitel	NC
+675057	spolustvořitel	spolustvořitel	NC
+675061	spolusvětitel	spolusvětitel	NC
+675102	spolutrpitel	spolutrpitel	NC
+675115	spolutvořitel	spolutvořitel	N	675119
+675119	spolutvořit	spolutvořit_:T	VC
+675282	spoluuživatel	spoluuživatel	N	675286
+675286	spoluužívat	spoluužívat_:T	VC
+675299	spoluvelitel	spoluvelitel	NC
+675304	spoluvěřitel	spoluvěřitel	NC
+675395	spoluvydavatel	spoluvydavatel	N	675381
+675381	spoluvydat	spoluvydat_:W	VC
+675409	spoluvyhlašovatel	spoluvyhlašovatel	N	675413
+675413	spoluvyhlašovat	spoluvyhlašovat_:T	VC
+675474	spoluvystavovatel	spoluvystavovatel	NC	675478
+675478	spoluvystavovat	spoluvystavovat_:T	V	675462
+675462	spoluvystavit	spoluvystavit_:W	VC
+675540	spoluzadavatel	spoluzadavatel	NC
+675591	spoluzakladatel	spoluzakladatel	N	675595
+675595	spoluzakládat	spoluzakládat_:T	VC
+675621	spoluzaměstnavatel	spoluzaměstnavatel	NC
+675709	spoluzřizovatel	spoluzřizovatel	NC
+675715	spolužadatel	spolužadatel	NC
+675735	spoluživitel	spoluživitel	NC
+675915	Sporotel	Sporotel_;K	N
+675948	Sporthotel	Sporthotel_;K	N
+676103	spořitel	spořitel	N	676113
+676113	spořit	spořit_:T	V
+676143	spotřebitel	spotřebitel	N	676168
+676168	spotřebovat	spotřebovat_:W	V	498278
+498278	potřebovat	potřebovat_:T	V
+676164	spotřebovatel	spotřebovatel	N	676168
+676168	spotřebovat	spotřebovat_:W	V	498278
+498278	potřebovat	potřebovat_:T	V
+676357	spravitel	spravitel	N	676361
+676361	spravit	spravit_:W	V	505547
+505547	pravit	pravit_:W	V
+676403	spravovatel	spravovatel	N	676407
+676407	spravovat	spravovat_:T	V	676361
+676361	spravit	spravit_:W	V	505547
+505547	pravit	pravit_:W	V
+676687	sprostředkovatel	sprostředkovatel	N	676683
+676683	sprostředkovat	sprostředkovat	A
+676766	spřadatel	spřadatel	N
+677042	spustošitel	spustošitel	N
+677593	srovnávatel	srovnávatel	N	677598
+677598	srovnávat	srovnávat_:T_^(*4at)	V	677576
+677576	srovnat	srovnat_:W	V	602389
+602389	rovnat	rovnat_:T	V	602480
+602480	rovný	rovný_^(přímý,_stejný,_spravedlivý)	A
+678750	stanovitel	stanovitel	N	678754
+678754	stanovit	stanovit_:W_^(určit)	V
+678769	stanovovatel	stanovovatel	N	678773
+678773	stanovovat	stanovovat_:T	V	678754
+678754	stanovit	stanovit_:W_^(určit)	V
+678883	staratel	staratel	N	678887
+678887	starat	starat_:T_^(se)	V
+679712	starovydražitel	starovydražitel	NC
+680326	stavitel	stavitel	N	680304
+680304	stavět	stavět_:T	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+680748	stěhovatel	stěhovatel	N	680755
+680755	stěhovat	stěhovat_:T	V
+681863	stěžovatel	stěžovatel	N	681870
+681870	stěžovat	stěžovat_:T	V
+682027	stíhatel	stíhatel	N	682034
+682034	stíhat	stíhat_:T	V
+682462	stlačitel	stlačitel	N	682466
+682466	stlačit	stlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+682552	stmelitel	stmelitel	N	682556
+682556	stmelit	stmelit_:W	V	729156
+729156	tmelit	tmelit_:T	V
+682569	stmelovatel	stmelovatel	N	682573
+682573	stmelovat	stmelovat_:T	V	682556
+682556	stmelit	stmelit_:W	V	729156
+729156	tmelit	tmelit_:T	V
+685356	strašitel	strašitel	N	685360
+685360	strašit	strašit_:T	V
+685393	strašpytel	strašpytel	N
+685540	stravitel	stravitel	N	685546
+685546	strávit	strávit_:W	V	733224
+733224	trávit	trávit_:T	V
+685569	stravovatel	stravovatel	N	685576
+685576	stravovat	stravovat_:T	V	685546
+685546	strávit	strávit_:W	V	733224
+733224	trávit	trávit_:T	V
+686457	strojitel	strojitel	N	686461
+686461	strojit	strojit_:T	V
+686797	strpitel	strpitel	N
+687231	střadatel	střadatel	N	687235
+687235	střádat	střádat_:T	V
+687988	střežitel	střežitel	N	687992
+687992	střežit	střežit_:T_^(hlídat)	V
+688375	stříkatel	stříkatel	N	688380
+688380	stříkat	stříkat_:T	V
+689068	stvořitel	stvořitel	N	689075
+689075	stvořit	stvořit_:W	V	743018
+743018	tvořit	tvořit_:T	V
+689118	stvrzovatel	stvrzovatel	N	689125
+689125	stvrzovat	stvrzovat_:T	V	689100
+689100	stvrdit	stvrdit_:W	V	743061
+743061	tvrdit	tvrdit_:T	V	743125
+743125	tvrdý	tvrdý	A
+689520	subdodavatel	subdodavatel	N
+689897	subprovozovatel	subprovozovatel	NC
+690170	subvystavovatel	subvystavovatel	NC
+691819	superhotel	superhotel	N	206373
+206373	hotel	hotel	N
+692335	superpodnikatel	superpodnikatel	N	472097
+472097	podnikatel	podnikatel	N	472109
+472109	podnikat	podnikat_:T	V
+692473	superředitel	superředitel	N	627935
+627935	ředitel	ředitel	N	629085
+629085	řídit	řídit_:T	V
+692711	superučitel	superučitel	N	746329
+746329	učitel	učitel	N	746361
+746361	učit	učit_:T	V
+692744	superuživatel	superuživatel	N	775428
+775428	uživatel	uživatel	N	775440
+775440	užívat	užívat_:T_^(*3t)	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+693672	sužovatel	sužovatel	N	693679
+693679	sužovat	sužovat_:T	V
+694530	svědčitel	svědčitel	N	694534
+694534	svědčit	svědčit_:T	V
+694664	svěratel	svěratel	N
+694730	svěřitel	svěřitel	N	694734
+694734	svěřit	svěřit_:W	V	787462
+787462	věřit	věřit_:T	V
+694895	světitel	světitel	N	694899
+694899	světit	světit_:T	V
+695867	svoditel	svoditel	N
+695937	svolatel	svolatel	N	695941
+695941	svolat	svolat_:W	V	803716
+803716	volat	volat_:T	V
+695952	svolavatel	svolavatel	N	695959
+695959	svolávat	svolávat_:T_^(*4at)	V	695941
+695941	svolat	svolat_:W	V	803716
+803716	volat	volat_:T	V
+697521	sypatel	sypatel	N	697526
+697526	sypat	sypat_:T	V
+698238	sžehovatel	sžehovatel	N
+701168	šéfchovatel	šéfchovatel	NC
+701312	šéfpěstitel	šéfpěstitel	NC
+701332	šéfpořadatel	šéfpořadatel	NC
+701403	šéfředitel	šéfředitel	NC
+701425	šéfvyšetřovatel	šéfvyšetřovatel	NC
+703925	šiditel	šiditel_,a	N	703933
+703933	šidit	šidit_:T	V
+704043	šifrovatel	šifrovatel	N	704047
+704047	šifrovat	šifrovat_:T	V
+704146	šikanovatel	šikanovatel	N	704150
+704150	šikanovat	šikanovat_:T	V
+704222	šikovatel	šikovatel	N	704229
+704229	šikovat	šikovat_:T	V	704196
+704196	šiknout	šiknout_:W	V
+705194	šiřitel	šiřitel	N	705203
+705203	šířit	šířit_:T_^(rozšiřovat;_přech.)	V
+705500	škádlitel	škádlitel_,a	N	705507
+705507	škádlit	škádlit_:T	V
+705978	škoditel	škoditel	N	705982
+705982	škodit	škodit_:T	V
+706135	školitel	školitel	N	706142
+706142	školit	školit_:T	V
+706835	Škrtel	Škrtel_;S	N
+706857	škrtitel	škrtitel	N	706861
+706861	škrtit	škrtit_:T	V
+707479	šlapatel	šlapatel	N	707484
+707484	šlapat	šlapat_:T	V
+707648	šlechtitel	šlechtitel	N	707656
+707656	šlechtit	šlechtit_:T	V
+710829	špiclovatel	špiclovatel	N	710833
+710833	špiclovat	špiclovat_:T	V
+711139	špinitel	špinitel	N	711143
+711143	špinit	špinit_:T	V
+711370	špízovatel	špízovatel	N	711374
+711374	špízovat	špízovat_:T	V
+713562	štěpitel	štěpitel	N	713566
+713566	štěpit	štěpit_:T	V
+719196	takychovatel	takychovatel	NC
+719202	takypodnikatel	takypodnikatel	NC
+719208	takyspisovatel	takyspisovatel	NC
+721344	tavitel	tavitel	N	721348
+721348	tavit	tavit_:T	V
+721506	tazatel	tazatel	N	721511
+721511	tázat	tázat_:T	V
+723675	tepatel	tepatel	N	723679
+723679	tepat	tepat_:T	V
+725076	testovatel	testovatel	N	725080
+725080	testovat	testovat_:T	V
+725164	těšitel	těšitel	N	725173
+725173	těšit	těšit_:T	V
+725317	tetovatel	tetovatel	N	725321
+725321	tetovat	tetovat_:T_:W	V
+725740	těžitel	těžitel	N	725745
+725745	těžit	těžit_:T	V
+727477	tipovatel	tipovatel	N	727481
+727481	tipovat	tipovat_:T	V	727449
+727449	tipnout	tipnout_:W	V
+727872	tišitel	tišitel	N	727879
+727879	tišit	tišit_:T	V
+727963	Titel	Titel_;G	N
+728052	Tittel	Tittel_;S	N
+728776	tlumitel	tlumitel	N	728781
+728781	tlumit	tlumit_:T	V
+728809	tlumočitel	tlumočitel	N	728813
+728813	tlumočit	tlumočit_:T	V
+729152	tmelitel	tmelitel	N	729156
+729156	tmelit	tmelit_:T	V
+729361	točitel	točitel	N	729368
+729368	točit	točit_:T	V
+731180	Tottel	Tottel_;S	N
+732838	trapitel	trapitel	N	732845
+732845	trápit	trápit_:T	V
+733912	trestatel	trestatel	N	733916
+733916	trestat	trestat_:T	V
+736608	Trottel	Trottel_;S	N
+736895	trpitel	trpitel	N	736870
+736870	trpět	trpět_:T	V
+737786	trýznitel	trýznitel	N	737793
+737793	trýznit	trýznit_:T	V
+738739	tříbitel	tříbitel	N	738746
+738746	tříbit	tříbit_:T	V
+739244	tříditel	tříditel	N	739249
+739249	třídit	třídit_:T	V
+739602	třímatel	třímatel	N	739606
+739606	třímat	třímat_:T	V
+740540	tříštitel	tříštitel	N	740544
+740544	tříštit	tříštit_:T	V
+741825	tupitel	tupitel	N	741832
+741832	tupit	tupit_:T	V	741959
+741959	tupý	tupý	A
+742515	tušitel	tušitel	N	742519
+742519	tušit	tušit_:T	V
+742784	tvárnitel	tvárnitel	N	742788
+742788	tvárnit	tvárnit_:T	V	742801
+742801	tvárný	tvárný	A
+742879	tvarovatel	tvarovatel	N	742883
+742883	tvarovat	tvarovat_:T	V
+743010	tvořitel	tvořitel	N	743018
+743018	tvořit	tvořit_:T	V
+743294	tyčitel	tyčitel	N	743298
+743298	tyčit	tyčit_:T	V
+743942	týratel	týratel	N	743947
+743947	týrat	týrat_:T	V
+744641	ubližovatel	ubližovatel	N	744645
+744645	ubližovat	ubližovat_:T	V	744631
+744631	ublížit	ublížit_:W	V	45720
+45720	blížit	blížit_:T	V
+745026	ubytovatel	ubytovatel	N	745033
+745033	ubytovat	ubytovat_:W	V	63878
+63878	bytovat	bytovat_:T	V
+745529	uctívatel	uctívatel	N	745533
+745533	uctívat	uctívat_:T_^(*3t)	V	745512
+745512	uctít	uctít_:W	V	73566
+73566	ctít	ctít_:T	V
+746192	učinitel	učinitel	N	746196
+746196	učinit	učinit_:W	V	81533
+81533	činit	činit_:T	V
+746329	učitel	učitel	N	746361
+746361	učit	učit_:T	V
+746544	účtovatel	účtovatel	N	746551
+746551	účtovat	účtovat_:T	V
+746792	udavatel	udavatel_,s	N	746794
+746794	udávat	udávat_:T_^(*4at)	V	746765
+746765	udát	udát	V	88807
+88807	dát	dát_:T	V
+746884	udělitel	udělitel	N	746888
+746888	udělit	udělit_:W	V	92509
+92509	dělit	dělit_:T	V
+746908	udělovatel	udělovatel_,s	N	746910
+746910	udělovat	udělovat_:T	V	746888
+746888	udělit	udělit_:W	V	92509
+92509	dělit	dělit_:T	V
+747099	udílitel	udílitel_,a	N	747098
+747098	udílet	udílet_:T	V	746888
+746888	udělit	udělit_:W	V	92509
+92509	dělit	dělit_:T	V
+747417	udolatel	udolatel	N	747421
+747421	udolat	udolat_:W	V
+747724	udržitel	udržitel_,s	N
+747738	udržovatel	udržovatel	N	747745
+747745	udržovat	udržovat_:T	V	747717
+747717	udržet	udržet_:W	V	140369
+140369	držet	držet_:T	V
+750337	uchopitel	uchopitel	N	750341
+750341	uchopit	uchopit_:W	V	218220
+218220	chopit	chopit_:W	V
+750382	uchovatel	uchovatel	N	750389
+750389	uchovat	uchovat_:W	V	218643
+218643	chovat	chovat_:T	V
+750401	uchovávatel	uchovávatel	N	750407
+750407	uchovávat	uchovávat_:T_^(*4at)	V	750389
+750389	uchovat	uchovat_:W	V	218643
+218643	chovat	chovat_:T	V
+750404	uchovavatel	uchovavatel_,s	N	750407
+750407	uchovávat	uchovávat_:T_^(*4at)	V	750389
+750389	uchovat	uchovat_:W	V	218643
+218643	chovat	chovat_:T	V
+750650	uchvatitel	uchvatitel	N	750658
+750658	uchvátit	uchvátit_:W	V
+750877	ujařmitel	ujařmitel_,s	N	750879
+750879	ujařmit	ujařmit_:W	V
+750889	ujařmovatel	ujařmovatel	N	750896
+750896	ujařmovat	ujařmovat_:T	V	750879
+750879	ujařmit	ujařmit_:W	V
+751526	ukazatel	ukazatel	N	751531
+751531	ukázat	ukázat_:W	V	251291
+251291	kázat	kázat_:T	V
+751555	ukázňovatel	ukázňovatel	N	751559
+751559	ukázňovat	ukázňovat_:T	V	751544
+751544	ukáznit	ukáznit_:W	V
+751584	ukazovatel	ukazovatel	N	751589
+751589	ukazovat	ukazovat_:T	V	751531
+751531	ukázat	ukázat_:W	V	251291
+251291	kázat	kázat_:T	V
+751652	ukladatel	ukladatel	N	751656
+751656	ukládat	ukládat_:T	V
+751788	uklidňovatel	uklidňovatel	N	751792
+751792	uklidňovat	uklidňovat_:T	V	751771
+751771	uklidnit	uklidnit_:W	V	257037
+257037	klidnit	klidnit_:T	V	257055
+257055	klidný	klidný	A	257048
+257048	klid	klid	N
+752227	ukojitel	ukojitel_,s	N	752229
+752229	ukojit	ukojit_:W	V	261846
+261846	kojit	kojit_:T	V
+752248	ukojovatel	ukojovatel_,s	N	752250
+752250	ukojovat	ukojovat_:T	V	752229
+752229	ukojit	ukojit_:W	V	261846
+261846	kojit	kojit_:T	V
+752505	ukončitel	ukončitel	N	752509
+752509	ukončit	ukončit_:W	V	266066
+266066	končit	končit_:T	V
+752540	ukončovatel	ukončovatel	N	752544
+752544	ukončovat	ukončovat_:T	V	752509
+752509	ukončit	ukončit_:W	V	266066
+266066	končit	končit_:T	V
+752785	ukotvovatel	ukotvovatel	N	752789
+752789	ukotvovat	ukotvovat_:T	V	752775
+752775	ukotvit	ukotvit_:W	V	273713
+273713	kotvit	kotvit_:T	V	273688
+273688	kotva	kotva	N
+753411	ukrývatel	ukrývatel_,s	N	753413
+753413	ukrývat	ukrývat_:T	V	753390
+753390	ukrýt	ukrýt_:W	V	281742
+281742	krýt	krýt_:T	V
+753533	ukřižovatel	ukřižovatel	N	753537
+753537	ukřižovat	ukřižovat_:W	V	283037
+283037	křižovat	křižovat_:T	V
+753632	ukusovatel	ukusovatel	N	753636
+753636	ukusovat	ukusovat_:T	V
+754000	ulamovatel	ulamovatel	N	754004
+754004	ulamovat	ulamovat_:T	V	754945
+754945	ulomit	ulomit_:W	V	304350
+304350	lomit	lomit_:T	V
+755104	uložitel	uložitel	N	755108
+755108	uložit	uložit_:W	V
+756491	umírňovatel	umírňovatel	N	756495
+756495	umírňovat	umírňovat_:T	V	756479
+756479	umírnit	umírnit_:W	V	331665
+331665	mírnit	mírnit_:T	V
+756535	umístitel	umístitel	N	756539
+756539	umístit	umístit_:W	V
+756565	umísťovatel	umísťovatel	N	756572
+756572	umísťovat	umísťovat_:T	V	756539
+756539	umístit	umístit_:W	V
+756689	umlčovatel	umlčovatel	N	756693
+756693	umlčovat	umlčovat_:T	V	756675
+756675	umlčet	umlčet_:W	V	333295
+333295	mlčet	mlčet_:T	V
+756902	umocňovatel	umocňovatel-1_,s_^(kdo_umocňuje)	N	756904
+756904	umocňovat	umocňovat_:T	V	756889
+756889	umocnit	umocnit_:W	V	334736
+334736	mocnit	mocnit_:T	V
+756902	umocňovatel	umocňovatel-1_,s_^(kdo_umocňuje)	N	756904
+756904	umocňovat	umocňovat_:T	V	756889
+756889	umocnit	umocnit_:W	V	334736
+334736	mocnit	mocnit_:T	V
+757060	umořitel	umořitel	N	757064
+757064	umořit	umořit_:W	V	338416
+338416	mořit	mořit-1_:T_^(týrat)	V
+757072	umořovatel	umořovatel	N	757075
+757075	umořovat	umořovat_:T	V	757064
+757064	umořit	umořit_:W	V	338416
+338416	mořit	mořit-1_:T_^(týrat)	V
+757238	umožňovatel	umožňovatel	N	757242
+757242	umožňovat	umožňovat_:T	V	757228
+757228	umožnit	umožnit_:W	V
+757296	umravňovatel	umravňovatel	N	757300
+757300	umravňovat	umravňovat_:T	V	757286
+757286	umravnit	umravnit_:W	V
+757458	umrtvovatel	umrtvovatel	N	757462
+757462	umrtvovat	umrtvovat_:T	V	757448
+757448	umrtvit	umrtvit_:W	V
+758218	unikatel	unikatel	N	758226
+758226	unikat	unikat_:T	V
+758579	unositel	unositel_,a	N	758586
+758586	unosit	unosit_:W	V	384625
+384625	nosit	nosit_:T	V	380249
+380249	nést	nést_:T	V
+759339	upevnitel	upevnitel	N	759343
+759343	upevnit	upevnit_:W	V
+759360	upevňovatel	upevňovatel_,s	N	759362
+759362	upevňovat	upevňovat_:T	V	759343
+759343	upevnit	upevnit_:W	V
+759637	upíratel	upíratel	N	759641
+759641	upírat	upírat_:T	V
+759714	upisovatel	upisovatel	N	759718
+759718	upisovat	upisovat_:T	V	761658
+761658	upsat	upsat_:W	V
+760047	uplatňovatel	uplatňovatel	N	760051
+760051	uplatňovat	uplatňovat_:T	V	760026
+760026	uplatnit	uplatnit_:T_:W	V
+760615	upomínatel	upomínatel_,s	N	760617
+760617	upomínat	upomínat_:T	V
+760778	upotřebitel	upotřebitel_,s	N	760780
+760780	upotřebit	upotřebit_:W	V
+760960	upozorňovatel	upozorňovatel_,s	N	760962
+760962	upozorňovat	upozorňovat_:T	V	760947
+760947	upozornit	upozornit_:W	V
+761088	upravitel	upravitel_,s	N	761090
+761090	upravit	upravit_:W	V	505547
+505547	pravit	pravit_:W	V
+761121	upravovatel	upravovatel	N	761129
+761129	upravovat	upravovat_:T	V	761090
+761090	upravit	upravit_:W	V	505547
+505547	pravit	pravit_:W	V
+762004	urazitel	urazitel_,s	N	762006
+762006	urazit	urazit_:W	V	589185
+589185	razit	razit_:T	V
+762254	určovatel	určovatel	N	762258
+762258	určovat	určovat_:T	V	762233
+762233	určit	určit_:T_:W	V
+762593	úročitel	úročitel	N	762596
+762596	úročit	úročit_:T	V
+762828	urovnavatel	urovnavatel	N
+763104	urychlovatel	urychlovatel_,a	N	763111
+763111	urychlovat	urychlovat_:T	V	763096
+763096	urychlit	urychlit_:W	V	626129
+626129	rychlit	rychlit_:T	V	626586
+626586	rychlý	rychlý	A
+764031	uschovatel	uschovatel	N	764038
+764038	uschovat	uschovat_:W	V	653429
+653429	schovat	schovat_:W	V	218643
+218643	chovat	chovat_:T	V
+764049	uschovavatel	uschovavatel	N
+764222	usilovatel	usilovatel	N	764226
+764226	usilovat	usilovat_:T	V
+764411	uskladňovatel	uskladňovatel	N	764415
+764415	uskladňovat	uskladňovat_:T	V	764401
+764401	uskladnit	uskladnit_:W	V
+764663	uskutečnitel	uskutečnitel_,s	N	764665
+764665	uskutečnit	uskutečnit_:W	V
+764677	uskutečňovatel	uskutečňovatel_,s	N	764679
+764679	uskutečňovat	uskutečňovat_:T	V	764665
+764665	uskutečnit	uskutečnit_:W	V
+764880	usměrňovatel	usměrňovatel_,s	N	764882
+764882	usměrňovat	usměrňovat_:T	V	764867
+764867	usměrnit	usměrnit_:W	V
+764918	usmiřitel	usmiřitel	N
+764936	usmiřovatel	usmiřovatel	N	764940
+764940	usmiřovat	usmiřovat_:T	V	764922
+764922	usmířit	usmířit_:W	V	664919
+664919	smířit	smířit_:W	V	331856
+331856	mířit	mířit_:T_^(např._pistolí;_směřovat;_tvar_slovesa)	V
+765041	usmrcovatel	usmrcovatel	N	765045
+765045	usmrcovat	usmrcovat_:T	V	765115
+765115	usmrtit	usmrtit_:W	V
+765227	usnadňovatel	usnadňovatel	N	765231
+765231	usnadňovat	usnadňovat_:T	V	765217
+765217	usnadnit	usnadnit_:W	V
+765648	uspávatel	uspávatel	N	765652
+765652	uspávat	uspávat_:T_^(*4at)	V	765627
+765627	uspat	uspat	V
+765794	uspokojitel	uspokojitel	N	765798
+765798	uspokojit	uspokojit_:W	V	673027
+673027	spokojit	spokojit_:W	V
+765811	uspokojovatel	uspokojovatel	N	765815
+765815	uspokojovat	uspokojovat_:T	V	765798
+765798	uspokojit	uspokojit_:W	V	673027
+673027	spokojit	spokojit_:W	V
+765872	uspořadatel	uspořadatel	N
+765877	uspořádatel	uspořádatel_,s	N	765880
+765880	uspořádat	uspořádat_:W	V
+766200	ustanovitel	ustanovitel	N	766204
+766204	ustanovit	ustanovit_:T	V	678754
+678754	stanovit	stanovit_:W_^(určit)	V
+766215	ustanovovatel	ustanovovatel	N	766219
+766219	ustanovovat	ustanovovat_:T	V	766204
+766204	ustanovit	ustanovit_:T	V	678754
+678754	stanovit	stanovit_:W_^(určit)	V
+766316	ustavatel	ustavatel	N
+766342	ustavitel	ustavitel	N	766346
+766346	ustavit	ustavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+766362	ustavobranitel	ustavobranitel_;p	N
+766382	ustavovatel	ustavovatel	N	766386
+766386	ustavovat	ustavovat_:T	V	766346
+766346	ustavit	ustavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+767475	usuzovatel	usuzovatel	N	767479
+767479	usuzovat	usuzovat_:T	V	765443
+765443	usoudit	usoudit_:W	V	669319
+669319	soudit	soudit_:T	V
+767534	usvědčovatel	usvědčovatel_,s	N	767536
+767536	usvědčovat	usvědčovat_:T	V	767522
+767522	usvědčit	usvědčit_:W	V	694534
+694534	svědčit	svědčit_:T	V
+768456	ušlechtitel	ušlechtitel	N	768460
+768460	ušlechtit	ušlechtit_:W_,s	V	707656
+707656	šlechtit	šlechtit_:T	V
+769099	uštědřovatel	uštědřovatel	N	769103
+769103	uštědřovat	uštědřovat_:T	V	769089
+769089	uštědřit	uštědřit_:W	V
+769731	utajitel	utajitel	N	769737
+769737	utajit	utajit_:W	V	718910
+718910	tajit	tajit_:T	V
+769758	utajovatel	utajovatel	N	769762
+769762	utajovat	utajovat_:T	V	769737
+769737	utajit	utajit_:W	V	718910
+718910	tajit	tajit_:T	V
+770238	utěšitel	utěšitel	N	770245
+770245	utěšit	utěšit_:W	V	725173
+725173	těšit	těšit_:T	V
+770267	utěšovatel	utěšovatel	N	770271
+770271	utěšovat	utěšovat_:T	V	770245
+770245	utěšit	utěšit_:W	V	725173
+725173	těšit	těšit_:T	V
+770557	utiskovatel	utiskovatel	N	770565
+770565	utiskovat	utiskovat_:T	V
+770593	utišitel	utišitel	N	770597
+770597	utišit	utišit_:W	V	727879
+727879	tišit	tišit_:T	V
+770612	utišovatel	utišovatel	N	770616
+770616	utišovat	utišovat_:T	V	770597
+770597	utišit	utišit_:W	V	727879
+727879	tišit	tišit_:T	V
+770727	utlačitel	utlačitel	N	770736
+770736	utlačit	utlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+770762	utlačovatel	utlačovatel	N	770770
+770770	utlačovat	utlačovat_:T	V	770736
+770736	utlačit	utlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+772045	utvrzovatel	utvrzovatel_,s	N	772047
+772047	utvrzovat	utvrzovat_:T	V	772017
+772017	utvrdit	utvrdit_:W	V	743061
+743061	tvrdit	tvrdit_:T	V	743125
+743125	tvrdý	tvrdý	A
+772465	uvažovatel	uvažovatel_,s	N	772467
+772467	uvažovat	uvažovat_:T	V	772437
+772437	uvážit	uvážit_:W	V	780487
+780487	vážit	vážit_:T	V
+772529	uvědomovatel	uvědomovatel_,s	N	772531
+772531	uvědomovat	uvědomovat_:T	V	772514
+772514	uvědomit	uvědomit_:W	V
+772621	úvěrovatel	úvěrovatel	N	772625
+772625	úvěrovat	úvěrovat_:T	V
+772666	uveřejňovatel	uveřejňovatel	N	772670
+772670	uveřejňovat	uveřejňovat_:T	V	772656
+772656	uveřejnit	uveřejnit_:W	V
+772986	uvoditel	uvoditel_,s	N	772988
+772988	uvodit	uvodit_:W	V	801401
+801401	vodit	vodit_:T	V	788065
+788065	vést	vést_:T	V
+773049	uvolnitel	uvolnitel	N	773053
+773053	uvolnit	uvolnit_:W	V
+773064	uvolňovatel	uvolňovatel	N	773068
+773068	uvolňovat	uvolňovat_:T	V	773053
+773053	uvolnit	uvolnit_:W	V
+774023	uzavíratel	uzavíratel	N	774027
+774027	uzavírat	uzavírat_:T_:W	V	774092
+774092	uzavřít	uzavřít_:W	V	932117
+932117	zavřít	zavřít_:W	V
+774112	uzbrojitel	uzbrojitel	N	937552
+937552	zbrojit	zbrojit_:T	V
+774216	uzdravitel	uzdravitel_,a	N	774225
+774225	uzdravit	uzdravit_:W	V
+774235	uzdravovatel	uzdravovatel	N	774239
+774239	uzdravovat	uzdravovat_:T	V	774225
+774225	uzdravit	uzdravit_:W	V
+774346	uzemňovatel	uzemňovatel	N	774350
+774350	uzemňovat	uzemňovat_:T	V	774335
+774335	uzemnit	uzemnit_:W	V	945141
+945141	zemnit	zemnit_:T	V
+775428	uživatel	uživatel	N	775440
+775440	užívat	užívat_:T_^(*3t)	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+775803	vábitel	vábitel	N	775811
+775811	vábit	vábit_:T	V
+779327	varovatel	varovatel_,s	N	779329
+779329	varovat	varovat_:T	V
+780483	važitel	važitel_,s	N
+780484	vážitel	vážitel_,s	N	780487
+780487	vážit	vážit_:T	V
+781607	vdechovatel	vdechovatel	N	781611
+781611	vdechovat	vdechovat_:T	V	781590
+781590	vdechnout	vdechnout_:W	V	90979
+90979	dechnout	dechnout_:W	V	148954
+148954	dýchnout	dýchnout_:W	V	148940
+148940	dýchat	dýchat_:T	V
+783696	velebitel	velebitel	N	783707
+783707	velebit	velebit_:T	V
+784032	velepodnikatel	velepodnikatel	NC
+784575	velitel	velitel	N	784180
+784180	velet	velet_:T	V
+784707	velkododavatel	velkododavatel	NC
+784807	velkochovatel	velkochovatel	NC
+784930	velkomajitel	velkomajitel_,s	NC
+785001	velkonakladatel	velkonakladatel	NC
+785058	velkoodběratel	velkoodběratel	NC
+785102	velkopěstitel	velkopěstitel	NC
+785136	velkopodnikatel	velkopodnikatel	NC	785143
+785143	velkopodnikat	velkopodnikat_:T	VC
+785293	velkosběratel	velkosběratel	NC
+785323	velkospotřebitel	velkospotřebitel	NC
+785352	velkostavitel	velkostavitel	NC
+785443	velkovydavatel	velkovydavatel	NC
+785471	velkozaměstnavatel	velkozaměstnavatel	NC
+785890	venčitel	venčitel	N	785898
+785898	venčit	venčit_:T	V
+786171	věnovatel	věnovatel	N	786178
+786178	věnovat	věnovat_:T	V
+787227	veršovatel	veršovatel	N	787231
+787231	veršovat	veršovat_:T	V
+787278	věrtel	věrtel	N
+787453	věřitel	věřitel	N	787462
+787462	věřit	věřit_:T	V
+787955	Vestel	Vestel_;K	N
+787990	věstitel	věstitel_,s	N	787992
+787992	věstit	věstit_:T	V
+788132	věšitel	věšitel	N
+788433	věštitel	věštitel	N	788438
+788438	věštit	věštit_:T	V
+789028	Vettel	Vettel_;S	N
+789545	vězitel	vězitel_,a	N	789549
+789549	vězit	vězit_:W_,a	V	789525
+789525	vězet	vězet_:T	V
+789597	věznitel	věznitel	N	789604
+789604	věznit	věznit_:T	V
+791266	viceředitel	viceředitel	NC
+793619	vinitel	vinitel_,a	N	793626
+793626	vinit	vinit_:T	V
+793778	vínobuditel	vínobuditel	NC
+794831	vítatel	vítatel_,a	N	794838
+794838	vítat	vítat_:T	V
+794901	vítězitel	vítězitel_,a	N	794908
+794908	vítězit	vítězit_:T	V
+795720	vkladatel	vkladatel	N	795727
+795727	vkládat	vkládat_:T	V
+797383	vlastel	vlastel	N
+797527	vlastnitel	vlastnitel	N	797531
+797531	vlastnit	vlastnit_:T_^(někdo_má_něco_ve_vlastnictví)	V
+799180	vměšovatel	vměšovatel	N	799184
+799184	vměšovat	vměšovat_:T	V
+799804	vnímatel	vnímatel_,a	N	799814
+799814	vnímat	vnímat_:T	V
+800154	vnositel	vnositel	N
+800204	vnucovatel	vnucovatel	N	800208
+800208	vnucovat	vnucovat_:T	V	800285
+800285	vnutit	vnutit_:W	V	386485
+386485	nutit	nutit_:T	V
+800917	vobyvatel	vobyvatel_,h_^(^GC**obyvatel)	N
+801393	voditel	voditel_,a	N	801401
+801401	vodit	vodit_:T	V	788065
+788065	vést	vést_:T	V
+801690	vodoléčitel	vodoléčitel	N	801695
+801695	vodoléčit	vodoléčit_:T_,s	VC
+803957	volitel	volitel	N	803965
+803965	volit	volit_:T	V
+805448	Vortel	Vortel_;S	N
+809011	vrhatel	vrhatel_,a	N	809018
+809018	vrhat	vrhat_:T	V
+809855	vršitel	vršitel	N	809861
+809861	vršit	vršit_:T	V
+810015	Vrtel	Vrtel_;S	N
+812159	všehopodnikatel	všehopodnikatel	NC
+812165	všehosběratel	všehosběratel	NC
+813247	vštěpovatel	vštěpovatel_,s	N	813249
+813249	vštěpovat	vštěpovat_:T_:W	V	813227
+813227	vštěpit	vštěpit_:W	V	713566
+713566	štěpit	štěpit_:T	V
+815605	vybavovatel	vybavovatel_,s	N	815607
+815607	vybavovat	vybavovat_:T	V	815587
+815587	vybavit	vybavit_:W	V	31532
+31532	bavit	bavit_:T	V
+817427	vybudovatel	vybudovatel	N	817431
+817431	vybudovat	vybudovat_:W	V	60053
+60053	budovat	budovat_:T	V
+819554	vyčíslitel	vyčíslitel	N	819558
+819558	vyčíslit	vyčíslit_:W	V
+820152	vydatel	vydatel	N	820159
+820159	vydat	vydat-1_:W_^(emitovat:_cenné_papíry,_knihu,_zvuk,...)	V	88807
+88807	dát	dát_:T	V
+820179	vydavatel	vydavatel	N	820190
+820190	vydávat	vydávat-1_:T_^(emitovat:_cenné_papíry,_knihu,_zvuk,...)_(*6at-1)	V	820159
+820159	vydat	vydat-1_:W_^(emitovat:_cenné_papíry,_knihu,_zvuk,...)	V	88807
+88807	dát	dát_:T	V
+820452	vydělavatel	vydělavatel	N
+821084	vydlužitel	vydlužitel	N	821088
+821088	vydlužit	vydlužit_:W	V	103369
+103369	dlužit	dlužit_:T	V
+821167	vydobytel	vydobytel_,a	N	821174
+821174	vydobýt	vydobýt_:W	V	105628
+105628	dobýt	dobýt_:W	V	63899
+63899	být	být_:T	V
+821646	vydražitel	vydražitel	N	821650
+821650	vydražit	vydražit_:W	V	138210
+138210	dražit	dražit_:T	V
+821680	vydražovatel	vydražovatel	N	821684
+821684	vydražovat	vydražovat_:T	V	821650
+821650	vydražit	vydražit_:W	V	138210
+138210	dražit	dražit_:T	V
+822132	vydržitel	vydržitel	N	822128
+822128	vydržet	vydržet_:W	V	140369
+140369	držet	držet_:T	V
+822146	vydržovatel	vydržovatel	N	822153
+822153	vydržovat	vydržovat_:T	V	822128
+822128	vydržet	vydržet_:W	V	140369
+140369	držet	držet_:T	V
+824704	vyhladitel	vyhladitel	N	824708
+824708	vyhladit	vyhladit_:W	V	199320
+199320	hladit	hladit_:T	V
+824892	vyhlašovatel	vyhlašovatel	N	824899
+824899	vyhlašovat	vyhlašovat_:T	V	824812
+824812	vyhlásit	vyhlásit_:W	V	199503
+199503	hlásit	hlásit_:T	V
+824979	vyhlazovatel	vyhlazovatel_,s	N	824981
+824981	vyhlazovat	vyhlazovat_:T	V	824708
+824708	vyhladit	vyhladit_:W	V	199320
+199320	hladit	hladit_:T	V
+825038	vyhledavatel	vyhledavatel	N
+825043	vyhledávatel	vyhledávatel_,s	N	825046
+825046	vyhledávat	vyhledávat_:T_^(*4at)	V	825011
+825011	vyhledat	vyhledat_:W	V	199898
+199898	hledat	hledat_:T	V
+825138	vyhlížitel	vyhlížitel	N
+825500	vyhodnocovatel	vyhodnocovatel	N	825504
+825504	vyhodnocovat	vyhodnocovat_:T	V	825524
+825524	vyhodnotit	vyhodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+825520	vyhodnotitel	vyhodnotitel	N	825524
+825524	vyhodnotit	vyhodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+825860	vyhotovitel	vyhotovitel	N	825864
+825864	vyhotovit	vyhotovit_:W	V	206423
+206423	hotovit	hotovit_:T	V	206441
+206441	hotový	hotový	A
+826026	vyhovovatel	vyhovovatel	N	826030
+826030	vyhovovat	vyhovovat_:T	V	826001
+826001	vyhovět	vyhovět_:W	V	206884
+206884	hovět	hovět_:T	V
+826479	vyhrotitel	vyhrotitel_,s	N	826481
+826481	vyhrotit	vyhrotit_:W	V	208800
+208800	hrotit	hrotit_:T	V
+827103	vyhýbatel	vyhýbatel	N	827107
+827107	vyhýbat	vyhýbat_:T	V	825444
+825444	vyhnout	vyhnout_:W	V	201677
+201677	hnout	hnout_:W	V
+828104	vychovatel	vychovatel	N	828116
+828116	vychovat	vychovat_:W	V	218643
+218643	chovat	chovat_:T	V
+828123	vychovávatel	vychovávatel_,a	N	828138
+828138	vychovávat	vychovávat_:T_^(*4at)	V	828116
+828116	vychovat	vychovat_:W	V	218643
+218643	chovat	chovat_:T	V
+828129	vychovavatel	vychovavatel	N
+828522	vychvalovatel	vychvalovatel_,s	N	828524
+828524	vychvalovat	vychvalovat_:T	V	828503
+828503	vychválit	vychválit_:W	V	220620
+220620	chválit	chválit_:T	V
+828920	vyjadřitel	vyjadřitel_,s	N	828922
+828922	vyjádřit	vyjádřit_:W	V
+828932	vyjadřovatel	vyjadřovatel	N	828936
+828936	vyjadřovat	vyjadřovat_:T	V	828922
+828922	vyjádřit	vyjádřit_:W	V
+829025	vyjasňovatel	vyjasňovatel	N	829029
+829029	vyjasňovat	vyjasňovat_:T	V	828995
+828995	vyjasnit	vyjasnit_:W	V
+829103	vyjednavatel	vyjednavatel	N	829112
+829112	vyjednávat	vyjednávat_:T_^(*4at)	V	829078
+829078	vyjednat	vyjednat_:W	V	234072
+234072	jednat	jednat_:T	V
+829109	vyjednávatel	vyjednávatel_,s	N	829112
+829112	vyjednávat	vyjednávat_:T_^(*4at)	V	829078
+829078	vyjednat	vyjednat_:W	V	234072
+234072	jednat	jednat_:T	V
+829264	vyjevovatel	vyjevovatel	N	829268
+829268	vyjevovat	vyjevovat_:T	V	829253
+829253	vyjevit	vyjevit_:W	V	236635
+236635	jevit	jevit_:T	V
+830285	vykladatel	vykladatel_,a	N	830298
+830298	vykládat	vykládat_:T	V
+831948	vykonatel	vykonatel	N	831952
+831952	vykonat	vykonat_:W	V	265720
+265720	konat	konat_:T	V
+831967	vykonavatel	vykonavatel	N	831976
+831976	vykonávat	vykonávat_:T_^(*4at)	V	831952
+831952	vykonat	vykonat_:W	V	265720
+265720	konat	konat_:T	V
+832401	vykořenitel	vykořenitel	N	832405
+832405	vykořenit	vykořenit_:W	V	271492
+271492	kořenit	kořenit_:T	V
+832444	vykořisťovatel	vykořisťovatel	N	832452
+832452	vykořisťovat	vykořisťovat_:T	V	832434
+832434	vykořistit	vykořistit_:W	V	271589
+271589	kořistit	kořistit_:T	V
+833153	vykrmovatel	vykrmovatel	N	833157
+833157	vykrmovat	vykrmovat_:T	V	833135
+833135	vykrmit	vykrmit_:W	V	279461
+279461	krmit	krmit_:T	V
+833413	vykrutitel	vykrutitel	N
+833704	vykřikovatel	vykřikovatel_,s	N	833706
+833706	vykřikovat	vykřikovat_:T	V	833681
+833681	vykřiknout	vykřiknout_:W	V	282535
+282535	křiknout	křiknout_:W	V	282383
+282383	křičet	křičet_:T	V
+834064	vykupitel	vykupitel	N	832702
+832702	vykoupit	vykoupit_:W	V	274157
+274157	koupit	koupit_:W_^(něco_sobě/někomu)	V
+834094	vykupovatel	vykupovatel	N	834098
+834098	vykupovat	vykupovat_:T	V	832702
+832702	vykoupit	vykoupit_:W	V	274157
+274157	koupit	koupit_:W_^(něco_sobě/někomu)	V
+835284	vylepovatel	vylepovatel	N	835288
+835288	vylepovat	vylepovat_:T	V	835268
+835268	vylepit	vylepit_:W	V	297189
+297189	lepit	lepit_:T	V
+835320	vylepšovatel	vylepšovatel	N	835324
+835324	vylepšovat	vylepšovat_:T	V	835310
+835310	vylepšit	vylepšit_:W	V	297255
+297255	lepšit	lepšit_:T	V
+836180	vylizovatel	vylizovatel	N	836184
+836184	vylizovat	vylizovat_:T	V
+836675	vylučitel	vylučitel	N
+836696	vylučovatel	vylučovatel	N	836700
+836700	vylučovat	vylučovat_:T	V	836475
+836475	vyloučit	vyloučit_:W	V	305191
+305191	loučit	loučit_:T	V
+836806	vylupitel	vylupitel	N
+837116	vymáhatel	vymáhatel	N	837127
+837127	vymáhat	vymáhat_:T	V	838724
+838724	vymoci	vymoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+837124	vymahatel	vymahatel_,s	N	837127
+837127	vymáhat	vymáhat_:T	V	838724
+838724	vymoci	vymoci_:W	V	334695
+334695	moci	moci_:T_^(mít_možnost_[něco_dělat];_přech.)	V
+837327	vymanitel	vymanitel_,s	N	837329
+837329	vymanit	vymanit_:W	V
+837789	vyměňovatel	vyměňovatel	N	837793
+837793	vyměňovat	vyměňovat_:T	V	837741
+837741	vyměnit	vyměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+837867	vyměřovatel	vyměřovatel	N	837871
+837871	vyměřovat	vyměřovat_:T	V	837853
+837853	vyměřit	vyměřit_:W	V	324337
+324337	měřit	měřit_:T	V
+838029	vymezitel	vymezitel	N	838033
+838033	vymezit	vymezit_:W	V
+838063	vymezovatel	vymezovatel	N	838067
+838067	vymezovat	vymezovat_:T	V	838033
+838033	vymezit	vymezit_:W	V
+838588	vymlouvatel	vymlouvatel	N	838592
+838592	vymlouvat	vymlouvat_:T	V	838636
+838636	vymluvit	vymluvit_:W	V	333568
+333568	mluvit	mluvit_:T	V
+839613	vymyslitel	vymyslitel_,a	N	839620
+839620	vymyslit	vymyslit_:W	V	343830
+343830	myslit	myslit_:T	V	343799
+343799	myslet	myslet_:T	V
+839672	vymýšlitel	vymýšlitel	N	839668
+839668	vymýšlet	vymýšlet_:T	V	839610
+839610	vymyslet	vymyslet_:W	V	343799
+343799	myslet	myslet_:T	V
+839998	vynalézatel	vynalézatel_,a	N	840005
+840005	vynalézat	vynalézat_:T	V	840069
+840069	vynalézt	vynalézt	V	357596
+357596	nalézt	nalézt-1_:W_^(někam)	V	298727
+298727	lézt	lézt_:T	V
+840700	vynutitel	vynutitel	N	840704
+840704	vynutit	vynutit_:W	V	386485
+386485	nutit	nutit_:T	V
+840795	vyobrazitel	vyobrazitel	N	840799
+840799	vyobrazit	vyobrazit_:W	V	391374
+391374	obrazit	obrazit_:W	V	589185
+589185	razit	razit_:T	V
+840811	vyobrazovatel	vyobrazovatel_,s	N	840813
+840813	vyobrazovat	vyobrazovat_:T	V	840799
+840799	vyobrazit	vyobrazit_:W	V	391374
+391374	obrazit	obrazit_:W	V	589185
+589185	razit	razit_:T	V
+842486	vypisovatel	vypisovatel	N	842490
+842490	vypisovat	vypisovat_:T	V	845975
+845975	vypsat	vypsat_:W	V	579330
+579330	psát	psát_:T	V
+843319	vyplnitel	vyplnitel_,s	N	843321
+843321	vyplnit	vyplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+843352	vyplňovatel	vyplňovatel_,a	N	843359
+843359	vyplňovat	vyplňovat_:T	V	843321
+843321	vyplnit	vyplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+844253	vypořádatel	vypořádatel	N	844257
+844257	vypořádat	vypořádat_:W	V	491577
+491577	pořádat	pořádat_:T	V
+844267	vypořadavatel	vypořadavatel	N
+844644	vypracovatel	vypracovatel	N	844648
+844648	vypracovat	vypracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+844931	vypravitel	vypravitel	N	844937
+844937	vypravit	vypravit_:W	V	505547
+505547	pravit	pravit_:W	V
+844976	vypravovatel	vypravovatel	N	844984
+844984	vypravovat	vypravovat_:T	V	844937
+844937	vypravit	vypravit_:W	V	505547
+505547	pravit	pravit_:W	V
+845017	vyprazdňovatel	vyprazdňovatel	N	845021
+845021	vyprazdňovat	vyprazdňovat_:T	V
+845395	vyprostitel	vyprostitel_,a	N	845402
+845402	vyprostit	vyprostit_:W	V
+845445	vyprošťovatel	vyprošťovatel	N	845449
+845449	vyprošťovat	vyprošťovat_:T	V	845402
+845402	vyprostit	vyprostit_:W	V
+846120	vypuditel	vypuditel	N	846124
+846124	vypudit	vypudit_:W	V	581181
+581181	pudit	pudit_:T	V
+846155	vypůjčitel	vypůjčitel	N	846161
+846161	vypůjčit	vypůjčit_:W	V	581619
+581619	půjčit	půjčit_:W	V
+846156	výpůjčitel	výpůjčitel	N
+846197	vypůjčovatel	vypůjčovatel	N	846204
+846204	vypůjčovat	vypůjčovat_:T	V	846161
+846161	vypůjčit	vypůjčit_:W	V	581619
+581619	půjčit	půjčit_:W	V
+846584	vyrabitel	vyrabitel_,a	N
+846590	vyrábitel	vyrábitel	N	846583
+846583	vyrábět	vyrábět_:T	V	847254
+847254	vyrobit	vyrobit_:W	V	598894
+598894	robit	robit_:T	V
+847247	vyrobitel	vyrobitel_,a	N	847254
+847254	vyrobit	vyrobit_:W	V	598894
+598894	robit	robit_:T	V
+847538	vyrovnatel	vyrovnatel	N	847542
+847542	vyrovnat	vyrovnat_:W	V	602389
+602389	rovnat	rovnat_:T	V	602480
+602480	rovný	rovný_^(přímý,_stejný,_spravedlivý)	A
+847562	vyrovnávatel	vyrovnávatel_,s	N	847565
+847565	vyrovnávat	vyrovnávat_:T_^(*4at)	V	847542
+847542	vyrovnat	vyrovnat_:W	V	602389
+602389	rovnat	rovnat_:T	V	602480
+602480	rovný	rovný_^(přímý,_stejný,_spravedlivý)	A
+847851	vyrušitel	vyrušitel	N	847855
+847855	vyrušit	vyrušit_:W	V	625144
+625144	rušit	rušit_:T	V
+847885	vyrušovatel	vyrušovatel	N	847889
+847889	vyrušovat	vyrušovat_:T	V	847855
+847855	vyrušit	vyrušit_:W	V	625144
+625144	rušit	rušit_:T	V
+848572	vyřizovatel	vyřizovatel	N	848576
+848576	vyřizovat	vyřizovat_:T	V	848404
+848404	vyřídit	vyřídit_:W	V	629085
+629085	řídit	řídit_:T	V
+848894	vysavatel	vysavatel_,s	N	848896
+848896	vysávat	vysávat_:T_^(*3t)	V	848869
+848869	vysát	vysát_:W	V	635354
+635354	sát	sát_:T	V
+848930	vysazovatel	vysazovatel	N	848934
+848934	vysazovat	vysazovat_:T	V	848634
+848634	vysadit	vysadit_:W	V	630094
+630094	sadit	sadit_:W	V
+849461	vysilatel	vysilatel_,s	N	849465
+849465	vysílat	vysílat_:T	V	850150
+850150	vyslat	vyslat_:W	V
+849462	vysílatel	vysílatel_,s	N	849465
+849465	vysílat	vysílat_:T	V	850150
+850150	vyslat	vyslat_:W	V
+850458	vyslovitel	vyslovitel	N	850462
+850462	vyslovit	vyslovit_:W	V
+850479	vyslovovatel	vyslovovatel_,s	N	850481
+850481	vyslovovat	vyslovovat_:T	V	850462
+850462	vyslovit	vyslovit_:W	V
+850522	vysluhovatel	vysluhovatel	N	850526
+850526	vysluhovat	vysluhovat_:T	V	850449
+850449	vysloužit	vysloužit_:W	V	663105
+663105	sloužit	sloužit_:T	V
+850585	vyslýchatel	vyslýchatel	N	850589
+850589	vyslýchat	vyslýchat_:T	V
+852414	vystavitel	vystavitel	N	852418
+852418	vystavit	vystavit_:W_^(např._potvrzení)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+852471	vystavovatel	vystavovatel	N	852478
+852478	vystavovat	vystavovat_:T	V	852418
+852418	vystavit	vystavit_:W_^(např._potvrzení)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+853125	vystrkovatel	vystrkovatel	N	853129
+853129	vystrkovat	vystrkovat_:T	V	853073
+853073	vystrčit	vystrčit_:W	V	685731
+685731	strčit	strčit_:W	V
+853512	vystřidatel	vystřidatel	N	853516
+853516	vystřídat	vystřídat_:W	V	688243
+688243	střídat	střídat_:T	V
+854294	vysvětlovatel	vysvětlovatel_,s	N	854296
+854296	vysvětlovat	vysvětlovat_:T	V	854274
+854274	vysvětlit	vysvětlit_:W	V
+854447	vysvoboditel	vysvoboditel	N	854454
+854454	vysvobodit	vysvobodit_:W	V
+854470	vysvobozovatel	vysvobozovatel_,s	N	854472
+854472	vysvobozovat	vysvobozovat_:T	V	854454
+854454	vysvobodit	vysvobodit_:W	V
+855219	vyšetřovatel	vyšetřovatel	N	855226
+855226	vyšetřovat	vyšetřovat_:T	V	855198
+855198	vyšetřit	vyšetřit_:W	V	703593
+703593	šetřit	šetřit_:T	V
+858583	vyšvihovatel	vyšvihovatel	N	858587
+858587	vyšvihovat	vyšvihovat_:T	V	858566
+858566	vyšvihnout	vyšvihnout_:W	V	717846
+717846	švihnout	švihnout-1_:W	V	717811
+717811	švihat	švihat_:T	V
+859655	vytěsňovatel	vytěsňovatel	N	859659
+859659	vytěsňovat	vytěsňovat_:T_:W	V	859645
+859645	vytěsnit	vytěsnit_:W	V	724956
+724956	těsnit	těsnit_:T	V	724985
+724985	těsný	těsný	A
+859748	vytěžovatel	vytěžovatel	N	859752
+859752	vytěžovat	vytěžovat_:T	V	859731
+859731	vytěžit	vytěžit_:W	V	725745
+725745	těžit	těžit_:T	V
+860936	vytrubovatel	vytrubovatel	N	860940
+860940	vytrubovat	vytrubovat_:T	V	860866
+860866	vytroubit	vytroubit_:W	V	736645
+736645	troubit	troubit_:T_^(např._na_trubku)	V	736619
+736619	trouba	trouba-1_^(hlupák)	N
+861706	vytvořitel	vytvořitel	N	861710
+861710	vytvořit	vytvořit_:W	V	743018
+743018	tvořit	tvořit_:T	V
+861785	vytyčitel	vytyčitel	N	861791
+861791	vytyčit	vytyčit_:W	V	743298
+743298	tyčit	tyčit_:T	V
+861824	vytyčovatel	vytyčovatel	N	861828
+861828	vytyčovat	vytyčovat_:T	V	861791
+861791	vytyčit	vytyčit_:W	V	743298
+743298	tyčit	tyčit_:T	V
+861851	vytýkatel	vytýkatel	N	861855
+861855	vytýkat	vytýkat_:T	V	728339
+728339	tknout	tknout_:T	V
+861925	vyučitel	vyučitel	N	861929
+861929	vyučit	vyučit_:W	V	746361
+746361	učit	učit_:T	V
+861949	vyučovatel	vyučovatel_,s	N	861952
+861952	vyučovat	vyučovat_:T	V	861929
+861929	vyučit	vyučit_:W	V	746361
+746361	učit	učit_:T	V
+862217	využivatel	využivatel	N
+862218	využívatel	využívatel	N	862223
+862223	využívat	využívat_:T_^(*3t)	V	862204
+862204	využít	využít_:W	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+862735	vyvažitel	vyvažitel	N
+862764	vyvažovatel	vyvažovatel	N	862768
+862768	vyvažovat	vyvažovat_:T	V	862739
+862739	vyvážit	vyvážit_:W_^(do_rovnováhy)	V	780487
+780487	vážit	vážit_:T	V
+863079	vyvěšovatel	vyvěšovatel	N	863083
+863083	vyvěšovat	vyvěšovat_:T	V	863005
+863005	vyvěsit	vyvěsit_:W	V	787615
+787615	věsit	věsit_:T_,s	V
+863384	vyvlastnitel	vyvlastnitel	N	863388
+863388	vyvlastnit	vyvlastnit_:W	V	797531
+797531	vlastnit	vlastnit_:T_^(někdo_má_něco_ve_vlastnictví)	V
+863398	vyvlastňovatel	vyvlastňovatel	N	863405
+863405	vyvlastňovat	vyvlastňovat_:T	V	863388
+863388	vyvlastnit	vyvlastnit_:W	V	797531
+797531	vlastnit	vlastnit_:T_^(někdo_má_něco_ve_vlastnictví)	V
+863655	vyvolatel	vyvolatel	N	863659
+863659	vyvolat	vyvolat_:W	V	803716
+803716	volat	volat_:T	V
+863678	vyvolavatel	vyvolavatel_,s	N	863680
+863680	vyvolávat	vyvolávat_:T_^(*4at)	V	863659
+863659	vyvolat	vyvolat_:W	V	803716
+803716	volat	volat_:T	V
+863999	vyvražditel	vyvražditel	N	864003
+864003	vyvraždit	vyvraždit_:W	V	808669
+808669	vraždit	vraždit_:T	V
+864090	vyvrhovatel	vyvrhovatel	N	864094
+864094	vyvrhovat	vyvrhovat_:T	V	864073
+864073	vyvrhnout	vyvrhnout_:W	V	864053
+864053	vyvrhat	vyvrhat_:T	V
+864459	vyvyšovatel	vyvyšovatel	N	864463
+864463	vyvyšovat	vyvyšovat_:T	V	864449
+864449	vyvýšit	vyvýšit_:W	V
+864897	vyzařovatel	vyzařovatel	N	864901
+864901	vyzařovat	vyzařovat_:T	V	864887
+864887	vyzářit	vyzářit_:W	V	915280
+915280	zářit	zářit_:T	V
+865005	vyzbrojovatel	vyzbrojovatel	N	865009
+865009	vyzbrojovat	vyzbrojovat_:T	V	864989
+864989	vyzbrojit	vyzbrojit_:W	V	937552
+937552	zbrojit	zbrojit_:T	V
+865688	vyznavatel	vyznavatel_,a	N	865699
+865699	vyznávat	vyznávat_:T_^(*4at)	V	865673
+865673	vyznat	vyznat_:W	V	972204
+972204	znát	znát_:T	V
+865689	vyznávatel	vyznávatel_,a	N	865699
+865699	vyznávat	vyznávat_:T_^(*4at)	V	865673
+865673	vyznat	vyznat_:W	V	972204
+972204	znát	znát_:T	V
+865924	vyzraditel	vyzraditel	N	865928
+865928	vyzradit	vyzradit_:W	V	988608
+988608	zradit	zradit_:W	V	585478
+585478	radit	radit_:T	V
+866468	vyzyvatel	vyzyvatel	N
+866469	vyzývatel	vyzývatel	N	866477
+866477	vyzývat	vyzývat_:T	V	866213
+866213	vyzvat	vyzvat_:W_^(někoho_vyzvat_k_něčemu)	V	998725
+998725	zvát	zvát_:T	V
+867081	vyživovatel	vyživovatel	N	867085
+867085	vyživovat	vyživovat_:T	V	867067
+867067	vyživit	vyživit_:W	V	1006760
+1006760	živit	živit_:T	V
+867549	vzbuditel	vzbuditel	N	867553
+867553	vzbudit	vzbudit_:W	V	59953
+59953	budit	budit_:T	V
+867613	vzbuzovatel	vzbuzovatel_,s	N	867615
+867615	vzbuzovat	vzbuzovat_:T	V	867553
+867553	vzbudit	vzbudit_:W	V	59953
+59953	budit	budit_:T	V
+867720	vzdělatel	vzdělatel_,a	N	867727
+867727	vzdělat	vzdělat_:W	V	92241
+92241	dělat	dělat_:T	V
+867747	vzdělavatel	vzdělavatel	N	867759
+867759	vzdělávat	vzdělávat_:T_^(*4at)	V	867727
+867727	vzdělat	vzdělat_:W	V	92241
+92241	dělat	dělat_:T	V
+867748	vzdělávatel	vzdělávatel	N	867759
+867759	vzdělávat	vzdělávat_:T_^(*4at)	V	867727
+867727	vzdělat	vzdělat_:W	V	92241
+92241	dělat	dělat_:T	V
+868657	vzkřísitel	vzkřísitel_,s	N	868660
+868660	vzkřísit	vzkřísit_:W	V	282600
+282600	křísit	křísit_:T	V
+869139	vzněcovatel	vzněcovatel_,s	N	869141
+869141	vzněcovat	vzněcovat_:T	V	869224
+869224	vznítit	vznítit_:W	V
+869276	vzorkovatel	vzorkovatel	N	869280
+869280	vzorkovat	vzorkovat_:T	V
+869994	vzrušovatel	vzrušovatel	N	869998
+869998	vzrušovat	vzrušovat_:T_:W	V	869977
+869977	vzrušit	vzrušit_:W	V	625144
+625144	rušit	rušit_:T	V
+870281	vzyvatel	vzyvatel	N
+870284	vzývatel	vzývatel_,s	N	870287
+870287	vzývat	vzývat_:T	V
+870928	Waldviertel	Waldviertel_;G	N
+871918	Weinviertel	Weinviertel_;G	N
+871919	Weinzettel	Weinzettel_;S	N
+871953	Weisheitel	Weisheitel_;S	N
+873753	Wittel	Wittel_;S	N
+874081	Wolfenbüttel	Wolfenbüttel_;G	N
+876269	zabavovatel	zabavovatel	N	876273
+876273	zabavovat	zabavovat_:T	V	876251
+876251	zabavit	zabavit_:W	V	31532
+31532	bavit	bavit_:T	V
+876638	zabezpečovatel	zabezpečovatel	N	876642
+876642	zabezpečovat	zabezpečovat_:T	V	876624
+876624	zabezpečit	zabezpečit_:W	V
+877920	zabraňovatel	zabraňovatel	N	877924
+877924	zabraňovat	zabraňovat_:T	V	877902
+877902	zabránit	zabránit_:W_^(někomu_v_něčem)	V	53726
+53726	bránit	bránit_:T_^(klást_překážky,přechodník)	V
+880177	zacvičovatel	zacvičovatel	N	880181
+880181	zacvičovat	zacvičovat_:T	V	880167
+880167	zacvičit	zacvičit_:W	V	74622
+74622	cvičit	cvičit_:T	V
+880633	začerňovatel	začerňovatel	N	880637
+880637	začerňovat	začerňovat_:T	V	880623
+880623	začernit	začernit_:W	V	78949
+78949	černit	černit_:T	V	79705
+79705	černý	černý	A
+880810	začínatel	začínatel_,s	N	880812
+880812	začínat	začínat_:T	V	881015
+881015	začít	začít	V
+881493	zadatel	zadatel	N	881517
+881517	zadat	zadat_:W	V	88807
+88807	dát	dát_:T	V
+881528	zadavatel	zadavatel	N	881535
+881535	zadávat	zadávat_:T_^(*4at)	V	881517
+881517	zadat	zadat_:W	V	88807
+88807	dát	dát_:T	V
+883259	zadržitel	zadržitel	N
+883296	zadržovatel	zadržovatel	N	883300
+883300	zadržovat	zadržovat_:T	V	883254
+883254	zadržet	zadržet_:W	V	140369
+140369	držet	držet_:T	V
+885531	zahajitel	zahajitel	N
+885569	zahajovatel	zahajovatel	N	885573
+885573	zahajovat	zahajovat_:T	V	885535
+885535	zahájit	zahájit_:W	V	189140
+189140	hájit	hájit_:T_^(bránit,_obhajovat)	V
+885773	zahanbitel	zahanbitel	N	885777
+885777	zahanbit	zahanbit_:W	V	190868
+190868	hanbit	hanbit_:T	V	190848
+190848	hanba	hanba	N
+886304	zahlazovatel	zahlazovatel	N	886308
+886308	zahlazovat	zahlazovat_:T	V	886201
+886201	zahladit	zahladit_:W	V	199320
+199320	hladit	hladit_:T	V
+888586	zahubitel	zahubitel_,a	N	888593
+888593	zahubit	zahubit_:W	V	210225
+210225	hubit	hubit_:T_^(např._hmyz)	V
+888938	Zahustel	Zahustel_;S	N
+889701	zachovatel	zachovatel_,s	N	889703
+889703	zachovat	zachovat_:T	V	218643
+218643	chovat	chovat_:T	V
+889715	zachovávatel	zachovávatel	N	889721
+889721	zachovávat	zachovávat_:T_^(*4at)	V	889703
+889703	zachovat	zachovat_:T	V	218643
+218643	chovat	chovat_:T	V
+889718	zachovavatel	zachovavatel_,s	N	889721
+889721	zachovávat	zachovávat_:T_^(*4at)	V	889703
+889703	zachovat	zachovat_:T	V	218643
+218643	chovat	chovat_:T	V
+889772	zachranitel	zachranitel_,s	N
+889797	zachraňovatel	zachraňovatel_,s	N	889799
+889799	zachraňovat	zachraňovat_:T	V	889774
+889774	zachránit	zachránit_:W	V	218769
+218769	chránit	chránit_:T	V
+890452	zachvatitel	zachvatitel_,s	N	890454
+890454	zachvátit	zachvátit_:W	V
+890538	zachycovatel	zachycovatel_,s	N	890540
+890540	zachycovat	zachycovat_:T	V	890582
+890582	zachytit	zachytit_:W	V	221148
+221148	chytit	chytit_:W	V
+891665	zajímatel	zajímatel_,a	N	891672
+891672	zajímat	zajímat_:T	V
+891810	zajistitel	zajistitel	N	891814
+891814	zajistit	zajistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+891865	zajišťovatel	zajišťovatel	N	891869
+891869	zajišťovat	zajišťovat_:T	V	891814
+891814	zajistit	zajistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+892709	zakazovatel	zakazovatel	N	892713
+892713	zakazovat	zakazovat_:T	V	892671
+892671	zakázat	zakázat_:W	V	251291
+251291	kázat	kázat_:T	V
+893039	zakladatel	zakladatel	N	893047
+893047	zakládat	zakládat_:T	V
+893667	zaklínatel	zaklínatel_,a	N	893674
+893674	zaklínat	zaklínat_:T	V	893830
+893830	zaklít	zaklít_:W	V	257878
+257878	klít	klít_:T	V
+894980	zakončovatel	zakončovatel	N	894984
+894984	zakončovat	zakončovat_:T	V	894966
+894966	zakončit	zakončit_:W	V	266066
+266066	končit	končit_:T	V
+896166	zakreslovatel	zakreslovatel	N	896170
+896170	zakreslovat	zakreslovat_:T	V	896156
+896156	zakreslit	zakreslit_:W	V	278542
+278542	kreslit	kreslit_:T	V
+896315	zakročitel	zakročitel	N	896319
+896319	zakročit	zakročit_:W	V
+900835	založitel	založitel_,a	N	900842
+900842	založit	založit_:W	V
+901981	zaměňovatel	zaměňovatel	N	901985
+901985	zaměňovat	zaměňovat_:T	V	901964
+901964	zaměnit	zaměnit_:W	V	323528
+323528	měnit	měnit_:T	V
+902118	zaměstnatel	zaměstnatel	N	902122
+902122	zaměstnat	zaměstnat-1_:W_^(všeob._význam:_činnost,_zaměstnání)	V
+902133	zaměstnavatel	zaměstnavatel	N	902143
+902143	zaměstnávat	zaměstnávat-1_:T_^(všeob._význam:_činnost,_zaměstnání)_(*6at-1)	V	902122
+902122	zaměstnat	zaměstnat-1_:W_^(všeob._význam:_činnost,_zaměstnání)	V
+902253	zamezovatel	zamezovatel_,s	N	902255
+902255	zamezovat	zamezovat_:T	V	902238
+902238	zamezit	zamezit_:W	V
+903411	zamořovatel	zamořovatel	N	903415
+903415	zamořovat	zamořovat_:T	V	903399
+903399	zamořit	zamořit_:W	V	338416
+338416	mořit	mořit-1_:T_^(týrat)	V
+904986	zanedbatel	zanedbatel	N	904990
+904990	zanedbat	zanedbat_:W	V
+905000	zanedbavatel	zanedbavatel	N
+905166	Zanetel	Zanetel_;S	N
+906141	zaopatřovatel	zaopatřovatel	N	906145
+906145	zaopatřovat	zaopatřovat_:T	V	906131
+906131	zaopatřit	zaopatřit_:W	V	425917
+425917	opatřit	opatřit_:W	V	450159
+450159	patřit	patřit_:T	V
+907426	zápasitel	zápasitel_,a	N	907436
+907436	zápasit	zápasit_:T	V
+908427	zapíratel	zapíratel	N	908431
+908431	zapírat	zapírat_:T	V	911834
+911834	zapřít	zapřít_:W	V
+908523	zapisovatel	zapisovatel	N	908531
+908531	zapisovat	zapisovat_:T	V	911859
+911859	zapsat	zapsat_:W	V	579330
+579330	psát	psát_:T	V
+908766	zaplašovatel	zaplašovatel_,s	N	908768
+908768	zaplašovat	zaplašovat_:T	V	908754
+908754	zaplašit	zaplašit_:W	V	463486
+463486	plašit	plašit_:T	V
+909120	zaplevelovatel	zaplevelovatel	N	909124
+909124	zaplevelovat	zaplevelovat_:W	V
+909261	zaplnitel	zaplnitel	N	909265
+909265	zaplnit	zaplnit_:W	V	465408
+465408	plnit	plnit_:T	V	465523
+465523	plný	plný	A
+909803	zapojovatel	zapojovatel	N	909807
+909807	zapojovat	zapojovat_:T	V	909792
+909792	zapojit	zapojit_:W	V	478278
+478278	pojit	pojit_:T	V
+911981	zapuditel	zapuditel	N	911985
+911985	zapudit	zapudit_:W	V	581181
+581181	pudit	pudit_:T	V
+912026	zapůjčitel	zapůjčitel	N	912030
+912030	zapůjčit	zapůjčit_:W	V	581619
+581619	půjčit	půjčit_:W	V
+912047	zapůjčovatel	zapůjčovatel	N	912051
+912051	zapůjčovat	zapůjčovat_:T	V	912030
+912030	zapůjčit	zapůjčit_:W	V	581619
+581619	půjčit	půjčit_:W	V
+912206	zapuzovatel	zapuzovatel_,s	N	912208
+912208	zapuzovat	zapuzovat_:T	V	911985
+911985	zapudit	zapudit_:W	V	581181
+581181	pudit	pudit_:T	V
+913555	zarmutitel	zarmutitel	N
+914203	zaručitel	zaručitel	N	914207
+914207	zaručit	zaručit_:W	V	623641
+623641	ručit	ručit_:T	V
+914743	zařaditel	zařaditel	N	914752
+914752	zařadit	zařadit_:W	V	627363
+627363	řadit	řadit_:T	V
+914828	zařazovatel	zařazovatel	N	914832
+914832	zařazovat	zařazovat_:T	V	914752
+914752	zařadit	zařadit_:W	V	627363
+627363	řadit	řadit_:T	V
+915218	zaříkávatel	zaříkávatel_,a	N	915225
+915225	zaříkávat	zaříkávat_:T_^(*4at)	V	915205
+915205	zaříkat	zaříkat_:T_:W	V	629277
+629277	říkat	říkat_:T	V	628971
+628971	říci	říci_:T	V
+915345	zařizovatel	zařizovatel_,s	N	915347
+915347	zařizovat	zařizovat_:T	V	915145
+915145	zařídit	zařídit_:W	V	629085
+629085	řídit	řídit_:T	V
+915528	zasahovatel	zasahovatel	N	915532
+915532	zasahovat	zasahovat_:T	V	915511
+915511	zasáhnout	zasáhnout_:W	V	915486
+915486	zasahat	zasahat_:T_,s	V
+916202	zasíilatel	zasíilatel	N
+916215	zasílatel	zasílatel	N	916226
+916226	zasílat	zasílat_:T	V	917034
+917034	zaslat	zaslat_:W	V
+917995	zásobitel	zásobitel	N	917999
+917999	zásobit	zásobit_:W	V
+918026	zásobovatel	zásobovatel	N	918033
+918033	zásobovat	zásobovat_:T	V	917999
+917999	zásobit	zásobit_:W	V
+918830	zastavatel	zastavatel_,a	N	918837
+918837	zastávat	zastávat_:T_^(*4at)	V	918805
+918805	zastat	zastat_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+918875	zastavitel	zastavitel	N	918879
+918879	zastavit	zastavit-1_:W_^([také_z._se];_uvést_do_klidu:_auto,...)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+918931	zastavovatel	zastavovatel-1_^(kdo_zastavuje_pohyb)	N	918932
+918932	zastavovat	zastavovat_:T	V	918879
+918879	zastavit	zastavit-1_:W_^([také_z._se];_uvést_do_klidu:_auto,...)	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+919473	zastrašovatel	zastrašovatel	N	919477
+919477	zastrašovat	zastrašovat_:T	V	919443
+919443	zastrašit	zastrašit_:W	V	685360
+685360	strašit	strašit_:T	V
+919749	zastřešovatel	zastřešovatel	N	919753
+919753	zastřešovat	zastřešovat_:T	V	919737
+919737	zastřešit	zastřešit_:W	V
+919993	zastupitel	zastupitel_,a	N	920031
+920031	zastupovat	zastupovat_:T	V	919350
+919350	zastoupit	zastoupit_:W	V
+920403	zasvěcovatel	zasvěcovatel_,s	N	920405
+920405	zasvěcovat	zasvěcovat_:T	V	920474
+920474	zasvětit	zasvětit_:W	V	694899
+694899	světit	světit_:T	V
+920472	zasvětitel	zasvětitel_,s	N	920474
+920474	zasvětit	zasvětit_:W	V	694899
+694899	světit	světit_:T	V
+924281	zaštítitel	zaštítitel	N	924285
+924285	zaštítit	zaštítit_:W	V	714403
+714403	štítit	štítit_:T	V
+924324	zaštiťovatel	zaštiťovatel	N	924330
+924330	zaštiťovat	zaštiťovat_:T	V	924285
+924285	zaštítit	zaštítit_:W	V	714403
+714403	štítit	štítit_:T	V
+924325	zašťiťovatel	zašťiťovatel	N
+925994	zatěžovatel	zatěžovatel	N	925997
+925997	zatěžovat	zatěžovat_:T	V	926299
+926299	zatížit	zatížit_:W	V	728170
+728170	tížit	tížit_^(rozkaz._tvar_slovesa)	V
+926408	zatlačovatel	zatlačovatel	N	926412
+926412	zatlačovat	zatlačovat_:T	V	926398
+926398	zatlačit	zatlačit_:W	V	728377
+728377	tlačit	tlačit_:T	V
+927016	zatracovatel	zatracovatel	N	927020
+927020	zatracovat	zatracovat_:T	V	927111
+927111	zatratit	zatratit_:W	V	732983
+732983	tratit	tratit_:T	V
+927109	zatratitel	zatratitel_,s	N	927111
+927111	zatratit	zatratit_:W	V	732983
+732983	tratit	tratit_:T	V
+928397	zatykatel	zatykatel	N
+928540	zaučovatel	zaučovatel	N	928544
+928544	zaučovat	zaučovat_:T	V	928529
+928529	zaučit	zaučit_:W	V	746361
+746361	učit	učit_:T	V
+930493	zavinitel	zavinitel	N	930497
+930497	zavinit	zavinit_:W	V	793626
+793626	vinit	vinit_:T	V
+931088	zavlažovatel	zavlažovatel	N	931092
+931092	zavlažovat	zavlažovat_:T	V	931076
+931076	zavlažit	zavlažit_:W	V	797651
+797651	vlažit	vlažit_:T	V
+931808	zavrhovatel	zavrhovatel_,s	N	931810
+931810	zavrhovat	zavrhovat_:T	V	931789
+931789	zavrhnout	zavrhnout_:W	V	931775
+931775	zavrhat	zavrhat_:T_,s	V
+931908	završovatel	završovatel	N	931912
+931912	završovat	završovat_:T	V	931898
+931898	završit	završit_:W	V	809861
+809861	vršit	vršit_:T	V
+933582	zaznamenatel	zaznamenatel_,s	N	933584
+933584	zaznamenat	zaznamenat_:W	V	971935
+971935	znamenat	znamenat_:T	V
+933594	zaznamenavatel	zaznamenavatel	N
+933853	zázračitel	zázračitel_,a	N	933863
+933863	zázračit	zázračit_:T_,s	V
+934172	zažadatel	zažadatel	N
+934451	zažehnavatel	zažehnavatel	N
+934454	zažehnávatel	zažehnávatel_,s	N	934457
+934457	zažehnávat	zažehnávat_:T_^(*4at)	V	934434
+934434	zažehnat	zažehnat_:W	V	1004794
+1004794	žehnat	žehnat_:T	V
+935656	zbavitel	zbavitel_,a	N	935666
+935666	zbavit	zbavit_:W	V	31532
+31532	bavit	bavit_:T	V
+935663	Zbavitel	Zbavitel_;S	N
+937195	zbožnovatel	zbožnovatel	N
+937196	zbožňovatel	zbožňovatel	N	937204
+937204	zbožňovat	zbožňovat_:T	V	937183
+937183	zbožnit	zbožnit	V
+937243	zbožšťovatel	zbožšťovatel_,s	N	937245
+937245	zbožšťovat	zbožšťovat_:T	V	937231
+937231	zbožštit	zbožštit_:W	V
+937949	zbudovatel	zbudovatel	N	937953
+937953	zbudovat	zbudovat_:W	V	60053
+60053	budovat	budovat_:T	V
+938746	zcizitel	zcizitel	N	938750
+938750	zcizit	zcizit_:W	V
+938769	zcizovatel	zcizovatel	N	938773
+938773	zcizovat	zcizovat_:T	V	938750
+938750	zcizit	zcizit_:W	V
+939309	zčešťovatel	zčešťovatel_,s	N	939311
+939311	zčešťovat	zčešťovat_:T	V	939297
+939297	zčeštit	zčeštit_:W	V	80897
+80897	češtit	češtit_:T_,s	V
+941244	zdobitel	zdobitel_,s	N	941247
+941247	zdobit	zdobit_:T	V
+941447	zdokonalitel	zdokonalitel_,s	N	941449
+941449	zdokonalit	zdokonalit_:W	V
+941462	zdokonalovatel	zdokonalovatel	N	941466
+941466	zdokonalovat	zdokonalovat_:T	V	941449
+941449	zdokonalit	zdokonalit_:W	V
+941546	zdolavatel	zdolavatel	N
+942077	zdražovatel	zdražovatel	N	942084
+942084	zdražovat	zdražovat_:T	V	942047
+942047	zdražit	zdražit_:W	V
+942593	zdržovatel	zdržovatel_,s	N	942595
+942595	zdržovat	zdržovat_:T	V	942572
+942572	zdržet	zdržet_:W	V	140369
+140369	držet	držet_:T	V
+942852	zdůrazňovatel	zdůrazňovatel	N	942856
+942856	zdůrazňovat	zdůrazňovat_:T	V	942842
+942842	zdůraznit	zdůraznit_:W	V
+943037	zdůvěrňovatel	zdůvěrňovatel_,s	N	943039
+943039	zdůvěrňovat	zdůvěrňovat_:T	V	943025
+943025	zdůvěrnit	zdůvěrnit_:W	V
+943097	zdůvodňovatel	zdůvodňovatel	N	943101
+943101	zdůvodňovat	zdůvodňovat_:T	V	943087
+943087	zdůvodnit	zdůvodnit_:W	V
+945819	zesilovatel	zesilovatel	N	945823
+945823	zesilovat	zesilovat_:T	V	945777
+945777	zesílit	zesílit_:W	V	655165
+655165	sílit	sílit_:T_^(získávat_sílu;_přech.)	V
+946109	zeslabovatel	zeslabovatel_,s	N	946111
+946111	zeslabovat	zeslabovat_:T	V	946084
+946084	zeslabit	zeslabit_:W	V
+946361	zesměšňovatel	zesměšňovatel	N	946365
+946365	zesměšňovat	zesměšňovat_:T	V	946351
+946351	zesměšnit	zesměšnit_:W	V
+947778	zesvětšťovatel	zesvětšťovatel	N	947782
+947782	zesvětšťovat	zesvětšťovat_:T	V	947768
+947768	zesvětštit	zesvětštit_:W	V
+948651	Zetel	Zetel_;S	N
+948769	Zettel	Zettel_;S	N
+948983	zevšedňovatel	zevšedňovatel_,s	N	948985
+948985	zevšedňovat	zevšedňovat_:T	V	948951
+948951	zevšednit	zevšednit_:W	V
+951135	zhanobitel	zhanobitel_,s	N	951137
+951137	zhanobit	zhanobit_:W	V	191388
+191388	hanobit	hanobit_:T	V
+951205	zhasínatel	zhasínatel	N	951210
+951210	zhasínat	zhasínat_:T	V	951232
+951232	zhasnout	zhasnout_:W	V	193050
+193050	hasnout	hasnout_:T	V	192996
+192996	hasit	hasit_:T	V
+951980	zhmotnitel	zhmotnitel	N	951984
+951984	zhmotnit	zhmotnit_:W	V
+952163	zhodnocovatel	zhodnocovatel	N	952167
+952167	zhodnocovat	zhodnocovat_:T	V	952187
+952187	zhodnotit	zhodnotit_:T	V	202076
+202076	hodnotit	hodnotit_:T	V
+952183	zhodnotitel	zhodnotitel	N	952187
+952187	zhodnotit	zhodnotit_:T	V	202076
+202076	hodnotit	hodnotit_:T	V
+952407	zhoršovatel	zhoršovatel	N	952411
+952411	zhoršovat	zhoršovat_:T	V	952397
+952397	zhoršit	zhoršit_:W	V	205487
+205487	horšit	horšit_:T	V
+952556	zhotovitel	zhotovitel	N	952563
+952563	zhotovit	zhotovit_:W	V	206423
+206423	hotovit	hotovit_:T	V	206441
+206441	hotový	hotový	A
+952573	zhotovovatel	zhotovovatel	N	952577
+952577	zhotovovat	zhotovovat_:T	V	952563
+952563	zhotovit	zhotovit_:W	V	206423
+206423	hotovit	hotovit_:T	V	206441
+206441	hotový	hotový	A
+953265	zhudebnitel	zhudebnitel	N	953269
+953269	zhudebnit	zhudebnit_:W	V
+953279	zhudebňovatel	zhudebňovatel	N	953283
+953283	zhudebňovat	zhudebňovat_:T	V	953269
+953269	zhudebnit	zhudebnit_:W	V
+956478	zíratel	zíratel_,a	N	956485
+956485	zírat	zírat_:T	V
+956566	získatel	získatel	N	956570
+956570	získat	získat_:W	V
+956580	získavatel	získavatel	N
+957001	zjasňovatel	zjasňovatel	N	957005
+957005	zjasňovat	zjasňovat_:T	V	956990
+956990	zjasnit	zjasnit_:W	V
+957086	zjednavatel	zjednavatel	N
+957115	zjednodušovatel	zjednodušovatel	N	957122
+957122	zjednodušovat	zjednodušovat_:T	V	957105
+957105	zjednodušit	zjednodušit_:W	V
+957340	zjevitel	zjevitel	N	957344
+957344	zjevit	zjevit_:W	V	236635
+236635	jevit	jevit_:T	V
+957360	zjevovatel	zjevovatel_,s	N	957362
+957362	zjevovat	zjevovat_:T	V	957344
+957344	zjevit	zjevit_:W	V	236635
+236635	jevit	jevit_:T	V
+957550	zjišťovatel	zjišťovatel	N	957554
+957554	zjišťovat	zjišťovat_:T	V	957535
+957535	zjistit	zjistit_:W	V	238268
+238268	jistit	jistit_:T	V	238294
+238294	jistý	jistý	A
+958913	zklidnitel	zklidnitel	N	958917
+958917	zklidnit	zklidnit_:W	V
+961043	zkoumatel	zkoumatel_,s	N	961046
+961046	zkoumat	zkoumat_:T	V
+961345	zkracovatel	zkracovatel_,s	N	961347
+961347	zkracovat	zkracovat_:T	V	961586
+961586	zkrátit	zkrátit_:W	V	277197
+277197	krátit	krátit_:T	V
+961547	zkrášlovatel	zkrášlovatel	N	961551
+961551	zkrášlovat	zkrášlovat_:T	V	961537
+961537	zkrášlit	zkrášlit_:W	V	277105
+277105	krášlit	krášlit_:T	V
+961927	zkrotitel	zkrotitel	N	961931
+961931	zkrotit	zkrotit_:W	V	280154
+280154	krotit	krotit_:T	V
+962012	zkrucovatel	zkrucovatel_,s	N	962014
+962014	zkrucovat	zkrucovat_:T	V
+962728	zkulturňovatel	zkulturňovatel	N	962732
+962732	zkulturňovat	zkulturňovat_:T	V	962718
+962718	zkulturnit	zkulturnit_:W	V
+962746	zkumatel	zkumatel_,a	N	961046
+961046	zkoumat	zkoumat_:T	V
+964444	zlehčovatel	zlehčovatel	N	964448
+964448	zlehčovat	zlehčovat_:T	V	964431
+964431	zlehčit	zlehčit_:W	V
+964690	zlepšovatel	zlepšovatel	N	964698
+964698	zlepšovat	zlepšovat_:T	V	964677
+964677	zlepšit	zlepšit_:W	V	297255
+297255	lepšit	lepšit_:T	V
+964811	zlevňovatel	zlevňovatel_,s	N	964813
+964813	zlevňovat	zlevňovat_:T	V	964799
+964799	zlevnit	zlevnit_:W	V
+965145	zlidšťovatel	zlidšťovatel_,s	N	965147
+965147	zlidšťovat	zlidšťovat_:T	V	965133
+965133	zlidštit	zlidštit_:W	V
+965515	zlobitel	zlobitel	N	965519
+965519	zlobit	zlobit_:T	V
+966608	zmahatel	zmahatel	N	966614
+966614	zmahat	zmahat_:T_,h	V
+968088	změkčovatel	změkčovatel	N	968092
+968092	změkčovat	změkčovat_:T	V	968076
+968076	změkčit	změkčit_:W	V	322327
+322327	měkčit	měkčit_:T	V
+969159	zmírňovatel	zmírňovatel	N	969163
+969163	zmírňovat	zmírňovat_:T	V	969147
+969147	zmírnit	zmírnit_:W	V	331665
+331665	mírnit	mírnit_:T	V
+969650	zmnožovatel	zmnožovatel_,s	N	969652
+969652	zmnožovat	zmnožovat_:T_,s	V	969638
+969638	zmnožit	zmnožit_:W	V	334523
+334523	množit	množit_:T	V
+969706	zmocnitel	zmocnitel	N	969713
+969713	zmocnit	zmocnit_:W	V
+970680	zmrazovatel	zmrazovatel	N	970684
+970684	zmrazovat	zmrazovat_:T	V	970657
+970657	zmrazit	zmrazit_:W	V	339938
+339938	mrazit	mrazit_:T	V
+971706	značitel	značitel	N	971711
+971711	značit	značit_:T	V
+971931	znamenatel	znamenatel	N	971935
+971935	znamenat	znamenat_:T	V
+972043	znárodnitel	znárodnitel	N	972047
+972047	znárodnit	znárodnit_:W_^(soukr._majetek)	V
+972057	znárodňovatel	znárodňovatel	N	972061
+972061	znárodňovat	znárodňovat_:T	V	972047
+972047	znárodnit	znárodnit_:W_^(soukr._majetek)	V
+972109	znásilnitel	znásilnitel	N	972113
+972113	znásilnit	znásilnit_:W	V
+972125	znásilňovatel	znásilňovatel_,s	N	972127
+972127	znásilňovat	znásilňovat_:T	V	972113
+972113	znásilnit	znásilnit_:W	V
+972183	znatel	znatel_,a	N
+972334	znázornitel	znázornitel	N	972338
+972338	znázornit	znázornit_:W	V
+972482	znečistitel	znečistitel	N	972486
+972486	znečistit	znečistit_:W	V	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+972496	znečisťovatel	znečisťovatel	N	972500
+972500	znečisťovat	znečisťovat_:T	V	972486
+972486	znečistit	znečistit_:W	V	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+972527	znečištovatel	znečištovatel	N
+972528	znečišťovatel	znečišťovatel	N	972533
+972533	znečišťovat	znečišťovat_:T	V	972486
+972486	znečistit	znečistit_:W	V	81962
+81962	čistit	čistit_:T	V	82035
+82035	čistý	čistý	A
+972717	znehodnocovatel	znehodnocovatel	N	972721
+972721	znehodnocovat	znehodnocovat_:T	V	972740
+972740	znehodnotit	znehodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+972736	znehodnotitel	znehodnotitel	N	972740
+972740	znehodnotit	znehodnotit_:W	V	202076
+202076	hodnotit	hodnotit_:T	V
+972767	znehybňovatel	znehybňovatel	N	972771
+972771	znehybňovat	znehybňovat_:T	V	972757
+972757	znehybnit	znehybnit_:W	V
+972796	znechucovatel	znechucovatel	N	972800
+972800	znechucovat	znechucovat_:T	V	972815
+972815	znechutit	znechutit_:W	V
+972974	zneklidňovatel	zneklidňovatel	N	972978
+972978	zneklidňovat	zneklidňovat_:T	V	972964
+972964	zneklidnit	zneklidnit_:W	V
+973248	znemravňovatel	znemravňovatel	N	973252
+973252	znemravňovat	znemravňovat_:T	V	973238
+973238	znemravnit	znemravnit_:W	V
+973425	znepokojovatel	znepokojovatel_,s	N	973427
+973427	znepokojovat	znepokojovat_:T	V	973401
+973401	znepokojit	znepokojit_:W	V
+973631	znepříjemňovatel	znepříjemňovatel	N	973635
+973635	znepříjemňovat	znepříjemňovat_:T	V	973621
+973621	znepříjemnit	znepříjemnit_:W	V
+973987	znesvěcovatel	znesvěcovatel	N	973991
+973991	znesvěcovat	znesvěcovat_:T	V	974013
+974013	znesvětit	znesvětit_:W	V	694899
+694899	světit	světit_:T	V
+974006	znesvětitel	znesvětitel	N	974013
+974013	znesvětit	znesvětit_:W	V	694899
+694899	světit	světit_:T	V
+974032	zneškodňovatel	zneškodňovatel	N	974036
+974036	zneškodňovat	zneškodňovat_:T	V	974022
+974022	zneškodnit	zneškodnit_:W	V
+974278	zneužitel	zneužitel	N	974285
+974285	zneužít	zneužít_:W	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+974298	zneuživatel	zneuživatel	N	974304
+974304	zneužívat	zneužívat_:T_^(*3t)	V	974285
+974285	zneužít	zneužít_:W	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+974299	zneužívatel	zneužívatel	N	974304
+974304	zneužívat	zneužívat_:T_^(*3t)	V	974285
+974285	zneužít	zneužít_:W	V	775402
+775402	užít	užít_:T	V	1006682
+1006682	žít	žít_:T	V
+974350	znevažovatel	znevažovatel_,s	N	974352
+974352	znevažovat	znevažovat_:T	V	974323
+974323	znevážit	znevážit_:W	V	780487
+780487	vážit	vážit_:T	V
+975412	znovuobjevitel	znovuobjevitel	N	975416
+975416	znovuobjevit	znovuobjevit_:W	VC
+976444	znovuzakladatel	znovuzakladatel	N	976448
+976448	znovuzakládat	znovuzakládat_:T	VC
+977243	zobrazitel	zobrazitel	N	977250
+977250	zobrazit	zobrazit_:W	V
+977264	zobrazovatel	zobrazovatel	N	977268
+977268	zobrazovat	zobrazovat_:T	V	977250
+977250	zobrazit	zobrazit_:W	V
+977661	zodpověditel	zodpověditel	N
+977850	zohavitel	zohavitel	N	977854
+977854	zohavit	zohavit_:W	V
+979093	zosnovatel	zosnovatel	N	979100
+979100	zosnovat	zosnovat_:T	V	433882
+433882	osnovat	osnovat_:T	V
+979116	zosobitel	zosobitel_,a	N	979123
+979123	zosobit	zosobit_:W_,a	V	433921
+433921	osobit	osobit_:T	V
+979137	zosobnitel	zosobnitel_,s	N	979139
+979139	zosobnit	zosobnit_:W	V
+979151	zosobňovatel	zosobňovatel_,s	N	979153
+979153	zosobňovat	zosobňovat_:T	V	979139
+979139	zosobnit	zosobnit_:W	V
+979306	zostuditel	zostuditel	N	979310
+979310	zostudit	zostudit_:W	V	435029
+435029	ostudit	ostudit_:W	V	688727
+688727	studit	studit_:T	V
+979452	zotročitel	zotročitel	N	979459
+979459	zotročit	zotročit_:W	V	438120
+438120	otročit	otročit_:T_:W	V
+979469	zotročovatel	zotročovatel	N	979476
+979476	zotročovat	zotročovat_:T	V	979459
+979459	zotročit	zotročit_:W	V	438120
+438120	otročit	otročit_:T_:W	V
+981259	zpevňovatel	zpevňovatel	N	981263
+981263	zpevňovat	zpevňovat_:T	V	981242
+981242	zpevnit	zpevnit_:W	V
+982182	zplnomocnitel	zplnomocnitel	N	982189
+982189	zplnomocnit	zplnomocnit_:W	V
+982219	zploditel	zploditel	N	982226
+982226	zplodit	zplodit_:W	V	465563
+465563	plodit	plodit_:T	V
+982787	zpodobitel	zpodobitel_,s	N	982789
+982789	zpodobit	zpodobit_:W	V
+982801	zpodobnitel	zpodobnitel	N	982805
+982805	zpodobnit	zpodobnit_:W	V
+982817	zpodobňovatel	zpodobňovatel_,s	N	982819
+982819	zpodobňovat	zpodobňovat_:T	V	982805
+982805	zpodobnit	zpodobnit_:W	V
+982836	zpodobovatel	zpodobovatel_,a	N	982843
+982843	zpodobovat	zpodobovat_:T	V	982789
+982789	zpodobit	zpodobit_:W	V
+983310	zpochybňovatel	zpochybňovatel	N	983314
+983314	zpochybňovat	zpochybňovat_:T	V	983298
+983298	zpochybnit	zpochybnit_:W	V
+984192	zpovídatel	zpovídatel	N	984196
+984196	zpovídat	zpovídat_:T	V	499955
+499955	povídat	povídat_:T	V	499790
+499790	povědět	povědět_:W	V	782421
+782421	vědět	vědět_:T	V
+984551	zpracovatel	zpracovatel	N	984559
+984559	zpracovat	zpracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+984571	zpracovavatel	zpracovavatel	N	984580
+984580	zpracovávat	zpracovávat_:T_^(*4at)	V	984559
+984559	zpracovat	zpracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+984572	zpracovávatel	zpracovávatel	N	984580
+984580	zpracovávat	zpracovávat_:T_^(*4at)	V	984559
+984559	zpracovat	zpracovat_:W	V	503999
+503999	pracovat	pracovat_:T	V
+984948	zpravodatel	zpravodatel_,a	N
+985237	zprivatizovatel	zprivatizovatel	N	985241
+985241	zprivatizovat	zprivatizovat_:W	V	508004
+508004	privatizovat	privatizovat_:T_:W	V
+985720	zpronevěřitel	zpronevěřitel_,s	N	985722
+985722	zpronevěřit	zpronevěřit_:W	V
+985870	zprostitel	zprostitel_,a	N	985897
+985897	zprostit	zprostit_:W	V
+985978	zprostředkovatel	zprostředkovatel	N	985989
+985989	zprostředkovat	zprostředkovat_:W	V	523472
+523472	prostředkovat	prostředkovat_:T	V
+985999	zprostředkovávatel	zprostředkovávatel	N	986003
+986003	zprostředkovávat	zprostředkovávat_:T_^(*4at)	V	985989
+985989	zprostředkovat	zprostředkovat_:W	V	523472
+523472	prostředkovat	prostředkovat_:T	V
+986198	zprovoznitel	zprovoznitel	N	986202
+986202	zprovoznit	zprovoznit_:W	V
+986212	zprovozňovatel	zprovozňovatel	N	986216
+986216	zprovozňovat	zprovozňovat_:T	V	986202
+986202	zprovoznit	zprovoznit_:W	V
+986694	zprznitel	zprznitel	N	986698
+986698	zprznit	zprznit_:W_,s	V	532599
+532599	prznit	prznit_:T	V
+987611	zpřístupňovatel	zpřístupňovatel	N	987615
+987615	zpřístupňovat	zpřístupňovat_:T	V	987601
+987601	zpřístupnit	zpřístupnit_:W	V
+988102	způsobitel	způsobitel_,s	N	988104
+988104	způsobit	způsobit_:W	V	583019
+583019	působit	působit_:T_:W	V
+988320	zpytatel	zpytatel_,a	N	988330
+988330	zpytat	zpytat_:T_,a	V
+988357	zpytovatel	zpytovatel_,s	N	988359
+988359	zpytovat	zpytovat_:T	V
+988898	zraňovatel	zraňovatel	N	988902
+988902	zraňovat	zraňovat_:T	V	988885
+988885	zranit	zranit_:W	V	587989
+587989	ranit	ranit_:W_^(poranit)	V
+991072	zroditel	zroditel	N	991076
+991076	zrodit	zrodit_:W	V	599295
+599295	rodit	rodit_:T	V
+991907	zrušitel	zrušitel_,a	N	991914
+991914	zrušit	zrušit_:W	V	625144
+625144	rušit	rušit_:T	V
+992640	zřetel	zřetel	N
+992793	zřitel	zřitel_,a	N
+992851	zřizovatel	zřizovatel	N	992859
+992859	zřizovat	zřizovat_:T	V	992733
+992733	zřídit	zřídit_:W	V	629085
+629085	řídit	řídit_:T	V
+993707	ztělesnitel	ztělesnitel	N	993711
+993711	ztělesnit	ztělesnit_:W	V
+993721	ztělesňovatel	ztělesňovatel	N	993725
+993725	ztělesňovat	ztělesňovat_:T	V	993711
+993711	ztělesnit	ztělesnit_:W	V
+994142	ztěžovatel	ztěžovatel	N	994146
+994146	ztěžovat	ztěžovat_:T	V	994335
+994335	ztížit	ztížit	V	728170
+728170	tížit	tížit_^(rozkaz._tvar_slovesa)	V
+994737	ztotožňovatel	ztotožňovatel	N	994741
+994741	ztotožňovat	ztotožňovat_:T	V	994727
+994727	ztotožnit	ztotožnit_:W	V
+995382	ztrpčovatel	ztrpčovatel	N	995386
+995386	ztrpčovat	ztrpčovat_:T	V	995372
+995372	ztrpčit	ztrpčit_:W	V
+995906	ztvárnitel	ztvárnitel_,s	N	995908
+995908	ztvárnit	ztvárnit_:W	V
+995920	ztvárňovatel	ztvárňovatel_,s	N	995922
+995922	ztvárňovat	ztvárňovat_:T	V	995908
+995908	ztvárnit	ztvárnit_:W	V
+996588	zúčtovatel	zúčtovatel	N	996592
+996592	zúčtovat	zúčtovat_:W	V	746551
+746551	účtovat	účtovat_:T	V
+997422	zúročitel	zúročitel	N	997425
+997425	zúročit	zúročit_:W	V	762596
+762596	úročit	úročit_:T	V
+997688	zůstavitel	zůstavitel	N	997695
+997695	zůstavit	zůstavit_:W	V	680336
+680336	stavit	stavit_:T_:W	V	680150
+680150	stát	stát-4_:T_^(něco_stojí_peníze)	V	721126
+721126	tát	tát_:T	V
+997743	zušlechtitel	zušlechtitel_,s	N	997745
+997745	zušlechtit	zušlechtit_:W	V	707656
+707656	šlechtit	šlechtit_:T	V
+997755	zušlechťovatel	zušlechťovatel	N	997762
+997762	zušlechťovat	zušlechťovat_:T	V	997745
+997745	zušlechtit	zušlechtit_:W	V	707656
+707656	šlechtit	šlechtit_:T	V
+998228	zužitkovatel	zužitkovatel	N	998232
+998232	zužitkovat	zužitkovat_:W	V
+998723	zvatel	zvatel	N
+998891	zvěčňovatel	zvěčňovatel_,s	N	998893
+998893	zvěčňovat	zvěčňovat_:T	V	998879
+998879	zvěčnit	zvěčnit_:W	V
+999135	zvelebitel	zvelebitel	N	999142
+999142	zvelebit	zvelebit_:W	V	783707
+783707	velebit	velebit_:T	V
+999181	zvelebovatel	zvelebovatel	N	999185
+999185	zvelebovat	zvelebovat_:T	V	999142
+999142	zvelebit	zvelebit_:W	V	783707
+783707	velebit	velebit_:T	V
+999221	zveličovatel	zveličovatel_,s	N	999223
+999223	zveličovat	zveličovat_:T	V	999209
+999209	zveličit	zveličit_:W	V
+999469	zveřejnitel	zveřejnitel	N	999473
+999473	zveřejnit	zveřejnit_:W	V
+999492	zveřejňovatel	zveřejňovatel	N	999496
+999496	zveřejňovat	zveřejňovat_:T	V	999473
+999473	zveřejnit	zveřejnit_:W	V
+999585	zvěstovatel	zvěstovatel	N	999592
+999592	zvěstovat	zvěstovat_:T_:W	V
+999834	zvídatel	zvídatel	N	999838
+999838	zvídat	zvídat_:T	V	998996
+998996	zvědět	zvědět_:W	V	782421
+782421	vědět	vědět_:T	V
+1000146	zvítězitel	zvítězitel_,s	N	1000148
+1000148	zvítězit	zvítězit_:W	V	794908
+794908	vítězit	vítězit_:T	V
+1002295	zvyšovatel	zvyšovatel	N	1002299
+1002299	zvyšovat	zvyšovat_:T	V	1002284
+1002284	zvýšit	zvýšit_:W	V
+1003121	žadatel	žadatel	N	1003128
+1003128	žádat	žádat_:T	V
+1003566	žalovatel	žalovatel	N	1003573
+1003573	žalovat	žalovat_:T	V
+1004546	žebratel	žebratel	N	1004551
+1004551	žebrat	žebrat_:T	V
+1004791	žehnatel	žehnatel_,s	N	1004794
+1004794	žehnat	žehnat_:T	V
+1006612	žitel	žitel_,a	N	1006682
+1006682	žít	žít_:T	V
+1006753	živitel	živitel	N	1006760
+1006760	živit	živit_:T	V
