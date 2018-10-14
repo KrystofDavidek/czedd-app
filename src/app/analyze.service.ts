@@ -1,36 +1,30 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { take } from 'rxjs/operators';
 import * as _ from 'lodash';
+import { LoadFileService } from './load-file.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AnalyzeService {
 
-  constructor(private http: HttpClient) {}
+  constructor(private load: LoadFileService) {}
 
   public word = '';
   public outputWord = '';
 
-  public loadTsv() {
-    console.log("LOADING")
-    return this.http.get("/assets/derinet-1-5-1.tsv", {responseType: "text"}).pipe(
-      take(1)
-    ).toPromise();
-  }
-
   public async analyze(inputWord) { 
-    this.outputWord = inputWord.split("").reverse().join("")
-    let tsvContent = (await this.loadTsv()).split("\n");
+    let tsvContent = (await this.load.loadTsv('derinet-1-5-1.tsv')).split("\n");
     let items = _.map(tsvContent, this.convertLineToObject)
-    let item = _.find(items, ["word", inputWord]);
+    let item = _.find(items, ["word", inputWord])
+    if (!(item)) {
+      return 'Slovo neexistuje.'
+    }
     while(item.parent != "") {
       item = _.find(items, ["id", item.parent]);
     }
-    console.log("lOADED")
+    this.outputWord = item.word.replace(/['"]+/g, '');
     console.log(item)
-    return item;
+    return this.outputWord
   }
 
   public convertLineToObject(line: string) {
