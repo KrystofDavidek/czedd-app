@@ -10,22 +10,40 @@ export class AnalyzeService {
   constructor(private load: LoadFileService) {}
 
   public word = '';
-  public outputWord = '';
+  public output = '';
 
-  public async analyze(inputWord) { 
-    let tsvContent = (await this.load.loadTsv('derinet-1-5-1.tsv')).split("\n");
+  public async analyze(inputWord) {
+    let translate = ''
+    let parentWord = ''
+    let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
     let items = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(items, ["word", inputWord])
     if (!(item)) {
-      return 'Slovo neexistuje.'
+      return ['Slovo neexistuje.']
     }
     while(item.parent != "") {
       item = _.find(items, ["id", item.parent]);
     }
-    this.outputWord = item.word.replace(/['"]+/g, '');
-    console.log(item)
-    return this.outputWord
+    parentWord = item.word.replace(/['"]+/g, '');
+    translate = (await this.translate(parentWord))
+    return [parentWord, translate]
   }
+
+  public async translate(outputWord) {
+    let translation = '';
+    let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
+    var arrayDicLength = dic.length;
+    for (var i = 0; i < arrayDicLength; i++) {
+      let dicLine = dic[i].split("\t")
+      var arrayLineLength = dicLine.length;
+      for (var j = 0; j < arrayLineLength; j++) {
+        if (outputWord == dicLine[j]) {
+          return dicLine[0]
+        } 
+      }
+    }
+  }
+  
 
   public convertLineToObject(line: string) {
     let columns = line.split("\t");

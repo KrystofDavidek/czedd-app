@@ -14,10 +14,9 @@
     </ion-card-content>  
   </ion-card>
   <ion-button shape="round" color="primary" fill="outline" (click)='anaylze()'>Analyze</ion-button>
-  {{output}}
   <ion-card>
-    <ion-card-content *ngIf="outputWord">
-    {{ outputWord }}
+    <ion-card-content *ngIf="output">
+    {{ output }}
     </ion-card-content>  
   </ion-card>
 </ion-content>

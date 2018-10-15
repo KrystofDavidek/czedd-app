@@ -9,8 +9,8 @@ export class LoadFileService {
 
   constructor(private http: HttpClient) { }
 
-  public loadTsv(nameOfFile) {
-    console.log("LOADING")
+  public loadFile(nameOfFile) {
+    console.log("LOADED " + nameOfFile)
     return this.http.get("/assets/" + nameOfFile, {responseType: "text"}).pipe(
       take(1)
     ).toPromise();

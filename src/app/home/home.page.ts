@@ -14,9 +14,17 @@ export class HomePage implements OnInit {
   }
 
   public inputWord = ''
-  public outputWord
+  public output = '' 
   
   public async anaylze() {
-    this.outputWord = await this.analyzator.analyze(this.inputWord)
+    let outputResult = []
+    outputResult = await this.analyzator.analyze(this.inputWord)
+    if (outputResult.length != 1) {
+      this.output = outputResult[0] + ' in English means ' + outputResult[1]
+    }
+    else {
+      this.output = outputResult[0]
+    }
+
   }
-  }
+}
