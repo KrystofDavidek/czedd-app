@@ -13,7 +13,7 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
-  public inputWord = ''
+  public inputWord = 'vychovávatel'
   public output = '' 
   
   public async anaylze() {
