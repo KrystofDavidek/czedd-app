@@ -10,42 +10,47 @@ export class AnalyzeService {
 
   constructor(private load: LoadFileService) {}
 
-  public createOutputObject(inputWord, dic) {
-    let inputTranslation = this.translate(inputWord, dic)
-    let output = {
-      czechInput : inputWord,
-      englishInput : inputTranslation,
-      czechParent : '',
-      englishParent : '',
-      derType : ''
-    };
-    return output
+  public output = {
+    czechInput : '',
+    englishInput : '',
+    czechParent : '',
+    englishParent : '',
+    derivType : ''
+  };
+
+
+  public async initializateOutput(inputWord, dic) {
+    this.output.czechInput = inputWord
+    this.output.englishInput = this.translate(inputWord, dic)
   }
 
   public async analyze(inputWord) {
-    let derivationPath = []
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
-    let output = this.createOutputObject(inputWord, dic)
+    await this.initializateOutput(inputWord, dic)
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
     let searchResults = []
+    let derivationPath = []
     if (!(item)) {
-      return ['Slovo neexistuje.']
+      return 'Slovo neexistuje.'
     }
     derivationPath.push(item)
-    searchResults = this.searchParent(item, itemsList, derivationPath)
-    output.czechParent = searchResults[0]
-    output.derType = searchResults[1]
-    output.englishParent = (this.translate(output.czechParent, dic))
-    console.log(output)
-    return output
+    searchResults = await this.searchParent(item, itemsList, derivationPath, dic)
+    this.output.czechParent = searchResults[0]
+    this.output.derivType = searchResults[1]
+    this.output.englishParent = (this.translate(this.output.czechParent, dic))
+    console.log(this.output)
+    return this.output
   }
 
-  public searchParent(item, itemsList, derivationPath) {
+  public async searchParent(item, itemsList, derivationPath, dic) {
     let prevItem = ''
     let derType = ''
     while(item.parent != "") {
+      if (this.output.englishInput == '') {
+        this.output.englishInput = this.translate(item.word, dic)
+      }
       prevItem = item
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
@@ -57,7 +62,7 @@ export class AnalyzeService {
         break
       }
     }
-    // console.log(derivationPath)
+    console.log(derivationPath)
     return [item.word, derType]
   }
 
@@ -79,15 +84,12 @@ export class AnalyzeService {
     ) {
       derType = 'tel'
     }
-    else {
-      derType = 'spatne'
-    }
     return derType
   }
 
   public ifPrefix(prevItem, item) {
     if (
-      prevItem.word.length != item.word.length &&
+      prevItem.word.substring(0,3) != item.word.substring(0,3) &&
       prevItem.category == 'V' &&
       item.category == 'V'
     ) {
@@ -99,7 +101,7 @@ export class AnalyzeService {
   }
 
   public translate(word, dic) {
-    let translation = 'The translation does not exist.';
+    let translation = '';
     var arrayDicLength = dic.length;
     for (var i = 0; i < arrayDicLength; i++) {
       let dicLine = dic[i].split("\t")
