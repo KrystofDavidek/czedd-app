@@ -16,7 +16,7 @@
   <ion-button shape="round" color="primary" fill="outline" (click)='anaylze()'>Analyze</ion-button>
   <ion-card>
     <ion-card-content *ngIf="output">
-    {{ output }}
+    {{ output | json }}
     </ion-card-content>  
   </ion-card>
 </ion-content>
