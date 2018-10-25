@@ -24,6 +24,7 @@ export class AnalyzeService {
     this.output.englishInput = this.translate(inputWord, dic)
   }
 
+  
   public async analyze(inputWord) {
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
@@ -44,9 +45,10 @@ export class AnalyzeService {
     return this.output
   }
 
+
   public async searchParent(item, itemsList, derivationPath, dic) {
     let prevItem = ''
-    let derType = ''
+    let derivType = ''
     while(item.parent != "") {
       if (this.output.englishInput == '') {
         this.output.englishInput = this.translate(item.word, dic)
@@ -55,7 +57,7 @@ export class AnalyzeService {
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
       if (this.PartOfSpeechChange(item, prevItem)) {
-        derType = this.checkDertivationType(item, prevItem)
+        derivType = this.checkDertivationType(item, prevItem)
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem
@@ -63,8 +65,9 @@ export class AnalyzeService {
       }
     }
     console.log(derivationPath)
-    return [item.word, derType]
+    return [item.word, derivType]
   }
+
 
   public PartOfSpeechChange(item, prevItem) {
     if (item.category != prevItem.category) {
@@ -75,17 +78,19 @@ export class AnalyzeService {
     }
   }
 
+
   public checkDertivationType(item, prevItem) {
-    let derType = ''
+    let derivType = ''
     if (
       prevItem.category == 'N' && 
       item.category == 'V' &&
       prevItem.word.endsWith("tel")
     ) {
-      derType = 'tel'
+      derivType = 'tel'
     }
-    return derType
+    return derivType
   }
+
 
   public ifPrefix(prevItem, item) {
     if (
@@ -99,6 +104,7 @@ export class AnalyzeService {
       return false
     }
   }
+
 
   public translate(word, dic) {
     let translation = '';

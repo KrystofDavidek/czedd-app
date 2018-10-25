@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyzeService } from '../analyze.service';
+import { FormatService } from '../format.service';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { AnalyzeService } from '../analyze.service';
 })
 export class HomePage implements OnInit {
 
-  constructor(public analyzator:AnalyzeService) { }
+  constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
 
   ngOnInit() {
   }
@@ -17,6 +18,8 @@ export class HomePage implements OnInit {
   public output
   
   public async anaylze() {
-    this.output = await this.analyzator.analyze(this.inputWord)
+    let outputObject
+    outputObject = await this.analyzator.analyze(this.inputWord)
+    this.output = this.formator.createDefinition(outputObject)
   }
 }

@@ -16,7 +16,15 @@
   <ion-button shape="round" color="primary" fill="outline" (click)='anaylze()'>Analyze</ion-button>
   <ion-card>
     <ion-card-content *ngIf="output">
-    {{ output | json }}
+      <h1> {{ output.telMain.caption }} </h1>
+      <p> {{ output.telMain.firstLine }} </p>
+      <p> {{ output.telMain.czechLine }} </p>
+      <p> {{ output.telMain.englishLine }} </p>
+    </ion-card-content>
+    <ion-card-content *ngIf="output">
+      <h1> {{ output.telSecondary.caption }} </h1>
+      <p> {{ output.telSecondary.baseWord }} </p>
+      <p> {{ output.telSecondary.derProcess }} </p>
     </ion-card-content>  
   </ion-card>
 </ion-content>
