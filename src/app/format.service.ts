@@ -34,7 +34,7 @@ export class FormatService {
     mainDefiniton.telMain = this.telMain(outputObject)
     mainDefiniton.telSecondary = {
       caption: 'Derivation information',
-      baseWord : 'Base word: ' +  outputObject.czechParent,
+      baseWord : `Base word: ${outputObject.czechParent}`,
       derProcess: 'Derivation process: suffix'
     }
     return mainDefiniton
@@ -44,18 +44,17 @@ export class FormatService {
 
   public telMain(outputObject) {
     let mainResult = {
-      caption : 'Definiton',
+      caption : 'Definition',
       firstLine : '',
       czechLine : '',
       englishLine: ''}
 
     let inputName = outputObject.czechInput.substring(0, outputObject.czechInput.length - outputObject.derivType.length + 1)
-    mainResult.firstLine = inputName + "-" + outputObject.derivType
+    mainResult.firstLine = `${inputName}-${outputObject.derivType}`
     let thirdPerson = this.getThirdPerson(outputObject.czechInput, outputObject.derivType)
-    mainResult.czechLine = 'ten, kdo ' + thirdPerson + ' (infinitive: ' + outputObject.czechParent + ')'
-    mainResult.englishLine = 'someone (masculine animate) who ' + outputObject.englishParent + 's'
+    mainResult.czechLine = `ten, kdo ${thirdPerson} (infinitive: ${outputObject.czechParent})`
+    mainResult.englishLine = `someone (masculine animate) who ${outputObject.englishParent}s`
     return mainResult
-
   }
 
 
@@ -75,7 +74,7 @@ export class FormatService {
   public telSecondary (outputObject) {
     let secondaryResult = {
       caption: 'Derivation information',
-      baseWord : 'Base word: ' +  outputObject.czechParent,
+      baseWord : `Base word: ${outputObject.czechParent}`,
       derProcess: 'Derivation process: suffix'
     }
     return secondaryResult
