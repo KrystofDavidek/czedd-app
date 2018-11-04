@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import * as _ from 'lodash';
 import { LoadFileService } from './load-file.service';
 import { and } from '@angular/router/src/utils/collection';
+import { BOOL_TYPE } from '@angular/compiler/src/output/output_ast';
+import { BooleanValueAccessor } from '@ionic/angular';
 
 @Injectable({
   providedIn: 'root'
@@ -15,13 +17,15 @@ export class AnalyzeService {
     englishInput : '',
     czechParent : '',
     englishParent : '',
-    derivType : ''
+    derivType : '',
+    isPrefig : Boolean()
   };
 
 
   public async initializateOutput(inputWord, dic) {
     this.output.czechInput = inputWord
     this.output.englishInput = this.translate(inputWord, dic)
+    this.output.isPrefig = false
   }
 
   
@@ -37,9 +41,7 @@ export class AnalyzeService {
       return 'Slovo neexistuje.'
     }
     derivationPath.push(item)
-    searchResults = await this.searchParent(item, itemsList, derivationPath, dic)
-    this.output.czechParent = searchResults[0]
-    this.output.derivType = searchResults[1]
+    this.output.czechParent = await this.searchParent(item, itemsList, derivationPath, dic)
     this.output.englishParent = (this.translate(this.output.czechParent, dic))
     console.log(this.output)
     return this.output
@@ -48,7 +50,6 @@ export class AnalyzeService {
 
   public async searchParent(item, itemsList, derivationPath, dic) {
     let prevItem = ''
-    let derivType = ''
     while(item.parent != "") {
       if (this.output.englishInput == '') {
         this.output.englishInput = this.translate(item.word, dic)
@@ -57,15 +58,17 @@ export class AnalyzeService {
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
       if (this.PartOfSpeechChange(item, prevItem)) {
-        derivType = this.checkDertivationType(item, prevItem)
+        this.output.derivType = this.checkDertivationType(item, prevItem)
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem
+        console.log('yes')
+        this.output.isPrefig = true
         break
       }
     }
     console.log(derivationPath)
-    return [item.word, derivType]
+    return item.word
   }
 
 

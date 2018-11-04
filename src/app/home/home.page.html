@@ -1,13 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title text-center>
-      <p>CZEDD</p>
-      <p>CZech Electronic Derivation Dictionary</p>
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<div class='header'>
+  <ion-header>
+    <ion-toolbar color='dark'>
+      <ion-title>
+        <p><span class='short-letters'>CZEDD</span></p>
+        <p><span class='short-letters'>CZ</span>ech <span class='short-letters'>E</span>lectronic <span class='short-letters'>D</span>erivation <span class='short-letters'>D</span>ictionary</p>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+</div>
 <ion-content padding text-center>
+
   <ion-card>
     <ion-card-content>
       <ion-input required type="text" placeholder="Write the word." (keyup.enter)="anaylze()" [(ngModel)]='inputWord'></ion-input>
@@ -17,25 +19,27 @@
   <ion-card *ngIf="errorMessage"> 
     <p> {{ errorMessage }} </p>
   </ion-card>
+
   <div class='definition'>
-  <div class='main'>
-    <ion-card *ngIf='output'>
-      <span class='def-title'><ion-card-title> {{ output.Main.caption }} </ion-card-title></span>
-      <ion-card-content>
-        <p> {{ output.Main.firstLine }} </p>
-        <p> {{ output.Main.czechLine }} </p>
-        <p> {{ output.Main.englishLine }} </p>
-      </ion-card-content>
-    </ion-card>
+    <div class='main'>
+      <ion-card *ngIf='output'>
+        <span class='def-title'><ion-card-title> {{ output.Main.caption }} </ion-card-title></span>
+        <ion-card-content>
+          <p> {{ output.Main.firstLine }} </p>
+          <p> {{ output.Main.czechLine }} </p>
+          <p> {{ output.Main.englishLine }} </p>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class='secondary'>
+      <ion-card *ngIf="output">
+        <ion-card-title> {{ output.Secondary.caption }} </ion-card-title>
+        <ion-card-content>
+          <p> {{ output.Secondary.baseWord }} </p>
+          <p> {{ output.Secondary.derProcess }} </p>
+        </ion-card-content>
+      </ion-card>
+    </div>
   </div>
-  <div class='secondary'>
-    <ion-card *ngIf="output">
-      <ion-card-title> {{ output.Secondary.caption }} </ion-card-title>
-      <ion-card-content>
-        <p> {{ output.Secondary.baseWord }} </p>
-        <p> {{ output.Secondary.derProcess }} </p>
-      </ion-card-content>
-    </ion-card>
-  </div>
-</div>
+  
 </ion-content>

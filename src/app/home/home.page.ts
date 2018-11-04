@@ -34,10 +34,10 @@ export class HomePage implements OnInit {
   public experiment() {
     let something = undefined
     if (something) {
-      console.log('True')
+      //console.log('True')
     }
     else {
-      console.log('False')
+      //console.log('False')
     }
   }
 }
