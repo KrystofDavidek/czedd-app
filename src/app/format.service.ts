@@ -28,11 +28,11 @@ export class FormatService {
 
   public telDefinition(outputObject) {
     let mainDefiniton = {
-      telMain : {},
-      telSecondary : {}
+      Main : {},
+      Secondary : {}
     }
-    mainDefiniton.telMain = this.telMain(outputObject)
-    mainDefiniton.telSecondary = {
+    mainDefiniton.Main = this.telMain(outputObject)
+    mainDefiniton.Secondary = {
       caption: 'Derivation information',
       baseWord : `Base word: ${outputObject.czechParent}`,
       derProcess: 'Derivation process: suffix'
@@ -78,9 +78,6 @@ export class FormatService {
       derProcess: 'Derivation process: suffix'
     }
     return secondaryResult
-
-
   }
-
 }
 
