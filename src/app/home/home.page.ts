@@ -14,12 +14,19 @@ export class HomePage implements OnInit {
   ngOnInit() {
   }
 
-  public inputWord = 'vychovávatel'
+  public inputWord = 'vykonavatel'
   public output
+  public errorMessage
   
   public async anaylze() {
     let outputObject
     outputObject = await this.analyzator.analyze(this.inputWord)
+    if (typeof outputObject === 'string' || outputObject instanceof String) {
+      console.log(outputObject)
+      this.errorMessage = 'Wrong input.'
+    }
+    else {
     this.output = this.formator.createDefinition(outputObject)
+    }
   }
 }

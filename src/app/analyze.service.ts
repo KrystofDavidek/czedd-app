@@ -33,7 +33,7 @@ export class AnalyzeService {
     let item = _.find(itemsList, ["word", inputWord])
     let searchResults = []
     let derivationPath = []
-    if (!(item)) {
+    if (item === undefined) {
       return 'Slovo neexistuje.'
     }
     derivationPath.push(item)
