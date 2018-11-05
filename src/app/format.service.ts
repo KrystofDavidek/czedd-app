@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { ExceptionsService } from './exceptions.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FormatService {
 
-  constructor() { }
+  constructor(private exceptions:ExceptionsService) { }
 
 
   public dictOfVocals = {
@@ -51,22 +52,35 @@ export class FormatService {
 
     let inputName = outputObject.czechInput.substring(0, outputObject.czechInput.length - outputObject.derivType.length + 1)
     mainResult.firstLine = `${inputName}-${outputObject.derivType}`
-    let thirdPerson = this.getThirdPerson(outputObject.czechInput, outputObject.derivType)
-    mainResult.czechLine = `ten, kdo ${thirdPerson} (infinitive: ${outputObject.czechParent})`
-    mainResult.englishLine = `someone (masculine animate) who ${outputObject.englishParent}s`
+
+    let thirdPerson = this.getThirdPerson(outputObject)
+    mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${outputObject.czechParent})`
+    mainResult.englishLine = `Someone (masculine animate) who ${outputObject.englishParent}s`
     return mainResult
   }
 
 
-  public getThirdPerson(verb, derivType) {
-    let thirdPerson = verb.substring(0, verb.length - derivType.length)
-    let lastLetter = thirdPerson[thirdPerson.length - 1]
-    for (var key in this.dictOfVocals) {
-      if (key == lastLetter) {
-        lastLetter = this.dictOfVocals[key]
-      }
+  public telTypePracovat(outputObject) {
+    if (outputObject.isPrefig) {
+      return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 5)}vává`
     }
-    thirdPerson = thirdPerson.slice(0, -1) + lastLetter
+    else {
+      return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 6)}uje`
+    }
+  }
+
+
+  public getThirdPerson(outputObject) {
+    let thirdPerson = ''
+    if (this.exceptions.isExcept(outputObject.czechParent)) {
+      return this.exceptions.findExcept(outputObject.czechParent)
+    }
+    if (outputObject.czechInput.match(/^.*ova(v[aá])?tel$/)) {
+      thirdPerson = this.telTypePracovat(outputObject)
+    }
+    else {
+      console.log('yes')
+    }
     return thirdPerson
   }
 

@@ -35,20 +35,19 @@ export class AnalyzeService {
     await this.initializateOutput(inputWord, dic)
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
-    let searchResults = []
-    let derivationPath = []
     if (item === undefined) {
-      return 'Slovo neexistuje.'
+      return 'Wrong input.'
     }
-    derivationPath.push(item)
-    this.output.czechParent = await this.searchParent(item, itemsList, derivationPath, dic)
+    this.output.czechParent = await this.searchParent(item, itemsList, dic)
     this.output.englishParent = (this.translate(this.output.czechParent, dic))
     console.log(this.output)
     return this.output
   }
 
 
-  public async searchParent(item, itemsList, derivationPath, dic) {
+  public async searchParent(item, itemsList, dic) {
+    let derivationPath = []
+    derivationPath.push(item)
     let prevItem = ''
     while(item.parent != "") {
       if (this.output.englishInput == '') {
@@ -62,7 +61,6 @@ export class AnalyzeService {
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem
-        console.log('yes')
         this.output.isPrefig = true
         break
       }

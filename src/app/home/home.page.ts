@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
     this.experiment()
     this.anaylze()
   }
-  public inputWord = 'vykonavatel'
+  public inputWord = 'kovatel'
   public output
   public errorMessage = ''
   
