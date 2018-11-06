@@ -22,6 +22,7 @@ export class ExceptionsService {
     _.forEach(this.exceptions, function(value, key) {
       if (verb === key) {
         except = value
+        return false
       }
     })
     return except
@@ -33,6 +34,7 @@ export class ExceptionsService {
     _.forEach(this.exceptions, function(value, key) {
       if (verb === key) {
         isExcept = true
+        return false
       }
     })
     return isExcept

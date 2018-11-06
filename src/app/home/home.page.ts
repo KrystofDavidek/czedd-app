@@ -12,7 +12,7 @@ export class HomePage implements OnInit {
   constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
 
   ngOnInit() {
-    this.experiment()
+    this.test()
     this.anaylze()
   }
   public inputWord = 'kovatel'
@@ -27,11 +27,11 @@ export class HomePage implements OnInit {
       this.errorMessage = 'Wrong input.'
     }
     else {
-    this.output = this.formator.createDefinition(outputObject)
+      this.output = this.formator.createDefinition(outputObject)
     }
   }
 
-  public experiment() {
+  public test() {
     let something = undefined
     if (something) {
       //console.log('True')

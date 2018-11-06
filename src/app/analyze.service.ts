@@ -39,7 +39,7 @@ export class AnalyzeService {
       return 'Wrong input.'
     }
     this.output.czechParent = await this.searchParent(item, itemsList, dic)
-    this.output.englishParent = (this.translate(this.output.czechParent, dic))
+    this.output.englishParent = this.translate(this.output.czechParent, dic)
     console.log(this.output)
     return this.output
   }

@@ -79,7 +79,7 @@ export class FormatService {
       thirdPerson = this.telTypePracovat(outputObject)
     }
     else {
-      console.log('yes')
+      thirdPerson = '...'
     }
     return thirdPerson
   }
