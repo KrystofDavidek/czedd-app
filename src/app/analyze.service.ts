@@ -22,26 +22,19 @@ export class AnalyzeService {
   };
 
 
+  public prefixes = ['do','na','nad','o','ob','od','po','pod','pro','pře','před','při','s','z','u','v','z','za','roz','vy','vz']
+
+
   public async initializateOutput(inputWord, dic) {
     this.output.czechInput = inputWord
     this.output.englishInput = this.translate(inputWord, dic)
     this.output.isPrefig = false
   }
 
-
-  public async checkDertivationTypeJSON(item, prevItem) {
-    let rules = (await this.load.loadJson('derTypes.json'))
-    let derivType  = ''
-    if (rules[prevItem.category][item.category]["tel"]) { // Tohle nedává smysl.
-      derivType = rules[prevItem.category][item.category]["tel"]
-  }
-    console.log(derivType)
-  }
-
   
   public async analyze(inputWord) {
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
-    let tsvContent = (await this.load.loadFile('tel_derinet.tsv')).split("\n");
+    let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
     await this.initializateOutput(inputWord, dic)
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
@@ -68,8 +61,7 @@ export class AnalyzeService {
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
       if (this.PartOfSpeechChange(item, prevItem)) {
-        this.output.derivType = this.checkDertivationType(item, prevItem)
-        await this.checkDertivationTypeJSON(item, prevItem)
+        this.output.derivType = await this.checkDertivationType(item, prevItem)
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem
@@ -92,20 +84,19 @@ export class AnalyzeService {
   }
 
 
-  public checkDertivationType(item, prevItem) {
-    let derivType = ''
-    if (
-      prevItem.category == 'N' && 
-      item.category == 'V' &&
-      prevItem.word.endsWith("tel")
-    ) {
-      derivType = 'tel'
-    }
-    return derivType
+  public async checkDertivationType(item, prevItem) {
+    let rules = (await this.load.loadJson('derivTypes.json'))
+    let resultDerivType  = ''
+    _.forEach(rules[prevItem.category][item.category],(affix, derivType) => {
+      if (affix.startsWith('-') && prevItem.word.endsWith(affix.substring(1))) {
+        resultDerivType = derivType
+      }
+    })
+    return resultDerivType
   }
 
 
-  public ifPrefix(prevItem, item) {
+  public ifPrefix(item, prevItem) {
     if (
       prevItem.word.substring(0,3) != item.word.substring(0,3) &&
       prevItem.category == 'V' &&

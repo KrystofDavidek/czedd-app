@@ -8,30 +8,22 @@ export class ExceptionsService {
 
   constructor() { }
 
-  public exceptions = {
-    'chovat': 'chová',
-    'kovat': 'ková/kove',
-    'klovat': 'klová/klove',
-    'snovat': 'snová/snove',
-    'plovat': 'plová/plové'
-  }
 
-
-  public findExcept(verb) {
-    let except
-    _.forEach(this.exceptions, (value, key) => {
+  public findExcept(verb, derivtype, exceptions) {
+    let exception = false
+    _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
-        except = value
+        exception = value
         return false
       }
     })
-    return except
+    return exception
   }
 
 
-  public isExcept(verb) {
+  public isExcept(verb, derivtype, exceptions) {
     let isExcept = false
-    _.forEach(this.exceptions, (value, key) => {
+    _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
         isExcept = true
         return false

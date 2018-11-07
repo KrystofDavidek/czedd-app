@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
     
     this.anaylze() 
   }
-  public inputWord = 'kovatel'
+  public inputWord = 'chovatel'
   public output
   public errorMessage = ''
   
@@ -28,21 +28,11 @@ export class HomePage implements OnInit {
       this.errorMessage = 'Wrong input.'
     }
     else {
-      this.output = this.formator.createDefinition(outputObject)
+      this.output = await this.formator.createDefinition(outputObject)
     }
   }
 
   public test(outputObject) {
-    var rules = {
-      
-          "N" : {
-              "V" : {
-                  "tel" : "tel"
-              }
-          }
-      
-    }
-    var derType = rules.N.V.tel
-    console.log(derType)
+    let list = ['a', 'b']
   }
 }
