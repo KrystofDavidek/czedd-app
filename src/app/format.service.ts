@@ -21,17 +21,17 @@ export class FormatService {
 
 
   public async telDefinition(outputObject) {
-    let mainDefiniton = {
-      Main : {},
-      Secondary : {}
+    let definiton = {
+      main : {},
+      secondary : {}
     }
-    mainDefiniton.Main = await this.telMain(outputObject)
-    mainDefiniton.Secondary = {
+    definiton.main = await this.telMain(outputObject)
+    definiton.secondary = {
       caption: 'Derivation information',
       baseWord : `Base word: ${outputObject.czechParent}`,
       derProcess: 'Derivation process: suffix'
     }
-    return mainDefiniton
+    return definiton
     
   }
 
@@ -41,13 +41,15 @@ export class FormatService {
       caption : 'Definition',
       firstLine : '',
       czechLine : '',
-      englishLine: ''}
+      englishLine: ''
+    }
 
     let inputName = outputObject.czechInput.substring(0, outputObject.czechInput.length - outputObject.derivType.length + 1)
     mainResult.firstLine = `${inputName}-${outputObject.derivType}`
 
     let thirdPerson = await this.getThirdPerson(outputObject)
     mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${outputObject.czechParent})`
+
     mainResult.englishLine = `Someone (masculine animate) who ${outputObject.englishParent}s`
     return mainResult
   }
@@ -55,7 +57,13 @@ export class FormatService {
 
   public telTypePracovat(outputObject) {
     if (outputObject.isPrefig) {
-      return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 5)}vává`
+      console.log(outputObject.czechInput)
+      if (outputObject.czechInput.match(/^.*ov[aá]vatel$/)) {
+        return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 7)}vává`
+      }
+      else {
+        return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 5)}vává`
+      }
     }
     else {
       return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 6)}uje`
@@ -66,8 +74,8 @@ export class FormatService {
   public async getThirdPerson(outputObject) {
     let thirdPerson = ''
     let dictOfExceptions = await this.load.loadJson('exceptions.json')
-    if (this.exceptions.isExcept(outputObject.czechParent, outputObject.derivType,dictOfExceptions)) {
-      return this.exceptions.findExcept(outputObject.czechParent, outputObject.derivType,dictOfExceptions)
+    if (this.exceptions.isExcept(outputObject.czechParent, outputObject.derivType, dictOfExceptions)) {
+      return this.exceptions.findExcept(outputObject.czechParent, outputObject.derivType, dictOfExceptions)
     }
     if (outputObject.czechInput.match(/^.*ov[aá](va)?tel$/)) {
       thirdPerson = this.telTypePracovat(outputObject)
@@ -76,16 +84,6 @@ export class FormatService {
       thirdPerson = '...'
     }
     return thirdPerson
-  }
-
-
-  public telSecondary (outputObject) {
-    let secondaryResult = {
-      caption: 'Derivation information',
-      baseWord : `Base word: ${outputObject.czechParent}`,
-      derProcess: 'Derivation process: suffix'
-    }
-    return secondaryResult
   }
 }
 

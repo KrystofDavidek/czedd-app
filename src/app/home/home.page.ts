@@ -15,20 +15,20 @@ export class HomePage implements OnInit {
     
     this.anaylze() 
   }
-  public inputWord = 'chovatel'
-  public output
+  public inputWord = 'zpracovávatel'
+  public definition
   public errorMessage = ''
   
   public async anaylze() {
     let outputObject
     this.errorMessage = ''
-    this.output = undefined
+    this.definition = undefined
     outputObject = await this.analyzator.analyze(this.inputWord)
     if (typeof outputObject === 'string' || outputObject instanceof String) {
       this.errorMessage = 'Wrong input.'
     }
     else {
-      this.output = await this.formator.createDefinition(outputObject)
+      this.definition = await this.formator.createDefinition(outputObject)
     }
   }
 

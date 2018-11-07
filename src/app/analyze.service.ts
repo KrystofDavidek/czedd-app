@@ -36,6 +36,7 @@ export class AnalyzeService {
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
     await this.initializateOutput(inputWord, dic)
+
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
     if (item === undefined) {
@@ -53,6 +54,7 @@ export class AnalyzeService {
     let derivationPath = []
     derivationPath.push(item)
     let prevItem = ''
+    
     while(item.parent != "") {
       if (this.output.englishInput == '') {
         this.output.englishInput = this.translate(item.word, dic)
@@ -60,6 +62,7 @@ export class AnalyzeService {
       prevItem = item
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
+
       if (this.PartOfSpeechChange(item, prevItem)) {
         this.output.derivType = await this.checkDertivationType(item, prevItem)
       }

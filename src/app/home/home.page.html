@@ -22,21 +22,21 @@
 
   <div class='definition'>
     <div class='main'>
-      <ion-card *ngIf='output'>
-        <span class='def-title'><ion-card-title> {{ output.Main.caption }} </ion-card-title></span>
+      <ion-card *ngIf='definition'>
+        <span class='def-title'><ion-card-title> {{ definition.main.caption }} </ion-card-title></span>
         <ion-card-content>
-          <p> {{ output.Main.firstLine }} </p>
-          <p> {{ output.Main.czechLine }} </p>
-          <p> {{ output.Main.englishLine }} </p>
+          <p> {{ definition.main.firstLine }} </p>
+          <p> {{ definition.main.czechLine }} </p>
+          <p> {{ definition.main.englishLine }} </p>
         </ion-card-content>
       </ion-card>
     </div>
     <div class='secondary'>
-      <ion-card *ngIf="output">
-        <ion-card-title> {{ output.Secondary.caption }} </ion-card-title>
+      <ion-card *ngIf="definition">
+        <ion-card-title> {{ definition.secondary.caption }} </ion-card-title>
         <ion-card-content>
-          <p> {{ output.Secondary.baseWord }} </p>
-          <p> {{ output.Secondary.derProcess }} </p>
+          <p> {{ definition.secondary.baseWord }} </p>
+          <p> {{ definition.secondary.derProcess }} </p>
         </ion-card-content>
       </ion-card>
     </div>
