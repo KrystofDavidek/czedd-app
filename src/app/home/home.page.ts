@@ -20,19 +20,19 @@ export class HomePage implements OnInit {
   public errorMessage = ''
   
   public async anaylze() {
-    let outputObject
+    let infoBase
     this.errorMessage = ''
     this.definition = undefined
-    outputObject = await this.analyzator.analyze(this.inputWord)
-    if (typeof outputObject === 'string' || outputObject instanceof String) {
+    infoBase = await this.analyzator.analyze(this.inputWord)
+    if (typeof infoBase === 'string' || infoBase instanceof String) {
       this.errorMessage = 'Wrong input.'
     }
     else {
-      this.definition = await this.formator.createDefinition(outputObject)
+      this.definition = await this.formator.createDefinition(infoBase)
     }
   }
 
-  public test(outputObject) {
+  public test(infoBase) {
     let list = ['a', 'b']
   }
 }

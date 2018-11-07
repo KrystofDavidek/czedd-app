@@ -1,9 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as _ from 'lodash';
 import { LoadFileService } from './load-file.service';
-import { and } from '@angular/router/src/utils/collection';
-import { BOOL_TYPE } from '@angular/compiler/src/output/output_ast';
-import { BooleanValueAccessor } from '@ionic/angular';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +9,7 @@ export class AnalyzeService {
 
   constructor(private load: LoadFileService) {}
 
-  public output = {
+  public infoBase = {
     czechInput : '',
     englishInput : '',
     czechParent : '',
@@ -25,28 +22,28 @@ export class AnalyzeService {
   public prefixes = ['do','na','nad','o','ob','od','po','pod','pro','pře','před','při','s','z','u','v','z','za','roz','vy','vz']
 
 
-  public async initializateOutput(inputWord, dic) {
-    this.output.czechInput = inputWord
-    this.output.englishInput = this.translate(inputWord, dic)
-    this.output.isPrefig = false
+  public async initInfoBase(inputWord, dic) {
+    this.infoBase.czechInput = inputWord
+    this.infoBase.englishInput = this.translate(inputWord, dic)
+    this.infoBase.isPrefig = false
   }
 
   
   public async analyze(inputWord) {
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
-    await this.initializateOutput(inputWord, dic)
+    await this.initInfoBase(inputWord, dic)
 
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
     if (item === undefined) {
       return 'Wrong input.'
     }
-    this.output.czechParent = await this.searchParent(item, itemsList, dic)
-    this.output.englishParent = this.translate(this.output.czechParent, dic)
+    this.infoBase.czechParent = await this.searchParent(item, itemsList, dic)
+    this.infoBase.englishParent = this.translate(this.infoBase.czechParent, dic)
 
-    console.log(this.output)
-    return this.output
+    console.log(this.infoBase)
+    return this.infoBase
   }
 
 
@@ -56,19 +53,19 @@ export class AnalyzeService {
     let prevItem = ''
     
     while(item.parent != "") {
-      if (this.output.englishInput == '') {
-        this.output.englishInput = this.translate(item.word, dic)
+      if (this.infoBase.englishInput == '') {
+        this.infoBase.englishInput = this.translate(item.word, dic)
       }
       prevItem = item
       item = _.find(itemsList, ["id", item.parent]);
       derivationPath.push(item)
 
       if (this.PartOfSpeechChange(item, prevItem)) {
-        this.output.derivType = await this.checkDertivationType(item, prevItem)
+        this.infoBase.derivType = await this.checkDertivationType(item, prevItem)
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem
-        this.output.isPrefig = true
+        this.infoBase.isPrefig = true
         break
       }
     }
@@ -139,6 +136,5 @@ export class AnalyzeService {
       category: columns[3],
       parent: columns[4]
     }
-
   }
 }

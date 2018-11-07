@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ExceptionsService } from './exceptions.service';
 import { LoadFileService } from './load-file.service';
-import { async } from 'rxjs/internal/scheduler/async';
 
 @Injectable({
   providedIn: 'root'
@@ -11,24 +10,24 @@ export class FormatService {
   constructor(private exceptions:ExceptionsService, private load:LoadFileService) { }
 
 
-  public async createDefinition(outputObject) {
+  public async createDefinition(infoBase) {
     let definiton
-    if (outputObject.derivType == 'tel') {
-      definiton = await this.telDefinition(outputObject)
+    if (infoBase.derivType == 'tel') {
+      definiton = await this.telDefinition(infoBase)
     }
     return definiton
   }
 
 
-  public async telDefinition(outputObject) {
+  public async telDefinition(infoBase) {
     let definiton = {
       main : {},
       secondary : {}
     }
-    definiton.main = await this.telMain(outputObject)
+    definiton.main = await this.telMain(infoBase)
     definiton.secondary = {
       caption: 'Derivation information',
-      baseWord : `Base word: ${outputObject.czechParent}`,
+      baseWord : `Base word: ${infoBase.czechParent}`,
       derProcess: 'Derivation process: suffix'
     }
     return definiton
@@ -36,7 +35,7 @@ export class FormatService {
   }
 
 
-  public async telMain(outputObject) {
+  public async telMain(infoBase) {
     let mainResult = {
       caption : 'Definition',
       firstLine : '',
@@ -44,41 +43,40 @@ export class FormatService {
       englishLine: ''
     }
 
-    let inputName = outputObject.czechInput.substring(0, outputObject.czechInput.length - outputObject.derivType.length + 1)
-    mainResult.firstLine = `${inputName}-${outputObject.derivType}`
+    let inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length + 1)
+    mainResult.firstLine = `${inputName}-${infoBase.derivType}`
 
-    let thirdPerson = await this.getThirdPerson(outputObject)
-    mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${outputObject.czechParent})`
+    let thirdPerson = await this.getThirdPerson(infoBase)
+    mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${infoBase.czechParent})`
 
-    mainResult.englishLine = `Someone (masculine animate) who ${outputObject.englishParent}s`
+    mainResult.englishLine = `Someone (masculine animate) who ${infoBase.englishParent}s`
     return mainResult
   }
 
 
-  public telTypePracovat(outputObject) {
-    if (outputObject.isPrefig) {
-      console.log(outputObject.czechInput)
-      if (outputObject.czechInput.match(/^.*ov[aá]vatel$/)) {
-        return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 7)}vává`
+  public telTypePracovat(infoBase) {
+    if (infoBase.isPrefig) {
+      if (infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
+        return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 7)}vává`
       }
       else {
-        return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 5)}vává`
+        return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 5)}vává`
       }
     }
     else {
-      return `${outputObject.czechInput.substring(0, outputObject.czechInput.length - 6)}uje`
+      return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 6)}uje`
     }
   }
 
 
-  public async getThirdPerson(outputObject) {
+  public async getThirdPerson(infoBase) {
     let thirdPerson = ''
     let dictOfExceptions = await this.load.loadJson('exceptions.json')
-    if (this.exceptions.isExcept(outputObject.czechParent, outputObject.derivType, dictOfExceptions)) {
-      return this.exceptions.findExcept(outputObject.czechParent, outputObject.derivType, dictOfExceptions)
+    if (this.exceptions.isExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)) {
+      return this.exceptions.findExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)
     }
-    if (outputObject.czechInput.match(/^.*ov[aá](va)?tel$/)) {
-      thirdPerson = this.telTypePracovat(outputObject)
+    if (infoBase.czechInput.match(/^.*ov[aá](va)?tel$/)) {
+      thirdPerson = this.telTypePracovat(infoBase)
     }
     else {
       thirdPerson = '...'
