@@ -12,8 +12,8 @@ export class HomePage implements OnInit {
   constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
 
   ngOnInit() {
-    this.test()
-    this.anaylze()
+    
+    this.anaylze() 
   }
   public inputWord = 'kovatel'
   public output
@@ -21,6 +21,7 @@ export class HomePage implements OnInit {
   
   public async anaylze() {
     let outputObject
+    this.errorMessage = ''
     this.output = undefined
     outputObject = await this.analyzator.analyze(this.inputWord)
     if (typeof outputObject === 'string' || outputObject instanceof String) {
@@ -31,13 +32,17 @@ export class HomePage implements OnInit {
     }
   }
 
-  public test() {
-    let something = undefined
-    if (something) {
-      //console.log('True')
+  public test(outputObject) {
+    var rules = {
+      
+          "N" : {
+              "V" : {
+                  "tel" : "tel"
+              }
+          }
+      
     }
-    else {
-      //console.log('False')
-    }
+    var derType = rules.N.V.tel
+    console.log(derType)
   }
 }

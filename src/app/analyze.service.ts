@@ -28,10 +28,20 @@ export class AnalyzeService {
     this.output.isPrefig = false
   }
 
+
+  public async checkDertivationTypeJSON(item, prevItem) {
+    let rules = (await this.load.loadJson('derTypes.json'))
+    let derivType  = ''
+    if (rules[prevItem.category][item.category]["tel"]) { // Tohle nedává smysl.
+      derivType = rules[prevItem.category][item.category]["tel"]
+  }
+    console.log(derivType)
+  }
+
   
   public async analyze(inputWord) {
     let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
-    let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
+    let tsvContent = (await this.load.loadFile('tel_derinet.tsv')).split("\n");
     await this.initializateOutput(inputWord, dic)
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
@@ -40,6 +50,7 @@ export class AnalyzeService {
     }
     this.output.czechParent = await this.searchParent(item, itemsList, dic)
     this.output.englishParent = this.translate(this.output.czechParent, dic)
+
     console.log(this.output)
     return this.output
   }
@@ -58,6 +69,7 @@ export class AnalyzeService {
       derivationPath.push(item)
       if (this.PartOfSpeechChange(item, prevItem)) {
         this.output.derivType = this.checkDertivationType(item, prevItem)
+        await this.checkDertivationTypeJSON(item, prevItem)
       }
       if (this.ifPrefix(prevItem, item)) {
         item = prevItem

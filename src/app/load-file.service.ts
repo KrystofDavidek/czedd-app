@@ -15,5 +15,13 @@ export class LoadFileService {
       take(1)
     ).toPromise();
   }
+
+  public loadJson(nameOfFile) {
+    console.log("LOADED " + nameOfFile)
+    return this.http.get("/assets/" + nameOfFile, {responseType: "json"}).pipe(
+      take(1)
+    ).toPromise();
+  }
 }
+
 

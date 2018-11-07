@@ -10,7 +10,7 @@ export class ExceptionsService {
 
   public exceptions = {
     'chovat': 'chová',
-    'kovat': 'ková',
+    'kovat': 'ková/kove',
     'klovat': 'klová/klove',
     'snovat': 'snová/snove',
     'plovat': 'plová/plové'
@@ -19,7 +19,7 @@ export class ExceptionsService {
 
   public findExcept(verb) {
     let except
-    _.forEach(this.exceptions, function(value, key) {
+    _.forEach(this.exceptions, (value, key) => {
       if (verb === key) {
         except = value
         return false
@@ -31,7 +31,7 @@ export class ExceptionsService {
 
   public isExcept(verb) {
     let isExcept = false
-    _.forEach(this.exceptions, function(value, key) {
+    _.forEach(this.exceptions, (value, key) => {
       if (verb === key) {
         isExcept = true
         return false

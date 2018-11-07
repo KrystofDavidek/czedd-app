@@ -6,8 +6,9 @@
   text-align: center
 }
 
-ion-button {
+ion-button.ion-color-dark {
   --ripple-color: orange;
+  // --ion-color-contrast: orange !important;
 }
 
 .main {
