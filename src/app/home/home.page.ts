@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
     
     this.anaylze() 
   }
-  public inputWord = 'zpracovávatel'
+  public inputWord = 'vychovatel'
   public definition
   public errorMessage = ''
   
