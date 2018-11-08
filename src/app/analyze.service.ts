@@ -68,17 +68,33 @@ export class AnalyzeService {
         this.infoBase.isPrefig = true
         break
       }
+      if (this.stemmChange(item, prevItem)) {
+        item = prevItem
+        break
+      }
     }
     console.log(derivationPath)
     return item.word
   }
 
 
+  public stemmChange(item, prevItem) {
+    if (
+      item.word.substring(2,item.word.length - 2) != prevItem.word.substring(2,item.word.length - 2) &&
+      prevItem.category == 'V' &&
+      item.category == 'V'
+    ) {
+      return true
+    } else {
+      return false
+    }
+  }
+
+
   public PartOfSpeechChange(item, prevItem) {
     if (item.category != prevItem.category) {
       return true
-    }
-    else {
+    } else {
       return false
     }
   }
@@ -103,8 +119,7 @@ export class AnalyzeService {
       item.category == 'V'
     ) {
       return true
-    }
-    else {
+    } else {
       return false
     }
   }

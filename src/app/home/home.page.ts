@@ -12,10 +12,10 @@ export class HomePage implements OnInit {
   constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
 
   ngOnInit() {
-    
-    this.anaylze() 
+    // this.test(infoBase)
+    // this.anaylze() 
   }
-  public inputWord = 'vychovatel'
+  public inputWord = ''
   public definition
   public errorMessage = ''
   
@@ -26,8 +26,7 @@ export class HomePage implements OnInit {
     infoBase = await this.analyzator.analyze(this.inputWord)
     if (typeof infoBase === 'string' || infoBase instanceof String) {
       this.errorMessage = 'Wrong input.'
-    }
-    else {
+    } else {
       this.definition = await this.formator.createDefinition(infoBase)
     }
   }

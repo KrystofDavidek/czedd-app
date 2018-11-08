@@ -31,7 +31,6 @@ export class FormatService {
       derProcess: 'Derivation process: suffix'
     }
     return definiton
-    
   }
 
 
@@ -56,30 +55,52 @@ export class FormatService {
 
   public telTypePracovat(infoBase) {
     if (infoBase.isPrefig) {
-      if (infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
-        return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 7)}vává`
+      if (infoBase.czechParent.match(/^.*ov[aá]vat$/)) {
+        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 5)}vává`
+      } else {
+        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 3)}vává`
       }
-      else {
-        return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 5)}vává`
-      }
-    }
-    else {
-      return `${infoBase.czechInput.substring(0, infoBase.czechInput.length - 6)}uje`
+    } else {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
     }
   }
 
 
-  public async getThirdPerson(infoBase) {
+  public telTypeOthers(infoBase) {
+    if (infoBase.czechParent.endsWith('et')) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
+    } else if (
+       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e' ||
+       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i'
+     ) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
+    } else if (infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'a') {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
+    } else {
+      return '...'
+    }
+  }
+
+
+  public async telType(infoBase) {
     let thirdPerson = ''
     let dictOfExceptions = await this.load.loadJson('exceptions.json')
     if (this.exceptions.isExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)) {
       return this.exceptions.findExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)
     }
-    if (infoBase.czechInput.match(/^.*ov[aá](va)?tel$/)) {
+    if (infoBase.czechParent.match(/^.*ov[aá](va)?t$/)) {
       thirdPerson = this.telTypePracovat(infoBase)
+    } else {
+      thirdPerson = this.telTypeOthers(infoBase)
     }
-    else {
-      thirdPerson = '...'
+    return thirdPerson
+  } 
+
+
+  public async getThirdPerson(infoBase) {
+    let thirdPerson
+    if (infoBase.derivType === 'tel') {
+      thirdPerson = await this.telType(infoBase)
     }
     return thirdPerson
   }
