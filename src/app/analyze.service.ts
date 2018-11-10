@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import * as _ from 'lodash';
 import { LoadFileService } from './load-file.service';
+import { TranslateService } from './translate.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AnalyzeService {
 
-  constructor(private load: LoadFileService) {}
+  constructor(private load: LoadFileService, private translator: TranslateService) {}
 
   public infoBase = {
     czechInput : '',
@@ -15,24 +16,25 @@ export class AnalyzeService {
     czechParent : '',
     englishParent : '',
     derivType : '',
-    isPrefig : Boolean()
+    isPrefig : Boolean(),
+    prefix : ''
   };
 
 
   public prefixes = ['do','na','nad','o','ob','od','po','pod','pro','pře','před','při','s','z','u','v','z','za','roz','vy','vz']
 
 
-  public async initInfoBase(inputWord, dic) {
+  public async initInfoBase(inputWord) {
     this.infoBase.czechInput = inputWord
-    this.infoBase.englishInput = this.translate(inputWord, dic)
+    this.infoBase.englishInput = await this.translator.toEng(inputWord)
     this.infoBase.isPrefig = false
+    this.infoBase.prefix = ''
   }
 
   
   public async analyze(inputWord) {
-    let dic = (await this.load.loadFile('en-cs.txt')).split("\n");
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
-    await this.initInfoBase(inputWord, dic)
+    await this.initInfoBase(inputWord)
 
     console.log('LOADING ...')
     let itemsList = _.map(tsvContent, this.convertLineToObject)
@@ -41,21 +43,21 @@ export class AnalyzeService {
       return 'Wrong input.'
     }
   
-    this.infoBase.czechParent = await this.searchParent(item, itemsList, dic)
-    this.infoBase.englishParent = this.translate(this.infoBase.czechParent, dic)
+    this.infoBase.czechParent = await this.searchParent(item, itemsList)
+    this.infoBase.englishParent = await this.translator.toEng(this.infoBase.czechParent)
 
     console.log(this.infoBase)
     return this.infoBase
   }
 
 
-  public async searchParent(item, itemsList, dic) {
+  public async searchParent(item, itemsList) {
     let derivationPath = []
     derivationPath.push(item)
     let prevItem = ''
     while(item.parent != "") {
       if (this.infoBase.englishInput == '') {
-        this.infoBase.englishInput = this.translate(item.word, dic)
+        this.infoBase.englishInput = await this.translator.toEng(item.word)
       }
       prevItem = item
       item = _.find(itemsList, ["id", item.parent]);
@@ -64,7 +66,7 @@ export class AnalyzeService {
       if (this.PartOfSpeechChange(item, prevItem)) {
         this.infoBase.derivType = await this.checkDertivationType(item, prevItem)
       }
-      if (this.ifPrefix(prevItem, item)) {
+      if (this.ifPrefix(item, prevItem)) {
         item = prevItem
         this.infoBase.isPrefig = true
         break
@@ -114,11 +116,14 @@ export class AnalyzeService {
 
 
   public ifPrefix(item, prevItem) {
+    let prefix = this.getPrefix(prevItem)
     if (
-      prevItem.word.substring(0,3) != item.word.substring(0,3) &&
+      prefix &&
+      prefix != item.word.substring(0,prefix.length) &&
       prevItem.category == 'V' &&
       item.category == 'V'
     ) {
+      this.infoBase.prefix = prefix
       return true
     } else {
       return false
@@ -126,20 +131,14 @@ export class AnalyzeService {
   }
 
 
-  public translate(word, dic) {
-    let translation = '';
-    var arrayDicLength = dic.length;
-    for (var i = 0; i < arrayDicLength; i++) {
-      let dicLine = dic[i].split("\t")
-      var arrayLineLength = dicLine.length;
-      for (var j = 0; j < arrayLineLength; j++) {
-        if (word == dicLine[j]) {
-          translation = dicLine[0]
-          return translation
-        } 
+  public getPrefix(prevItem) {
+    let prefix
+    _.forEach(this.prefixes, (value) => {
+      if (prevItem.word.startsWith(value)) {
+        prefix = value
       }
-    }
-    return translation
+    })
+    return prefix
   }
 
 

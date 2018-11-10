@@ -57,7 +57,6 @@ export class FormatService {
     if (infoBase.isPrefig && infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
     } else {
-      console.log([infoBase.czechParent, infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)])
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
     }
   }

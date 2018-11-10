@@ -15,7 +15,7 @@ export class HomePage implements OnInit {
     // this.test(infoBase)
     this.anaylze() 
   }
-  public inputWord = 'vykonavatel'
+  public inputWord = 'konatel'
   public definition
   public errorMessage = ''
   
