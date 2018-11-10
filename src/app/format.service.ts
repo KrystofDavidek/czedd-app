@@ -28,7 +28,7 @@ export class FormatService {
     definiton.secondary = {
       caption: 'Derivation information',
       baseWord : `Base word: ${infoBase.czechParent}`,
-      derProcess: 'Derivation process: suffix'
+      derProcess: 'Derivation process: suffixation'
     }
     return definiton
   }
@@ -54,30 +54,30 @@ export class FormatService {
 
 
   public telTypePracovat(infoBase) {
-    if (infoBase.isPrefig) {
-      if (infoBase.czechParent.match(/^.*ov[aá]vat$/)) {
-        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 5)}vává`
-      } else {
-        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 3)}vává`
-      }
+    if (infoBase.isPrefig && infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
     } else {
+      console.log([infoBase.czechParent, infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)])
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
     }
   }
 
 
   public telTypeOthers(infoBase) {
-    if (infoBase.czechParent.endsWith('et')) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
-    } else if (
+    if (
        infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e' ||
+       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'ě' ||
        infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i'
      ) {
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
-    } else if (infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'a') {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
+    } else if (
+      infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'a' &&
+      infoBase.isPrefig &&
+      infoBase.czechInput.match(/^.*avatel$/)
+    ) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
     } else {
-      return '...'
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
     }
   }
 

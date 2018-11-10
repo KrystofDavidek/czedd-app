@@ -34,11 +34,13 @@ export class AnalyzeService {
     let tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split("\n");
     await this.initInfoBase(inputWord, dic)
 
+    console.log('LOADING ...')
     let itemsList = _.map(tsvContent, this.convertLineToObject)
     let item = _.find(itemsList, ["word", inputWord])
     if (item === undefined) {
       return 'Wrong input.'
     }
+  
     this.infoBase.czechParent = await this.searchParent(item, itemsList, dic)
     this.infoBase.englishParent = this.translate(this.infoBase.czechParent, dic)
 
@@ -51,7 +53,6 @@ export class AnalyzeService {
     let derivationPath = []
     derivationPath.push(item)
     let prevItem = ''
-    
     while(item.parent != "") {
       if (this.infoBase.englishInput == '') {
         this.infoBase.englishInput = this.translate(item.word, dic)

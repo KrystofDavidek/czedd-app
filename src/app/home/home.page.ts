@@ -13,9 +13,9 @@ export class HomePage implements OnInit {
 
   ngOnInit() {
     // this.test(infoBase)
-    // this.anaylze() 
+    this.anaylze() 
   }
-  public inputWord = ''
+  public inputWord = 'vykonavatel'
   public definition
   public errorMessage = ''
   
