@@ -54,59 +54,66 @@ export class FormatService {
 
 
   public telTypePracovat(infoBase) {
-    if (infoBase.isPrefig && infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}ává`
+    let verb = infoBase.czechParent
+    if (infoBase.isPrefig && verb.match(/^.*ov[aá]vat$/)) {
+      return `${verb.substring(0, verb.length - 4)}ává`
     } else if (infoBase.isPrefig) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}oval
-      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
+      return `${verb.substring(0, verb.length - 4)}oval
+      nebo ${verb.substring(0, verb.length - 4)}uje`
     } else {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
+      return `${verb.substring(0, verb.length - 4)}uje`
+    }
+  }
+
+
+  public telTypeFourth(infoBase) {
+    let verb = infoBase.czechParent
+    if (verb.match(/^.*ívat$/)) {
+      return `${verb.substring(0, verb.length - 4)}ívá`
+    } else if (infoBase.isPrefig && verb.match(/^.*ovat$/)) {
+      return `${verb.substring(0, verb.length - 4)}uje`
+    } else if (infoBase.isPrefig && verb.charAt(verb.length - 2) === 'e') {
+      return `${verb.substring(0, verb.length - 2)}el
+      nebo ${verb.substring(0, verb.length - 2)}í`
+    } else if ((infoBase.isPrefig && verb.charAt(verb.length - 2) === 'i')) {
+      return `${verb.substring(0, verb.length - 2)}ěl
+      nebo ${verb.substring(0, verb.length - 2)}í`
+    } else {
+      return `${verb.substring(0, verb.length - 2)}í`
     }
   }
 
 
   public telTypeOthers(infoBase) {
-    if (infoBase.czechInput.match(/^.*ívatel$/)) {
-        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}ívá`
-    } else if (infoBase.isPrefig && infoBase.czechInput.match(/^.*vatel$/)) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
-    } else if (infoBase.isPrefig && infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e') {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}el
-      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
-    } else if ((infoBase.isPrefig && infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i')) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ěl
-      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
-    } else if (
-       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e' ||
-       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'ě' ||
-       infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i'
-     ) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
-    } else if (
-      infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'a' &&
+    let verb = infoBase.czechParent
+    if (
+      verb.charAt(verb.length - 2) === 'a' &&
       infoBase.isPrefig &&
-      infoBase.czechInput.match(/^.*avatel$/)
+      verb.match(/^.*ávat$/)
     ) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
+      return `${verb.substring(0, verb.length - 4)}ává`
     } else if (infoBase.isPrefig) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ál
-      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
+      return `${verb.substring(0, verb.length - 2)}ál
+      nebo ${verb.substring(0, verb.length - 2)}á`
     } else { 
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
+      return `${verb.substring(0, verb.length - 2)}á`
     }
   }
 
 
   public async telType(infoBase) {
+    let verb = infoBase.czechParent
     let thirdPerson = ''
     let dictOfExceptions = await this.load.loadJson('exceptions.json')
-    if (this.exceptions.isExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)) {
-      return this.exceptions.findExcept(infoBase.czechParent, infoBase.derivType, dictOfExceptions)
+    if (this.exceptions.isExcept(verb, infoBase.derivType, dictOfExceptions)) {
+      return this.exceptions.findExcept(verb, infoBase.derivType, dictOfExceptions)
     }
-    if (infoBase.czechParent.match(/^.*ov[aá](va)?t$/)) {
+    if (verb.match(/^.*ov[aá](va)?t$/)) {
       thirdPerson = this.telTypePracovat(infoBase)
+    } else if ((verb.match(/^.*[ieě]t$/))) {
+      thirdPerson = this.telTypeFourth(infoBase)
     } else {
-      thirdPerson = this.telTypeOthers(infoBase)
+      thirdPerson = this.telTypeOthers(infoBase) 
     }
     return thirdPerson
   } 

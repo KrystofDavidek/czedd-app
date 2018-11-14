@@ -84,7 +84,6 @@ export class AnalyzeService {
 
 
   public stemmChange(item, prevItem) {
-    console.log([item.word, prevItem.word])
     if (
       item.word.substring(0,item.word.length - 1) != prevItem.word.substring(0,item.word.length - 1) &&
       prevItem.category == 'V' &&
