@@ -28,7 +28,7 @@ export class FormatService {
     definiton.secondary = {
       caption: 'Derivation information',
       baseWord : `Base word: ${infoBase.czechParent}`,
-      derProcess: 'Derivation process: suffixation'
+      derProcess: `Derivation process: ${infoBase.derProcess}`
     }
     return definiton
   }
@@ -48,14 +48,17 @@ export class FormatService {
     let thirdPerson = await this.getThirdPerson(infoBase)
     mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${infoBase.czechParent})`
 
-    mainResult.englishLine = `Someone (masculine animate) who ${infoBase.englishParent}s`
+    mainResult.englishLine = `Someone who ${infoBase.englishParent}s (masculine animate)`
     return mainResult
   }
 
 
   public telTypePracovat(infoBase) {
     if (infoBase.isPrefig && infoBase.czechInput.match(/^.*ov[aá]vatel$/)) {
-      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}ává`
+    } else if (infoBase.isPrefig) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}oval
+      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
     } else {
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
     }
@@ -63,7 +66,17 @@ export class FormatService {
 
 
   public telTypeOthers(infoBase) {
-    if (
+    if (infoBase.czechInput.match(/^.*ívatel$/)) {
+        return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}ívá`
+    } else if (infoBase.isPrefig && infoBase.czechInput.match(/^.*vatel$/)) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 4)}uje`
+    } else if (infoBase.isPrefig && infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e') {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}el
+      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
+    } else if ((infoBase.isPrefig && infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i')) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ěl
+      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}í`
+    } else if (
        infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'e' ||
        infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'ě' ||
        infoBase.czechParent.charAt(infoBase.czechParent.length - 2) === 'i'
@@ -75,7 +88,10 @@ export class FormatService {
       infoBase.czechInput.match(/^.*avatel$/)
     ) {
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ává`
-    } else {
+    } else if (infoBase.isPrefig) {
+      return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}ál
+      nebo ${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
+    } else { 
       return `${infoBase.czechParent.substring(0, infoBase.czechParent.length - 2)}á`
     }
   }

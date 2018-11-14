@@ -17,7 +17,8 @@ export class AnalyzeService {
     englishParent : '',
     derivType : '',
     isPrefig : Boolean(),
-    prefix : ''
+    prefix : '',
+    derProcess: ''
   };
 
 
@@ -29,6 +30,7 @@ export class AnalyzeService {
     this.infoBase.englishInput = await this.translator.toEng(inputWord)
     this.infoBase.isPrefig = false
     this.infoBase.prefix = ''
+    this.infoBase.derProcess = ''
   }
 
   
@@ -54,7 +56,7 @@ export class AnalyzeService {
   public async searchParent(item, itemsList) {
     let derivationPath = []
     derivationPath.push(item)
-    let prevItem = ''
+    let prevItem
     while(item.parent != "") {
       if (this.infoBase.englishInput == '') {
         this.infoBase.englishInput = await this.translator.toEng(item.word)
@@ -64,15 +66,15 @@ export class AnalyzeService {
       derivationPath.push(item)
 
       if (this.PartOfSpeechChange(item, prevItem)) {
-        this.infoBase.derivType = await this.checkDertivationType(item, prevItem)
+        await this.checkDertivationType(item, prevItem)
       }
       if (this.ifPrefix(item, prevItem)) {
         item = prevItem
-        this.infoBase.isPrefig = true
         break
       }
       if (this.stemmChange(item, prevItem)) {
         item = prevItem
+        this.ifPrefixSecondary(prevItem, itemsList)
         break
       }
     }
@@ -82,8 +84,9 @@ export class AnalyzeService {
 
 
   public stemmChange(item, prevItem) {
+    console.log([item.word, prevItem.word])
     if (
-      item.word.substring(2,item.word.length - 2) != prevItem.word.substring(2,item.word.length - 2) &&
+      item.word.substring(0,item.word.length - 1) != prevItem.word.substring(0,item.word.length - 1) &&
       prevItem.category == 'V' &&
       item.category == 'V'
     ) {
@@ -105,13 +108,37 @@ export class AnalyzeService {
 
   public async checkDertivationType(item, prevItem) {
     let rules = (await this.load.loadJson('derivTypes.json'))
-    let resultDerivType  = ''
     _.forEach(rules[prevItem.category][item.category],(affix, derivType) => {
       if (affix.startsWith('-') && prevItem.word.endsWith(affix.substring(1))) {
-        resultDerivType = derivType
+        this.infoBase.derivType = derivType
+        this.infoBase.derProcess = 'suffixation'
       }
     })
-    return resultDerivType
+  }
+
+
+  public ifPrefixSecondary(item, itemList) {
+    let prefix = this.getPrefix(item)
+    let ifPrefix = false
+    let prevItem
+    if (prefix) {
+      while (item.parent != "") {
+        if (ifPrefix) {
+          break
+        }
+        prevItem = item
+        item = _.find(itemList, ["id", item.parent])
+        if (prefix != item.word.substring(0,prefix.length) &&
+        prevItem.category == 'V' &&
+        item.category == 'V'
+        ) {
+          this.infoBase.prefix = prefix
+          this.infoBase.isPrefig = true
+          ifPrefix = true
+        }
+      }
+    }
+    return ifPrefix
   }
 
 
@@ -124,6 +151,7 @@ export class AnalyzeService {
       item.category == 'V'
     ) {
       this.infoBase.prefix = prefix
+      this.infoBase.isPrefig = true
       return true
     } else {
       return false
