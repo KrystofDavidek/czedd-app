@@ -15,7 +15,12 @@
       <ion-input required type="text" placeholder="Write the word." (keyup.enter)="anaylze()" [(ngModel)]='inputWord'></ion-input>
     </ion-card-content>  
   </ion-card>
-  <ion-button color='dark' shape='round' strong (click)='anaylze()'>Analyze</ion-button>
+
+  <ion-button color='dark' shape='round' strong (click)='anaylze()'>
+    <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
+    <p *ngIf='!isLoading'>Analyze</p>
+  </ion-button>
+
   <ion-card *ngIf="errorMessage"> 
     <p> {{ errorMessage }} </p>
   </ion-card>
