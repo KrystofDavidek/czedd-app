@@ -12,7 +12,7 @@ export class FormatService {
 
   public async createDefinition(infoBase) {
     let definiton
-    if (infoBase.derivType == 'tel') {
+    if (infoBase.derivType === 'tel') {
       definiton = await this.telDefinition(infoBase)
     }
     return definiton
@@ -41,14 +41,20 @@ export class FormatService {
       czechLine : '',
       englishLine: ''
     }
-
-    let inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length + 1)
-    mainResult.firstLine = `${inputName}-${infoBase.derivType}`
-
     let thirdPerson = await this.getThirdPerson(infoBase)
-    mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${infoBase.czechParent})`
 
-    mainResult.englishLine = `Someone who ${infoBase.englishParent}s (masculine animate)`
+    if (infoBase.genus === 'F') {
+      let inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length - 1)
+      mainResult.firstLine = `${inputName}-${infoBase.derivType}ka`
+      mainResult.czechLine = `Ta, která ${thirdPerson} (infinitive: ${infoBase.czechParent})`
+      mainResult.englishLine = `Someone who ${infoBase.englishParent}s (feminine)`
+    }
+    else {
+      let inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length + 1)
+      mainResult.firstLine = `${inputName}-${infoBase.derivType}`
+      mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${infoBase.czechParent})`
+      mainResult.englishLine = `Someone who ${infoBase.englishParent}s (masculine animate)`
+    }
     return mainResult
   }
 

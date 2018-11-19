@@ -1,12 +1,15 @@
 {
   "tel" : {
     "chovat": "chová",
-    "kovat": "ková/kove",
-    "klovat": "klová/klove",
-    "snovat": "snová/snove",
-    "plovat": "plová/plové",
+    "kovat": "ková nebo kove",
+    "klovat": "klová nebo klove",
+    "snovat": "snová nebo snove",
+    "plovat": "plová nebo plové",
     "kázat" : "káže",
-    "hýbat" : "hýbá/hýbe",
-    "vychovat" : "vychoval nebo vychová"
+    "hýbat" : "hýbá nebo hýbe",
+    "vychovat" : "vychoval nebo vychová",
+    "zobat" : "zobá nebo zobe",
+    "koupit" : "koupil nebo koupí",
+    "vykoupit" : "vykoupil nebo vykoupí"
   }
 }

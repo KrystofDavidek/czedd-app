@@ -18,7 +18,8 @@ export class AnalyzeService {
     derivType : '',
     isPrefig : Boolean(),
     prefix : '',
-    derProcess: ''
+    derProcess: '',
+    genus: ''
   };
 
 
@@ -31,6 +32,7 @@ export class AnalyzeService {
     this.infoBase.isPrefig = false
     this.infoBase.prefix = ''
     this.infoBase.derProcess = ''
+    this.infoBase.genus = 'M'
   }
 
   
@@ -111,6 +113,9 @@ export class AnalyzeService {
       if (affix.startsWith('-') && prevItem.word.endsWith(affix.substring(1))) {
         this.infoBase.derivType = derivType
         this.infoBase.derProcess = 'suffixation'
+        if (derivType === 'tel' && this.infoBase.czechInput.endsWith('ka')) {
+          this.infoBase.genus = 'F'
+        }
       }
     })
   }
