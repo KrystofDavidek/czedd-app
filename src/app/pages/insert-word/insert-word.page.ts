@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { AnalyzeService } from '../analyze.service';
-import { FormatService } from '../format.service';
+import { AnalyzeService } from '../../analyze.service';
+import { FormatService } from '../../format.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-insert-word',
+  templateUrl: './insert-word.page.html',
+  styleUrls: ['./insert-word.page.scss'],
 })
-export class HomePage implements OnInit {
+export class InsertWordPage implements OnInit {
 
   constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
 
   ngOnInit() {
     // this.test(infoBase)
-    this.anaylze() 
+    // this.anaylze() 
   }
   public inputWord = 'učitelka'
   public definition
