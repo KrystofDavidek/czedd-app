@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AnalyzeService } from '../../analyze.service';
-import { FormatService } from '../../format.service';
+import { AnalyzeService } from '../../services/analyze.service';
+import { FormatService } from '../../services/format.service';
 
 @Component({
   selector: 'app-insert-word',
@@ -9,7 +9,7 @@ import { FormatService } from '../../format.service';
 })
 export class InsertWordPage implements OnInit {
 
-  constructor(public analyzator:AnalyzeService, public formator:FormatService) { }
+  constructor(public analyzator:AnalyzeService, public formator: FormatService) { }
 
   ngOnInit() {
     // this.test(infoBase)
