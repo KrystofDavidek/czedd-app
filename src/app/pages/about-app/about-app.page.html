@@ -8,8 +8,23 @@
 </ion-header>
 
 <ion-content padding>
-  <div class='name-background'>
-    <p><span class='short-letters'>CZEDD</span></p>
-    <p><span class='short-letters'>CZ</span>ech <span class='short-letters'>E</span>lectronic <span class='short-letters'>D</span>erivation <span class='short-letters'>D</span>ictionary</p>
+  <div class='content-background'>
+    <div class='title'>
+      <h1><span class='short-letters'>CZEDD</span></h1>
+      <h1><span class='short-letters'>CZ</span>ech <span class='short-letters'>E</span>lectronic <span class='short-letters'>D</span>erivation
+        <span class='short-letters'>D</span>ictionary
+      </h1>
+    </div>
+    <p>
+      <ion-button color='dark' shape='round' strong (click)='openMenu()'>Open Menu</ion-button>
+    </p>
+    <p>
+      <ion-button color='dark' shape='round' strong href='/menu/(menucontent:insertWord)' routerDirection='root'>To
+        analyze
+        page</ion-button>
+    </p>
   </div>
+
+
+
 </ion-content>
