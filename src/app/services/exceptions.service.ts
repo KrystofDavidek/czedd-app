@@ -10,25 +10,25 @@ export class ExceptionsService {
 
 
   public findExcept(verb, derivtype, exceptions) {
-    let exception = false
+    let exception = false;
     _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
-        exception = value
-        return false
+        exception = value;
+        return false;
       }
-    })
-    return exception
+    });
+    return exception;
   }
 
 
   public isExcept(verb, derivtype, exceptions) {
-    let isExcept = false
+    let isExcept = false;
     _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
-        isExcept = true
-        return false
+        isExcept = true;
+        return false;
       }
-    })
-    return isExcept
+    });
+    return isExcept;
   }
 }

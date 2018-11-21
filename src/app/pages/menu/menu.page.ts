@@ -8,7 +8,7 @@ import { Router, RouterEvent } from '@angular/router';
 })
 export class MenuPage implements OnInit {
 
-  selectedPath = ''
+  selectedPath = '';
 
   pages = [
     {
@@ -23,11 +23,15 @@ export class MenuPage implements OnInit {
       title: 'About Us',
       url: '/menu/(menucontent:aboutUs)'
     }
-  ]
+  ];
 
-  constructor(private router: Router) { 
+  constructor(private router: Router) {
     this.router.events.subscribe((event: RouterEvent) => {
       this.selectedPath = event.url;
+      if (this.selectedPath === '/') {
+        this.selectedPath = '/menu/(menucontent:insertWord)';
+        event.url = '/menu/(menucontent:insertWord)';
+      }
     });
   }
 

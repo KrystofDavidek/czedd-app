@@ -9,7 +9,7 @@ import { AboutUsPage } from '../about-us/about-us.page';
 const routes: Routes = [
   {
     path: 'menu',
-    component : MenuPage,
+    component: MenuPage,
     children: [
       {
         path: 'insertWord',
@@ -32,7 +32,7 @@ const routes: Routes = [
     path: '',
     redirectTo: '/menu/(menucontent:insertWord)'
   }
-]
+];
 
 @NgModule({
   imports: [
