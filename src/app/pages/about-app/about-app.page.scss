@@ -1,5 +1,9 @@
 ion-menu-button {
-  color:  orange
+  color:  orange;
+}
+
+ion-button.ion-color-dark {
+  --ripple-color: orange;
 }
 
 .short-letters{
@@ -11,7 +15,6 @@ ion-menu-button {
 }
 
 .title {
-  font-size: 25px;
   padding: 20px;
-  letter-spacing: .1em;
+  letter-spacing: .0,5em;
 }

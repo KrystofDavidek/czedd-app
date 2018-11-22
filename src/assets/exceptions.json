@@ -1,15 +1,28 @@
 {
-  "tel" : {
+  "tel": {
     "chovat": "chová",
     "kovat": "ková nebo kove",
     "klovat": "klová nebo klove",
     "snovat": "snová nebo snove",
     "plovat": "plová nebo plové",
-    "kázat" : "káže",
-    "hýbat" : "hýbá nebo hýbe",
-    "vychovat" : "vychoval nebo vychová",
-    "zobat" : "zobá nebo zobe",
-    "koupit" : "koupil nebo koupí",
-    "vykoupit" : "vykoupil nebo vykoupí"
+    "kázat": "káže",
+    "hýbat": "hýbá nebo hýbe",
+    "zobat": "zobá nebo zobe",
+    "vychovat": "vychoval nebo vychová",
+    "koupit": "koupil nebo koupí",
+    "vykoupit": "vykoupil nebo vykoupí"
+  },
+  "telka": {
+    "chovat": "chová",
+    "kovat": "ková nebo kove",
+    "klovat": "klová nebo klove",
+    "snovat": "snová nebo snove",
+    "plovat": "plová nebo plové",
+    "kázat": "káže",
+    "hýbat": "hýbá nebo hýbe",
+    "zobat": "zobá nebo zobe",
+    "vychovat": "vychovala nebo vychová",
+    "vykoupit": "vykoupila nebo vykoupí",
+    "koupit": "koupila nebo koupí"
   }
 }

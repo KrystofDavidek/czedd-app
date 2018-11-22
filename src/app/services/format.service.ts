@@ -22,13 +22,20 @@ export class FormatService {
   public async telDefinition(infoBase) {
     const definiton = {
       main: {},
-      secondary: {}
+      derivational: {},
+      morphological: {}
     };
     definiton.main = await this.telMain(infoBase);
-    definiton.secondary = {
+    definiton.derivational = {
       caption: 'Derivation information',
       baseWord: `Base word: ${infoBase.czechParent}`,
       derProcess: `Derivation process: ${infoBase.derProcess}`
+    };
+    definiton.morphological = {
+      caption: 'Morphological information',
+      partOfSpeech: 'Part of speech: Noun',
+      gender: 'Noun gender: Masculine Animate',
+      paradigm: 'Noun paradigm: ...',
     };
     return definiton;
   }
@@ -43,7 +50,7 @@ export class FormatService {
     };
     const thirdPerson = await this.getThirdPerson(infoBase);
 
-    if (infoBase.genus === 'F') {
+    if (infoBase.gender === 'F') {
       const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length - 1);
       mainResult.firstLine = `${inputName}-${infoBase.derivType}ka`;
       mainResult.czechLine = `Ta, která ${thirdPerson} (infinitive: ${infoBase.czechParent})`;
@@ -63,8 +70,13 @@ export class FormatService {
     if (infoBase.isPrefig && verb.match(/^.*ov[aá]vat$/)) {
       return `${verb.substring(0, verb.length - 4)}ává`;
     } else if (infoBase.isPrefig) {
-      return `${verb.substring(0, verb.length - 4)}oval
-      nebo ${verb.substring(0, verb.length - 4)}uje`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 4)}ovala
+        nebo ${verb.substring(0, verb.length - 4)}uje`;
+      } else {
+        return `${verb.substring(0, verb.length - 4)}oval
+        nebo ${verb.substring(0, verb.length - 4)}uje`;
+      }
     } else {
       return `${verb.substring(0, verb.length - 4)}uje`;
     }
@@ -78,11 +90,21 @@ export class FormatService {
     } else if (infoBase.isPrefig && verb.match(/^.*ovat$/)) {
       return `${verb.substring(0, verb.length - 4)}uje`;
     } else if (infoBase.isPrefig && verb.charAt(verb.length - 2) === 'e') {
-      return `${verb.substring(0, verb.length - 2)}el
-      nebo ${verb.substring(0, verb.length - 2)}í`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ela
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}el
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      }
     } else if ((infoBase.isPrefig && verb.charAt(verb.length - 2) === 'i')) {
-      return `${verb.substring(0, verb.length - 2)}ěl
-      nebo ${verb.substring(0, verb.length - 2)}í`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ěla
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}ěl
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      }
     } else {
       return `${verb.substring(0, verb.length - 2)}í`;
     }
@@ -98,8 +120,13 @@ export class FormatService {
     ) {
       return `${verb.substring(0, verb.length - 4)}ává`;
     } else if (infoBase.isPrefig) {
-      return `${verb.substring(0, verb.length - 2)}ál
-      nebo ${verb.substring(0, verb.length - 2)}á`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ála
+        nebo ${verb.substring(0, verb.length - 2)}á`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}ál
+        nebo ${verb.substring(0, verb.length - 2)}á`;
+      }
     } else {
       return `${verb.substring(0, verb.length - 2)}á`;
     }
@@ -110,8 +137,8 @@ export class FormatService {
     const verb = infoBase.czechParent;
     let thirdPerson = '';
     const dictOfExceptions = await this.load.loadJson('exceptions.json');
-    if (this.exceptions.isExcept(verb, infoBase.derivType, dictOfExceptions)) {
-      return this.exceptions.findExcept(verb, infoBase.derivType, dictOfExceptions);
+    if (this.exceptions.isExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions)) {
+      return this.exceptions.findExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions);
     }
     if (verb.match(/^.*ov[aá](va)?t$/)) {
       thirdPerson = this.telTypePracovat(infoBase);

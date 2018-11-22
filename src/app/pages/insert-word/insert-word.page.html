@@ -20,7 +20,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-button color='dark' shape='round' strong (click)='anaylze()'>
+  <ion-button color='dark' shape='round' fill='solid' strong (click)='anaylze()'>
     <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
     <p *ngIf='!isLoading'>Analyze</p>
   </ion-button>
@@ -44,10 +44,18 @@
     </div>
     <div class='secondary'>
       <ion-card *ngIf="definition">
-        <ion-card-title> {{ definition.secondary.caption }} </ion-card-title>
+        <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
         <ion-card-content>
-          <p> {{ definition.secondary.baseWord }} </p>
-          <p> {{ definition.secondary.derProcess }} </p>
+          <p> {{ definition.derivational.baseWord }} </p>
+          <p> {{ definition.derivational.derProcess }} </p>
+        </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="definition">
+        <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
+        <ion-card-content>
+          <p> {{ definition.morphological.partOfSpeech }} </p>
+          <p> {{ definition.morphological.gender }} </p>
+          <p> {{ definition.morphological.paradigm }} </p>
         </ion-card-content>
       </ion-card>
     </div>

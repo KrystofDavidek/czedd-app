@@ -9,8 +9,11 @@ export class ExceptionsService {
   constructor() { }
 
 
-  public findExcept(verb, derivtype, exceptions) {
+  public findExcept(verb, derivtype, gender, exceptions) {
     let exception = false;
+    if (gender === 'F' && derivtype === 'tel') {
+      derivtype += 'ka';
+    }
     _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
         exception = value;
@@ -21,8 +24,11 @@ export class ExceptionsService {
   }
 
 
-  public isExcept(verb, derivtype, exceptions) {
+  public isExcept(verb, derivtype, gender, exceptions) {
     let isExcept = false;
+    if (gender === 'F' && derivtype === 'tel') {
+      derivtype += 'ka';
+    }
     _.forEach(exceptions[derivtype], (value, key) => {
       if (verb === key) {
         isExcept = true;

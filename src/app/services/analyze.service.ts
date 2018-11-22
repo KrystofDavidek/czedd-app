@@ -19,7 +19,7 @@ export class AnalyzeService {
     isPrefig: Boolean(),
     prefix: '',
     derProcess: '',
-    genus: ''
+    gender: ''
   };
 
 
@@ -33,7 +33,7 @@ export class AnalyzeService {
     this.infoBase.isPrefig = false;
     this.infoBase.prefix = '';
     this.infoBase.derProcess = '';
-    this.infoBase.genus = 'M';
+    this.infoBase.gender = 'M';
   }
 
 
@@ -115,7 +115,7 @@ export class AnalyzeService {
         this.infoBase.derivType = derivType;
         this.infoBase.derProcess = 'suffixation';
         if (derivType === 'tel' && this.infoBase.czechInput.endsWith('ka')) {
-          this.infoBase.genus = 'F';
+          this.infoBase.gender = 'F';
         }
       }
     });
