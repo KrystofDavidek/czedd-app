@@ -11,7 +11,7 @@ export class InsertWordPage implements OnInit {
 
   constructor(public analyzator: AnalyzeService, public formator: FormatService) { }
 
-  public inputWord = 'učitelka';
+  public inputWord = '';
   public definition;
   public errorMessage = '';
   public isLoading = false;
