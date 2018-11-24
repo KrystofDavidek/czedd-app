@@ -121,10 +121,10 @@ export class FormatService {
       return `${verb.substring(0, verb.length - 4)}ává`;
     } else if (infoBase.isPrefig) {
       if (infoBase.gender === 'F') {
-        return `${verb.substring(0, verb.length - 2)}ála
+        return `${verb.substring(0, verb.length - 2)}ala
         nebo ${verb.substring(0, verb.length - 2)}á`;
       } else {
-        return `${verb.substring(0, verb.length - 2)}ál
+        return `${verb.substring(0, verb.length - 2)}al
         nebo ${verb.substring(0, verb.length - 2)}á`;
       }
     } else {
