@@ -65,6 +65,64 @@ export class FormatService {
   }
 
 
+  public async getThirdPerson(infoBase) {
+    let thirdPerson;
+    if (infoBase.derivType === 'tel') {
+      thirdPerson = await this.telTypeNew(infoBase);
+    }
+    return thirdPerson;
+  }
+
+  public async telType(infoBase) {
+    const verb = infoBase.czechParent;
+    let thirdPerson = '';
+    const dictOfExceptions = await this.load.loadJson('exceptions.json');
+    if (this.exceptions.isExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions)) {
+      return this.exceptions.findExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions);
+    }
+    if (verb.match(/^.*ov[aá](va)?t$/)) {
+      thirdPerson = this.telTypePracovat(infoBase);
+    } else if ((verb.match(/^.*[ieě]t$/))) {
+      thirdPerson = this.telTypeFourth(infoBase);
+    } else {
+      thirdPerson = this.telTypeOthers(infoBase);
+    }
+    return thirdPerson;
+  }
+
+
+  public async telTypeNew(infoBase) {
+    const czechInput = infoBase.czechInput;
+    let thirdPerson = '';
+    const dictOfExceptions = await this.load.loadJson('exceptions.json');
+    if (this.exceptions.isExcept(infoBase.czechParent, infoBase.derivType, infoBase.gender, dictOfExceptions)) {
+      return this.exceptions.findExcept(infoBase.czechParent, infoBase.derivType, infoBase.gender, dictOfExceptions);
+    }
+    if (czechInput.match(/^.*ovatel$/)) {
+      thirdPerson = this.telTypeOvatel(infoBase);
+      return thirdPerson;
+    }
+  }
+
+  public telTypeOvatel(infoBase) {
+    const verb = infoBase.czechParent;
+    const czechInput = infoBase.czechInput;
+    if (!(czechInput.match(/^.*chovatel$/))) {
+      if (infoBase.isPrefig && (verb.match(/^.*ovat$/))) {
+        return `${verb.substring(0, verb.length - 4)}oval
+        nebo ${verb.substring(0, verb.length - 4)}uje`;
+      } else {
+        return `${verb.substring(0, verb.length - 4)}uje`;
+      }
+    } else if (!infoBase.isPrefig) {
+      return `${verb.substring(0, verb.length - 2)}á`;
+    } else {
+      return `${verb.substring(0, verb.length - 2)}al
+        nebo ${verb.substring(0, verb.length - 2)}á`;
+    }
+  }
+
+
   public telTypePracovat(infoBase) {
     const verb = infoBase.czechParent;
     if (infoBase.isPrefig && verb.match(/^.*ov[aá]vat$/)) {
@@ -130,33 +188,6 @@ export class FormatService {
     } else {
       return `${verb.substring(0, verb.length - 2)}á`;
     }
-  }
-
-
-  public async telType(infoBase) {
-    const verb = infoBase.czechParent;
-    let thirdPerson = '';
-    const dictOfExceptions = await this.load.loadJson('exceptions.json');
-    if (this.exceptions.isExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions)) {
-      return this.exceptions.findExcept(verb, infoBase.derivType, infoBase.gender, dictOfExceptions);
-    }
-    if (verb.match(/^.*ov[aá](va)?t$/)) {
-      thirdPerson = this.telTypePracovat(infoBase);
-    } else if ((verb.match(/^.*[ieě]t$/))) {
-      thirdPerson = this.telTypeFourth(infoBase);
-    } else {
-      thirdPerson = this.telTypeOthers(infoBase);
-    }
-    return thirdPerson;
-  }
-
-
-  public async getThirdPerson(infoBase) {
-    let thirdPerson;
-    if (infoBase.derivType === 'tel') {
-      thirdPerson = await this.telType(infoBase);
-    }
-    return thirdPerson;
   }
 }
 

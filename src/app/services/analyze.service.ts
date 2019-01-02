@@ -30,6 +30,7 @@ export class AnalyzeService {
   public async initInfoBase(inputWord) {
     this.infoBase.czechInput = inputWord;
     this.infoBase.englishInput = await this.translator.toEng(inputWord);
+    this.infoBase.derivType = '';
     this.infoBase.isPrefig = false;
     this.infoBase.prefix = '';
     this.infoBase.derProcess = '';
@@ -69,7 +70,9 @@ export class AnalyzeService {
       derivationPath.push(item);
 
       if (this.PartOfSpeechChange(item, prevItem)) {
-        await this.checkDertivationType(item, prevItem);
+        if (!this.infoBase.derivType) {
+          await this.checkDertivationType(item, prevItem);
+        }
       }
       if (this.ifPrefix(item, prevItem)) {
         item = prevItem;
