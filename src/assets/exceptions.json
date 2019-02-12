@@ -10,7 +10,10 @@
     "zobat": "zobá nebo zobe",
     "vychovat": "vychoval nebo vychová",
     "koupit": "koupil nebo koupí",
-    "vykoupit": "vykoupil nebo vykoupí"
+    "vykoupit": "vykoupil nebo vykoupí",
+    "přispívat": "přispěl nebo přispěje",
+    "ukázat": "ukáže",
+    "přemoci": "přemůže"
   },
   "telka": {
     "chovat": "chová",
@@ -23,6 +26,9 @@
     "zobat": "zobá nebo zobe",
     "vychovat": "vychovala nebo vychová",
     "vykoupit": "vykoupila nebo vykoupí",
-    "koupit": "koupila nebo koupí"
+    "koupit": "koupila nebo koupí",
+    "přispívat": "přispěla nebo přispěje",
+    "ukázat": "ukáže",
+    "přemoci": "přemůže"
   }
 }

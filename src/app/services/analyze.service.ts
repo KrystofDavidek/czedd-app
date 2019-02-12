@@ -27,6 +27,11 @@ export class AnalyzeService {
     'pře', 'před', 'při', 's', 'z', 'u', 'v', 'z', 'za', 'roz', 'vy', 'vz'];
 
 
+  public alternations = {
+    'u': 'ou'
+  };
+
+
   public async initInfoBase(inputWord) {
     this.infoBase.czechInput = inputWord;
     this.infoBase.englishInput = await this.translator.toEng(inputWord);
@@ -92,13 +97,25 @@ export class AnalyzeService {
   public stemmChange(item, prevItem) {
     if (
       item.word.substring(0, item.word.length - 1) !== prevItem.word.substring(0, item.word.length - 1) &&
-      prevItem.category === 'V' &&
-      item.category === 'V'
+      prevItem.category === 'V' && item.category === 'V' &&
+      (!this.ifAlternation(item, prevItem))
     ) {
       return true;
     } else {
       return false;
     }
+  }
+
+
+  public ifAlternation(item, prevItem) {
+    let ifAlternation = false;
+    _.forIn(this.alternations, (value, key) => {
+      if (_.includes(item.word, value) && _.includes(prevItem.word, key) &&
+        _.indexOf(item.word, value[0]) === _.indexOf(prevItem.word, key[0])) {
+        ifAlternation = true;
+      }
+    });
+    return ifAlternation;
   }
 
 
