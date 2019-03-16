@@ -11,14 +11,14 @@ export class InsertWordPage implements OnInit {
 
   constructor(public analyzator: AnalyzeService, public formator: FormatService) { }
 
-  public inputWord = 'kupitel';
+  public inputWord = '';
   public definition;
   public errorMessage = '';
   public isLoading = false;
 
   ngOnInit() {
     // this.test(infoBase)
-    this.anaylze();
+    // this.anaylze();
   }
 
   public async anaylze() {
