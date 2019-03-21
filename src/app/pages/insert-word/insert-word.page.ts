@@ -1,3 +1,4 @@
+import { DatabaseService } from './../../services/database.service';
 import { Component, OnInit } from '@angular/core';
 import { AnalyzeService } from '../../services/analyze.service';
 import { FormatService } from '../../services/format.service';
@@ -9,12 +10,21 @@ import { FormatService } from '../../services/format.service';
 })
 export class InsertWordPage implements OnInit {
 
-  constructor(public analyzator: AnalyzeService, public formator: FormatService) { }
+  constructor(public analyzator: AnalyzeService, public formator: FormatService, public database: DatabaseService) {
+    this.database.getDatabaseState().subscribe(rdy => {
+      if (rdy) {
+        this.loadOneDeveloper(name);
+      }
+    });
+  }
 
   public inputWord = '';
   public definition;
   public errorMessage = '';
   public isLoading = false;
+
+  public developer = {};
+  public developers = [];
 
   ngOnInit() {
     // this.test(infoBase)
@@ -38,4 +48,24 @@ export class InsertWordPage implements OnInit {
   public test(infoBase) {
     const list = ['a', 'b'];
   }
+
+  public runSql() {
+    this.database.runSqlQuery();
+  }
+
+
+  public loadDeveloperData() {
+    this.database.getAllDevelopers().then(data => {
+      this.developers = data;
+    });
+  }
+
+  public loadOneDeveloper(name) {
+    this.database.loadOneDeveloper(name).then(data => {
+      this.developers = data;
+    });
+  }
+
+
+
 }
