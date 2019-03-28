@@ -29,7 +29,7 @@ export class InsertWordPage implements OnInit {
 
 
   ngOnInit() {
-    // this.anaylze();
+    /* this.anaylze(); */
   }
 
 

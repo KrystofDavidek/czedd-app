@@ -19,7 +19,8 @@ export class AnalyzeService {
     isPrefig: Boolean(),
     prefix: '',
     derProcess: '',
-    gender: ''
+    gender: '',
+    derivationPath: []
   };
 
 
@@ -40,6 +41,7 @@ export class AnalyzeService {
     this.infoBase.prefix = '';
     this.infoBase.derProcess = '';
     this.infoBase.gender = 'M';
+    this.infoBase.derivationPath = [];
   }
 
 
@@ -63,7 +65,7 @@ export class AnalyzeService {
 
 
   public async searchParent(item, itemsList) {
-    const derivationPath = [];
+    let derivationPath = [];
     derivationPath.push(item);
     let prevItem;
     while (item.parent !== '') {
@@ -77,25 +79,53 @@ export class AnalyzeService {
       if (this.PartOfSpeechChange(item, prevItem)) {
         if (!this.infoBase.derivType) {
           await this.checkDertivationType(item, prevItem);
+          this.ifPrefixToRoot(prevItem, itemsList);
+          derivationPath = _.concat(derivationPath, this.findAnotherParents(item, itemsList));
+          break;
         }
       }
-      if (this.ifPrefix(item, prevItem)) {
+      /* if (this.ifPrefix(item, prevItem)) {
         item = prevItem;
         break;
       }
       if (this.stemmChange(item, prevItem)) {
         item = prevItem;
-        this.ifPrefixSecondary(prevItem, itemsList);
+        this.ifPrefixToRoot(prevItem, itemsList);
         break;
-      }
+      } */
     }
     console.log(derivationPath);
+    this.infoBase.derivationPath = derivationPath;
     return item.word;
+  }
+
+
+  public findAnotherParents(item, itemsList) {
+    let parent = item;
+    const derivationPath = [];
+    let anotherParent = _.find(itemsList, ['id', parent.parent]);
+    while (parent.category === anotherParent.category && item.parent !== '') {
+      if (this.ifPrefix(anotherParent, parent)) {
+        break;
+      }
+      derivationPath.push(anotherParent);
+      parent = anotherParent;
+      anotherParent = _.find(itemsList, ['id', parent.parent]);
+    }
+    return derivationPath;
   }
 
 
   public stemmChange(item, prevItem) {
     if (
+      item.word !== prevItem.word &&
+      prevItem.category === 'V' && item.category === 'V'
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+    /* if (
       item.word.substring(0, item.word.length - 1) !== prevItem.word.substring(0, item.word.length - 1) &&
       prevItem.category === 'V' && item.category === 'V' &&
       (!this.ifAlternation(item, prevItem))
@@ -103,7 +133,7 @@ export class AnalyzeService {
       return true;
     } else {
       return false;
-    }
+    } */
   }
 
 
@@ -142,7 +172,7 @@ export class AnalyzeService {
   }
 
 
-  public ifPrefixSecondary(item, itemList) {
+  public ifPrefixToRoot(item, itemList) {
     const prefix = this.getPrefix(item);
     let ifPrefix = false;
     let prevItem;
