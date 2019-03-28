@@ -13,7 +13,7 @@ export class InsertWordPage implements OnInit {
   constructor(public analyzator: AnalyzeService, public formator: FormatService, public database: DatabaseService) {
     this.database.getDatabaseState().subscribe(rdy => {
       if (rdy) {
-        this.loadOneDeveloper(name);
+        this.dbIsLoaded = true;
       }
     });
   }
@@ -23,13 +23,15 @@ export class InsertWordPage implements OnInit {
   public errorMessage = '';
   public isLoading = false;
 
-  public developer = {};
-  public developers = [];
+  public word = {};
+  public words = [];
+  public dbIsLoaded = false;
+
 
   ngOnInit() {
-    // this.test(infoBase)
     // this.anaylze();
   }
+
 
   public async anaylze() {
     this.isLoading = true;
@@ -45,24 +47,11 @@ export class InsertWordPage implements OnInit {
     }
   }
 
-  public test(infoBase) {
-    const list = ['a', 'b'];
-  }
 
-  public runSql() {
-    this.database.runSqlQuery();
-  }
-
-
-  public loadDeveloperData() {
-    this.database.getAllDevelopers().then(data => {
-      this.developers = data;
-    });
-  }
-
-  public loadOneDeveloper(name) {
-    this.database.loadOneDeveloper(name).then(data => {
-      this.developers = data;
+  public loadWord(word) {
+    this.database.loadWord(word).then(data => {
+      this.words = data;
+      console.log(this.words);
     });
   }
 

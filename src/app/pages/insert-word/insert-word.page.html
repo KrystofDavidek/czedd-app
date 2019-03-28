@@ -13,13 +13,26 @@
 
 <ion-content padding text-center>
 
+  <!-- <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učitel")'>
+    učitel
+  </ion-button>
+
+  <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učitelka")'>
+    učitelka
+  </ion-button>
+
+  <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učit")'>
+    učit
+  </ion-button>
 
   <ion-list>
-    <ion-item *ngFor="let dev of developers">
-      <h2>{{ dev.name }}</h2>
-      <p>{{ dev.yearsOfExperience }} years of {{ dev.skill }} Experience!</p>
+    <ion-item *ngFor="let word of words">
+      <h2>{{ word.word }}</h2>
+      <p>{{ word.address }}</p>
+      <p>{{ word.part_of_speech }} </p>
+      <p>{{ word.origin}}</p>
     </ion-item>
-  </ion-list>
+  </ion-list> -->
 
   <ion-card>
     <ion-card-content>
