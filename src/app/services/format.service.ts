@@ -151,6 +151,8 @@ export class FormatService {
       return `${verb.substring(0, verb.length - 4)}ívá`;
     } else if ((czechInput.match(/^.*[yý]vatel$/))) {
       return `${verb.substring(0, verb.length - 4)}ývá`;
+    } else if ((czechInput.match(/^.*ouvatel$/))) {
+      return `${verb.substring(0, verb.length - 3)}vá`;
     } else {
       return `${verb.substring(0, verb.length - 4)}ává`;
     }
