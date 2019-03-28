@@ -46,7 +46,7 @@ export class AnalyzeService {
 
 
   public async analyze(inputWord) {
-    const tsvContent = (await this.load.loadFile('derinet-1-5-1.tsv')).split('\n');
+    const tsvContent = (await this.load.loadFile('tel_derinet.tsv')).split('\n');
     await this.initInfoBase(inputWord);
 
     console.log('LOADING ...');
@@ -104,7 +104,7 @@ export class AnalyzeService {
     let parent = item;
     const derivationPath = [];
     let anotherParent = _.find(itemsList, ['id', parent.parent]);
-    while (parent.category === anotherParent.category && item.parent !== '') {
+    while (item.parent !== undefined && parent.category === anotherParent.category) {
       if (this.ifPrefix(anotherParent, parent)) {
         break;
       }
@@ -150,7 +150,7 @@ export class AnalyzeService {
 
 
   public PartOfSpeechChange(item, prevItem) {
-    if (item.category !== prevItem.category) {
+    if (prevItem.category !== undefined && item.category !== prevItem.category) {
       return true;
     } else {
       return false;
@@ -177,7 +177,7 @@ export class AnalyzeService {
     let ifPrefix = false;
     let prevItem;
     if (prefix) {
-      while (item.parent !== '') {
+      while (item.parent !== undefined) {
         if (ifPrefix) {
           break;
         }

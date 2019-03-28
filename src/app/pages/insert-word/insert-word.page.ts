@@ -18,7 +18,7 @@ export class InsertWordPage implements OnInit {
     }); */
   }
 
-  public inputWord = 'učitel';
+  public inputWord = '';
   public definition;
   public errorMessage = '';
   public isLoading = false;
@@ -29,8 +29,8 @@ export class InsertWordPage implements OnInit {
 
 
   ngOnInit() {
-    this.anaylze();
-  }
+/*     this.anaylze();
+ */  }
 
 
   public async anaylze() {
