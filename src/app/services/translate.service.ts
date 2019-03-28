@@ -10,11 +10,26 @@ export class TranslateService {
 
 
   public async toEng(word) {
-    const dic = (await this.load.loadFile('en-cs.txt')).split('\n');
+    const mainVerb = { id: 0, verb: '' };
+    const dic = (await this.load.loadFile('slovnik.csv')).split('\n');
     let translation = this.translate(word, dic);
-    if (translation.match(/^\w+\s+\w+$/)) {
+    if (translation.match(/^\w+\s+\w+(\s+\w+)?$/)) {
       const words = translation.split(' ');
-      words[0] = words[0] + 's';
+      if (words[0] === 'to') {
+        words.splice(0, 1);
+      }
+      if (words.length > 2) {
+        let i = 0;
+        // tslint:disable-next-line:no-shadowed-variable
+        for (const word of words) {
+          i = i + 1;
+          if (word.length > mainVerb.verb.length) {
+            mainVerb.id = i;
+          }
+        }
+      }
+      words[mainVerb.id] = words[mainVerb.id] + 's';
+      console.log(words);
       translation = words.join(' ');
     }
     return translation;
@@ -29,7 +44,7 @@ export class TranslateService {
       const arrayLineLength = dicLine.length;
       for (let j = 0; j < arrayLineLength; j++) {
         if (word === dicLine[j]) {
-          translation = dicLine[0];
+          translation = dicLine[1];
           return translation;
         }
       }

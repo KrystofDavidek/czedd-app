@@ -11,14 +11,14 @@ import { FormatService } from '../../services/format.service';
 export class InsertWordPage implements OnInit {
 
   constructor(public analyzator: AnalyzeService, public formator: FormatService, public database: DatabaseService) {
-    this.database.getDatabaseState().subscribe(rdy => {
+    /* this.database.getDatabaseState().subscribe(rdy => {
       if (rdy) {
         this.dbIsLoaded = true;
       }
-    });
+    }); */
   }
 
-  public inputWord = '';
+  public inputWord = 'učitel';
   public definition;
   public errorMessage = '';
   public isLoading = false;
@@ -29,7 +29,7 @@ export class InsertWordPage implements OnInit {
 
 
   ngOnInit() {
-    /* this.anaylze(); */
+    this.anaylze();
   }
 
 

@@ -55,12 +55,12 @@ export class FormatService {
       const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length - 1);
       mainResult.firstLine = `${inputName}-${infoBase.derivType}ka`;
       mainResult.czechLine = `Ta, která ${thirdPerson} (infinitive: ${infoBase.czechParent})`;
-      mainResult.englishLine = `Someone who ${infoBase.englishParent}s (feminine)`;
+      mainResult.englishLine = `Someone who ${infoBase.englishParent} (feminine)`;
     } else {
       const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length + 1);
       mainResult.firstLine = `${inputName}-${infoBase.derivType}`;
       mainResult.czechLine = `Ten, kdo ${thirdPerson} (infinitive: ${infoBase.czechParent})`;
-      mainResult.englishLine = `Someone who ${infoBase.englishParent}s (masculine animate)`;
+      mainResult.englishLine = `Someone who ${infoBase.englishParent} (masculine animate)`;
     }
     return mainResult;
   }
@@ -69,7 +69,13 @@ export class FormatService {
   public async getThirdPerson(infoBase) {
     let thirdPerson;
     if (infoBase.derivType === 'tel') {
-      thirdPerson = await this.telTypeNew(infoBase);
+      if (infoBase.gender === 'F') {
+        infoBase.czechInput = infoBase.czechInput.substring(0, infoBase.czechInput.length - 2);
+        thirdPerson = await this.telTypeNew(infoBase);
+        infoBase.czechInput = infoBase.czechInput + 'ka';
+      } else {
+        thirdPerson = await this.telTypeNew(infoBase);
+      }
     }
     return thirdPerson;
   }
@@ -101,27 +107,6 @@ export class FormatService {
   }
 
 
-  public telTypeOvatel(infoBase, czechInput, verb) {
-    if (!(czechInput.match(/^.*chovatel$/))) {
-      if (infoBase.isPrefig) {
-        if (this.ifWordFormInChain(infoBase.derivationPath, ['.*it', '.*nout', '.*[áa]t'], verb, false)) {
-          return `${verb.substring(0, verb.length - 4)}uje`;
-        } else {
-          return `${verb.substring(0, verb.length - 4)}oval
-        nebo ${verb.substring(0, verb.length - 4)}uje`;
-        }
-      } else {
-        return `${verb.substring(0, verb.length - 4)}uje`;
-      }
-    } else if (!infoBase.isPrefig) {
-      return `${verb.substring(0, verb.length - 2)}á`;
-    } else {
-      return `${verb.substring(0, verb.length - 2)}al
-        nebo ${verb.substring(0, verb.length - 2)}á`;
-    }
-  }
-
-
   public ifWordFormInChain(derivationPath, listOfReg, verb: string, negation: boolean, regOfVerb?: string) {
     let result = false;
     let start = false;
@@ -146,6 +131,37 @@ export class FormatService {
   }
 
 
+  public telTypeOvatel(infoBase, czechInput, verb) {
+    if (!(czechInput.match(/^.*chovatel$/))) {
+      if (infoBase.isPrefig) {
+        if (this.ifWordFormInChain(infoBase.derivationPath, ['.*it', '.*nout', '.*[áa]t'], verb, false)) {
+          return `${verb.substring(0, verb.length - 4)}uje`;
+        } else {
+          if (infoBase.gender === 'F') {
+            return `${verb.substring(0, verb.length - 4)}ovala
+            nebo ${verb.substring(0, verb.length - 4)}uje`;
+          } else {
+            return `${verb.substring(0, verb.length - 4)}oval
+            nebo ${verb.substring(0, verb.length - 4)}uje`;
+          }
+        }
+      } else {
+        return `${verb.substring(0, verb.length - 4)}uje`;
+      }
+    } else if (!infoBase.isPrefig) {
+      return `${verb.substring(0, verb.length - 2)}á`;
+    } else {
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ala
+        nebo ${verb.substring(0, verb.length - 2)}á`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}al
+        nebo ${verb.substring(0, verb.length - 2)}á`;
+      }
+    }
+  }
+
+
   public telTypeVatel(infoBase, czechInput, verb) {
     if ((czechInput.match(/^.*[iíě]vatel$/))) {
       return `${verb.substring(0, verb.length - 4)}ívá`;
@@ -163,13 +179,22 @@ export class FormatService {
     if (!infoBase.isPrefig) {
       if (this.ifWordFormInChain(infoBase.derivationPath, ['.*ou.it'], verb, false, '.*u.ovat')) {
         verb = infoBase.derivationPath[_.findIndex(infoBase.derivationPath, { word: verb }) + 1].word;
-        return `${verb.substring(0, verb.length - 2)}il
-        nebo ${verb.substring(0, verb.length - 2)}í`;
+        if (infoBase.gender === 'F') {
+          return `${verb.substring(0, verb.length - 2)}ila
+          nebo ${verb.substring(0, verb.length - 2)}í`;
+        } else {
+          return `${verb.substring(0, verb.length - 2)}il
+          nebo ${verb.substring(0, verb.length - 2)}í`;
+        }
       } else {
         return `${verb.substring(0, verb.length - 2)}í`;
       }
     } else if (this.ifWordFormInChain(infoBase.derivationPath, ['.*it'], verb, true, '.*ovat')) {
-      return `${verb.substring(0, verb.length - 2)}al`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ala`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}al`;
+      }
     } else if (verb.match(/^.*[eěi]t$/)) {
       return `${verb.substring(0, verb.length - 2)}í`;
     }
@@ -182,22 +207,37 @@ export class FormatService {
       if (!infoBase.isPrefig) {
         return `${verb.substring(0, verb.length - 2)}á`;
       } else {
-        return `${verb.substring(0, verb.length - 2)}al
-      nebo ${verb.substring(0, verb.length - 2)}á`;
+        if (infoBase.gender === 'F') {
+          return `${verb.substring(0, verb.length - 2)}ala
+          nebo ${verb.substring(0, verb.length - 2)}á`;
+        } else {
+          return `${verb.substring(0, verb.length - 2)}al
+          nebo ${verb.substring(0, verb.length - 2)}á`;
+        }
       }
     } else if ((czechInput.match(/^.*zatel$/))) {
       if (!infoBase.isPrefig) {
         return `${verb.substring(0, verb.length - 3)}že`;
       } else {
-        return `${verb.substring(0, verb.length - 3)}zal
-        nebo ${verb.substring(0, verb.length - 3)}že`;
+        if (infoBase.gender === 'F') {
+          return `${verb.substring(0, verb.length - 3)}zala
+          nebo ${verb.substring(0, verb.length - 3)}že`;
+        } else {
+          return `${verb.substring(0, verb.length - 3)}zal
+          nebo ${verb.substring(0, verb.length - 3)}že`;
+        }
       }
     } else if ((czechInput.match(/^.*batel$/))) {
       if (!infoBase.isPrefig) {
         return `${verb.substring(0, verb.length - 3)}bá`;
       } else {
-        return `${verb.substring(0, verb.length - 3)}bal
+        if (infoBase.gender === 'F') {
+          return `${verb.substring(0, verb.length - 3)}bala
         nebo ${verb.substring(0, verb.length - 3)}bá`;
+        } else {
+          return `${verb.substring(0, verb.length - 3)}bal
+        nebo ${verb.substring(0, verb.length - 3)}bá`;
+        }
       }
     }
   }
