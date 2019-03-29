@@ -51,6 +51,10 @@ export class FormatService {
     };
     const thirdPerson = await this.getThirdPerson(infoBase);
 
+    if (infoBase.englishParent === '') {
+      infoBase.englishParent = '...';
+    }
+
     if (infoBase.gender === 'F') {
       const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length - 1);
       mainResult.firstLine = `${inputName}-${infoBase.derivType}ka`;

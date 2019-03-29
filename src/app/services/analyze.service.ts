@@ -68,7 +68,7 @@ export class AnalyzeService {
     let derivationPath = [];
     derivationPath.push(item);
     let prevItem;
-    while (item.parent !== '') {
+    while (item.parent !== undefined && item.parent !== '') {
       if (this.infoBase.englishInput === '') {
         this.infoBase.englishInput = await this.translator.toEng(item.word);
       }

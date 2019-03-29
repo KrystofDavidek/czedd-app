@@ -40,7 +40,7 @@ export class InsertWordPage implements OnInit {
     this.definition = undefined;
     infoBase = await this.analyzator.analyze(this.inputWord);
     this.isLoading = false;
-    if (typeof infoBase === 'string' || infoBase instanceof String) {
+    if (typeof infoBase === 'string' || infoBase instanceof String || infoBase.czechParent === infoBase.czechInput) {
       this.errorMessage = 'Wrong input.';
     } else {
       this.definition = await this.formator.createDefinition(infoBase);
