@@ -20,6 +20,10 @@ export class MenuPage implements OnInit {
       url: '/menu/(menucontent:insertWord)'
     },
     {
+      title: 'Index',
+      url: '/menu/(menucontent:index)'
+    },
+    {
       title: 'About Us',
       url: '/menu/(menucontent:aboutUs)'
     }

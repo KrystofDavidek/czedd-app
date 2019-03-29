@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutAppPage } from '../about-app/about-app.page';
 import { AboutUsPage } from '../about-us/about-us.page';
+import { IndexPage } from '../index/index.page';
 
 const routes: Routes = [
   {
@@ -15,6 +16,11 @@ const routes: Routes = [
         path: 'insertWord',
         outlet: 'menucontent',
         component: InsertWordPage
+      },
+      {
+        path: 'index',
+        outlet: 'menucontent',
+        component: IndexPage
       },
       {
         path: 'aboutApp',

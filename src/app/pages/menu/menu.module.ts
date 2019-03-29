@@ -1,3 +1,4 @@
+
 import { MenuRoutingModule } from './menu-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,6 +11,7 @@ import { MenuPage } from './menu.page';
 import { AboutUsPageModule } from '../about-us/about-us.module';
 import { AboutAppPageModule } from '../about-app/about-app.module';
 import { InsertWordPageModule } from '../insert-word/insert-word.module';
+import { IndexPageModule } from './../index/index.module';
 
 
 @NgModule({
@@ -20,8 +22,9 @@ import { InsertWordPageModule } from '../insert-word/insert-word.module';
     MenuRoutingModule,
     AboutUsPageModule,
     AboutAppPageModule,
-    InsertWordPageModule
+    InsertWordPageModule,
+    IndexPageModule
   ],
   declarations: [MenuPage]
 })
-export class MenuPageModule {}
+export class MenuPageModule { }
