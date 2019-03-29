@@ -8,16 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexPage implements OnInit {
 
-  constructor(public index: IndexingService) { }
+  constructor(public index: IndexingService) {
+    this.makeAlphDict();
+  }
 
-  public something;
+  public dict;
 
   ngOnInit() {
   }
 
   public async makeAlphDict() {
-    this.something = await this.index.makeAlphDict();
-    console.log(this.something);
+    this.dict = await this.index.makeAlphDict();
+    console.log(this.dict);
   }
 
 }
