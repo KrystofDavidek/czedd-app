@@ -11,6 +11,11 @@ import { FormatService } from '../../services/format.service';
 export class InsertWordPage implements OnInit {
 
   constructor(public analyzator: AnalyzeService, public formator: FormatService, public database: DatabaseService) {
+    if (this.analyzator.inputWordFromIndex !== '') {
+      this.inputWord = this.analyzator.inputWordFromIndex;
+      this.analyzator.inputWordFromIndex = '';
+      this.analyze();
+    }
     /* this.database.getDatabaseState().subscribe(rdy => {
       if (rdy) {
         this.dbIsLoaded = true;
@@ -33,7 +38,7 @@ export class InsertWordPage implements OnInit {
  */  }
 
 
-  public async anaylze() {
+  public async analyze() {
     this.isLoading = true;
     let infoBase;
     this.errorMessage = '';

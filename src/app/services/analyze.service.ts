@@ -10,6 +10,8 @@ export class AnalyzeService {
 
   constructor(private load: LoadFileService, private translator: TranslateService) { }
 
+  public inputWordFromIndex = '';
+
   public infoBase = {
     czechInput: '',
     englishInput: '',

@@ -9,20 +9,26 @@
 
 <ion-content padding>
 
-
-  <ion-button color='dark' shape='round' fill='solid' strong (click)='makeAlphDict()'>
-    Make index
-  </ion-button>
-
-  <ion-list *ngIf='dict'>
-    <ion-item *ngFor="let item of dict | keyvalue">
-      <ion-label>{{ item.key }}</ion-label>
-      <ion-list>
-        <ion-item *ngFor="let word of item.value">
-          <ion-label>{{ word }}</ion-label>
-        </ion-item>
-      </ion-list>
-    </ion-item>
-  </ion-list>
+  <div *ngIf="listOfAlph">
+    <ion-list *ngIf='!showPart' lines="none">
+      <ion-item *ngFor="let alph of listOfAlph" [ngClass]="{'itemEven': listOfAlph.indexOf(alph)%2==0}"
+        (click)='showPartOfDict(alph)'>
+        <ion-label>
+          {{ alph }}
+        </ion-label>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngIf='showPart' lines="none">
+      <ion-item>
+        <ion-button color='dark' shape='round' fill='solid' (click)='backToLetters()'>
+          Back
+        </ion-button>
+      </ion-item>
+      <ion-item *ngFor="let word of partOfDict" [ngClass]="{'itemEven': partOfDict.indexOf(word)%2==0}"
+        (click)='toAnalyze(word)' href='/menu/(menucontent:insertWord)'>
+        <ion-label>{{ word }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
 
 </ion-content>
