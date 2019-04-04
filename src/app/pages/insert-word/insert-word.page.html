@@ -21,7 +21,8 @@
     učitelka
   </ion-button>
 
-  <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učit")'>
+  <ion-button *ngIf='
+ion-inputdbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učit")'>
     učit
   </ion-button>
 
@@ -33,15 +34,13 @@
       <p>{{ word.origin}}</p>
     </ion-item>
   </ion-list> -->
+  <ion-item class='item-divider' positive-bg light>
+    <ion-input text-center required type="text" placeholder="Write the word." (keyup.enter)="analyze()"
+      [(ngModel)]='inputWord'>
+    </ion-input>
+  </ion-item>
 
-  <ion-card>
-    <ion-card-content>
-      <ion-input required type="text" placeholder="Write the word." (keyup.enter)="analyze()" [(ngModel)]='inputWord'>
-      </ion-input>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-button *ngIf="inputWord" color='dark' shape='round' fill='solid' strong (click)='analyze()'>
+  <ion-button class="main-button" *ngIf="inputWord" color='dark' shape='round' fill='solid' strong (click)='analyze()'>
     <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
     <p *ngIf='!isLoading'>Analyze</p>
   </ion-button>

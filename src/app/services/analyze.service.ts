@@ -106,7 +106,8 @@ export class AnalyzeService {
     let parent = item;
     const derivationPath = [];
     let anotherParent = _.find(itemsList, ['id', parent.parent]);
-    while (item.parent !== undefined && parent.category === anotherParent.category) {
+    while (anotherParent && parent.category !== undefined && parent.parent !== undefined && parent.category === anotherParent.category) {
+      console.log([parent, anotherParent]);
       if (this.ifPrefix(anotherParent, parent)) {
         break;
       }

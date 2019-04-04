@@ -1,27 +1,15 @@
-.header {
-  // text-align: center
-}
-
 ion-menu-button {
   color:  orange
 }
 
 ion-button.ion-color-dark {
-  --ripple-color: orange;
+  --ripple-color: rgb(255, 246, 229)
 }
 
 ion-spinner {
   --color: orange
 }
 
-.main {
-  
-}
-
-.secondary {
-  
-}
-  
-.def-title {
-  
+.main-button {
+  padding-top: 8px
 }

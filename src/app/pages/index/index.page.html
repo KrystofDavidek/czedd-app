@@ -9,7 +9,11 @@
 
 <ion-content padding>
 
-  <div *ngIf="listOfAlph">
+  <div *ngIf="loading">
+    <ion-spinner name="crescent"></ion-spinner>
+  </div>
+
+  <div *ngIf="!loading">
     <ion-list *ngIf='!showPart' lines="none">
       <ion-item *ngFor="let alph of listOfAlph" [ngClass]="{'itemEven': listOfAlph.indexOf(alph)%2==0}"
         (click)='showPartOfDict(alph)'>
@@ -28,6 +32,10 @@
         (click)='toAnalyze(word)' href='/menu/(menucontent:insertWord)'>
         <ion-label>{{ word }}</ion-label>
       </ion-item>
+      <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">
+        <ion-infinite-scroll-content loadingSpinner="crescent">
+        </ion-infinite-scroll-content>
+      </ion-infinite-scroll>
     </ion-list>
   </div>
 

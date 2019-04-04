@@ -7,7 +7,11 @@ import * as _ from 'lodash';
 })
 export class IndexingService {
 
-  constructor(public load: LoadFileService) { }
+  constructor(public load: LoadFileService) {
+  }
+
+
+  public alphDict;
 
 
   public async makeAlphDict() {

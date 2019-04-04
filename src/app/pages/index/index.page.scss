@@ -3,5 +3,18 @@ ion-menu-button {
 }
 
 .itemEven {
-  background: rgb(238, 235, 235) 
+  background: rgb(255, 246, 229) 
+}
+
+ion-button.ion-color-dark {
+  --ripple-color: rgb(255, 246, 229)
+}
+
+ion-spinner {
+  display: block;
+  position:fixed;top:40%;left:50%;
+  margin: auto;
+  --color: orange;
+  
+  transform: scale(3);
 }
