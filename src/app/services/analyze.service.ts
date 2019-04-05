@@ -48,9 +48,8 @@ export class AnalyzeService {
 
 
   public async analyze(inputWord) {
-    const tsvContent = (await this.load.loadFile('tel_derinet.tsv')).split('\n');
+    const tsvContent = (await this.load.loadFile('telka_beta.tsv')).split('\n');
     await this.initInfoBase(inputWord);
-
     console.log('LOADING ...');
     const itemsList = _.map(tsvContent, this.convertLineToObject);
     const item = _.find(itemsList, ['word', inputWord]);

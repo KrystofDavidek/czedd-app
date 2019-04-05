@@ -12,6 +12,7 @@ import * as _ from 'lodash';
 export class IndexPage implements OnInit {
 
   constructor(public index: IndexingService, public nav: NavController, public analyzator: AnalyzeService) {
+    this.loading = true;
     this.makeAlphDict();
   }
 

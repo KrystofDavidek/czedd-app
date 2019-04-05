@@ -1,7 +1,9 @@
+import { IndexingService } from './../../services/indexing.service';
 import { DatabaseService } from './../../services/database.service';
 import { Component, OnInit } from '@angular/core';
 import { AnalyzeService } from '../../services/analyze.service';
 import { FormatService } from '../../services/format.service';
+import * as _ from 'lodash';
 
 @Component({
   selector: 'app-insert-word',
@@ -10,12 +12,16 @@ import { FormatService } from '../../services/format.service';
 })
 export class InsertWordPage implements OnInit {
 
-  constructor(public analyzator: AnalyzeService, public formator: FormatService, public database: DatabaseService) {
+  constructor(public analyzator: AnalyzeService, public formator: FormatService,
+    /* public database: DatabaseService, */ public index: IndexingService) {
     if (this.analyzator.inputWordFromIndex !== '') {
       this.inputWord = this.analyzator.inputWordFromIndex;
       this.analyzator.inputWordFromIndex = '';
       this.analyze();
     }
+    this.loading = true;
+    this.makeDict();
+
     /* this.database.getDatabaseState().subscribe(rdy => {
       if (rdy) {
         this.dbIsLoaded = true;
@@ -23,42 +29,87 @@ export class InsertWordPage implements OnInit {
     }); */
   }
 
+  public listOfWords = [];
+  public loading = true;
+  public dict;
+  public showDefinition = false;
+  public analyzedWord: string;
+
   public inputWord = '';
   public definition;
   public errorMessage = '';
   public isLoading = false;
 
-  public word = {};
-  public words = [];
-  public dbIsLoaded = false;
+
+  /*  public word = {};
+   public words = [];
+   public dbIsLoaded = false; */
 
 
   ngOnInit() {
-/*     this.anaylze();
- */  }
+  }
+
+
+  public async makeDict() {
+    if (!this.index.alphDict) {
+      this.dict = await this.index.makeAlphDict();
+      this.index.alphDict = this.dict;
+    } else {
+      this.dict = this.index.alphDict;
+    }
+    this.loading = false;
+    console.log(this.dict);
+  }
+
+
+  public showWords(ifShow: boolean) {
+    const lowerCaseWord = this.inputWord.toLowerCase();
+    /* if (this.inputWord[0] && this.inputWord[0] === this.inputWord[0].toUpperCase()) {
+      this.inputWord = this.inputWord.toLowerCase();
+    } */
+    if (this.analyzedWord !== this.inputWord || !ifShow) {
+      if (this.showDefinition) {
+        this.showDefinition = false;
+      }
+      if (ifShow) {
+        if (lowerCaseWord) {
+          this.listOfWords = _.filter(this.dict[lowerCaseWord[0]], (word) => {
+            return word.startsWith(lowerCaseWord);
+          });
+        } else {
+          this.listOfWords = [];
+        }
+      } else {
+        this.inputWord = '';
+        this.listOfWords = [];
+      }
+    }
+  }
 
 
   public async analyze() {
+    this.analyzedWord = this.inputWord;
     this.isLoading = true;
     let infoBase;
     this.errorMessage = '';
     this.definition = undefined;
     infoBase = await this.analyzator.analyze(this.inputWord);
-    this.isLoading = false;
     if (typeof infoBase === 'string' || infoBase instanceof String || infoBase.czechParent === infoBase.czechInput) {
       this.errorMessage = 'Wrong input.';
     } else {
       this.definition = await this.formator.createDefinition(infoBase);
     }
+    this.isLoading = false;
+    this.showDefinition = true;
   }
 
 
-  public loadWord(word) {
+  /* public loadWord(word) {
     this.database.loadWord(word).then(data => {
       this.words = data;
       console.log(this.words);
     });
-  }
+  } */
 
 
 

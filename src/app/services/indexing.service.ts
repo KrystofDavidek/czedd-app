@@ -17,21 +17,20 @@ export class IndexingService {
   public async makeAlphDict() {
     const alphDict = {};
     let letter = '';
-    const tsvContent = (await this.load.loadFile('tel_derinet.tsv')).split('\n');
+    const tsvContent = (await this.load.loadFile('telka_beta.tsv')).split('\n');
     console.log('LOADING ...');
 
     const itemsList = _.map(tsvContent, this.convertLineToObject);
     _.forEach(itemsList, (item) => {
       if ('word' in item) {
         const word = item['word'];
-        if (!(/[A-Z]/.test(word[0])) && word.endsWith('tel') && this.ifDerivated(item, itemsList)) {
+        if (!(/[A-Z]/.test(word[0])) && (word.endsWith('tel') || word.endsWith('telka')) && this.ifDerivated(item, itemsList)) {
           if (letter !== word[0]) {
             letter = word[0];
           }
           if (!(letter in alphDict)) {
             alphDict[letter] = [];
           }
-          this.ifDerivated(item, itemsList);
           alphDict[letter].push(word);
         }
       }
@@ -42,10 +41,20 @@ export class IndexingService {
 
   public ifDerivated(item, itemList): boolean {
     let result = false;
-    if ('parent' in item && _.find(itemList, { id: item.parent, category: 'V' })) {
-      result = true;
+    let parent;
+    if ('parent' in item) {
+      if (_.find(itemList, { id: item.parent, category: 'V' })) {
+        result = true;
+      } else {
+        parent = _.find(itemList, { id: item.parent, category: 'N' });
+        if (parent && 'parent' in parent) {
+          if (_.find(itemList, { id: parent.parent, category: 'V' })) {
+            result = true;
+          }
+        }
+      }
+      return result;
     }
-    return result;
   }
 
 

@@ -13,72 +13,70 @@
 
 <ion-content padding text-center>
 
-  <!-- <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učitel")'>
-    učitel
-  </ion-button>
+  <div *ngIf="loading">
+    <ion-spinner name="crescent"></ion-spinner>
+  </div>
 
-  <ion-button *ngIf='dbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učitelka")'>
-    učitelka
-  </ion-button>
+  <div *ngIf="!loading">
+    <!-- <ion-item>
+      <ion-row class='input' align-items-center>
+        <ion-input required type="text" placeholder="Write the word." (keyup.enter)="analyze()" [(ngModel)]='inputWord'>
+        </ion-input>
+        <ion-button class="main-button" color='dark' shape='round' fill='solid' (click)='analyze()'>
+          <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
+          <p *ngIf='!isLoading'>Analyze</p>
+        </ion-button>
+      </ion-row>
+    </ion-item> -->
 
-  <ion-button *ngIf='
-ion-inputdbIsLoaded' color='dark' shape='round' fill='solid' strong (click)='loadWord("učit")'>
-    učit
-  </ion-button>
-
-  <ion-list>
-    <ion-item *ngFor="let word of words">
-      <h2>{{ word.word }}</h2>
-      <p>{{ word.address }}</p>
-      <p>{{ word.part_of_speech }} </p>
-      <p>{{ word.origin}}</p>
-    </ion-item>
-  </ion-list> -->
-  <ion-item class='item-divider' positive-bg light>
-    <ion-input text-center required type="text" placeholder="Write the word." (keyup.enter)="analyze()"
-      [(ngModel)]='inputWord'>
-    </ion-input>
-  </ion-item>
-
-  <ion-button class="main-button" *ngIf="inputWord" color='dark' shape='round' fill='solid' strong (click)='analyze()'>
-    <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
-    <p *ngIf='!isLoading'>Analyze</p>
-  </ion-button>
-
-  <ion-card *ngIf="errorMessage">
-    <p> {{ errorMessage }} </p>
-  </ion-card>
-
-  <div class='definition'>
-    <div class='main'>
-      <ion-card *ngIf='definition'>
-        <div class='def-title'>
-          <ion-card-title> {{ definition.main.caption }} </ion-card-title>
-        </div>
-        <ion-card-content>
-          <p> {{ definition.main.firstLine }} </p>
-          <p> {{ definition.main.czechLine }} </p>
-          <p> {{ definition.main.englishLine }} </p>
-        </ion-card-content>
-      </ion-card>
-    </div>
-    <div class='secondary'>
-      <ion-card *ngIf="definition">
-        <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
-        <ion-card-content>
-          <p> {{ definition.derivational.baseWord }} </p>
-          <p> {{ definition.derivational.derProcess }} </p>
-        </ion-card-content>
-      </ion-card>
-      <ion-card *ngIf="definition">
-        <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
-        <ion-card-content>
-          <p> {{ definition.morphological.partOfSpeech }} </p>
-          <p> {{ definition.morphological.gender }} </p>
-          <p> {{ definition.morphological.paradigm }} </p>
-        </ion-card-content>
-      </ion-card>
+    <ion-searchbar animated type="text" placeholder="Write the word." [(ngModel)]='inputWord'
+      (ionChange)="showWords(true)" (ionClear)='showWords(false)'>
+    </ion-searchbar>
+    <div *ngIf='!showDefinition'>
+      <ion-list class="word-list" *ngIf='listOfWords'>
+        <ion-item *ngFor="let word of listOfWords" [ngClass]="{'itemEven': listOfWords.indexOf(word)%2==0}"
+          (click)='this.inputWord=word; analyze()'>
+          <ion-label>{{ word }}</ion-label>
+        </ion-item>
+      </ion-list>
     </div>
   </div>
 
+
+  <div *ngIf='showDefinition'>
+    <ion-card *ngIf="errorMessage">
+      <p> {{ errorMessage }} </p>
+    </ion-card>
+    <div class='definition'>
+      <div class='main'>
+        <ion-card *ngIf='definition'>
+          <div class='def-title'>
+            <ion-card-title> {{ definition.main.caption }} </ion-card-title>
+          </div>
+          <ion-card-content>
+            <p> {{ definition.main.firstLine }} </p>
+            <p> {{ definition.main.czechLine }} </p>
+            <p> {{ definition.main.englishLine }} </p>
+          </ion-card-content>
+        </ion-card>
+      </div>
+      <div class='secondary'>
+        <ion-card *ngIf="definition">
+          <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
+          <ion-card-content>
+            <p> {{ definition.derivational.baseWord }} </p>
+            <p> {{ definition.derivational.derProcess }} </p>
+          </ion-card-content>
+        </ion-card>
+        <ion-card *ngIf="definition">
+          <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
+          <ion-card-content>
+            <p> {{ definition.morphological.partOfSpeech }} </p>
+            <p> {{ definition.morphological.gender }} </p>
+            <p> {{ definition.morphological.paradigm }} </p>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </div>
+  </div>
 </ion-content>
