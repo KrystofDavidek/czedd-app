@@ -1,5 +1,6 @@
 import { LoadFileService } from './load-file.service';
 import { Injectable } from '@angular/core';
+import { NativeStorage } from '@ionic-native/native-storage/ngx';
 import * as _ from 'lodash';
 
 @Injectable({
@@ -7,35 +8,60 @@ import * as _ from 'lodash';
 })
 export class IndexingService {
 
-  constructor(public load: LoadFileService) {
+  constructor(public load: LoadFileService, private nativeStorage: NativeStorage) {
   }
 
 
-  public alphDict;
+  public alphDict = {};
+
+
+  public async getDataFromStorage() {
+    await this.nativeStorage.getItem('alphDict')
+      .then(
+        data => this.alphDict = data,
+        error => console.error(error)
+      );
+  }
+
+
+  public async loadDataToStorage(data: {}) {
+    await this.nativeStorage.setItem('alphDict', data)
+      .then(
+        () => console.log('Stored item!'),
+        error => console.error('Error storing item', error)
+      );
+  }
 
 
   public async makeAlphDict() {
-    const alphDict = {};
-    let letter = '';
-    const tsvContent = (await this.load.loadFile('telka_beta.tsv')).split('\n');
-    console.log('LOADING ...');
+    await this.getDataFromStorage();
+    if (Object.keys(this.alphDict).length) {
+      console.log('AlphDict is in Storage');
+    } else {
+      console.log('AlphDict is NOT in Storage');
+      const alphDict = {};
+      let letter = '';
+      const tsvContent = (await this.load.loadFile('telka_beta.tsv')).split('\n');
+      console.log('LOADING ...');
 
-    const itemsList = _.map(tsvContent, this.convertLineToObject);
-    _.forEach(itemsList, (item) => {
-      if ('word' in item) {
-        const word = item['word'];
-        if (!(/[A-Z]/.test(word[0])) && (word.endsWith('tel') || word.endsWith('telka')) && this.ifDerivated(item, itemsList)) {
-          if (letter !== word[0]) {
-            letter = word[0];
+      const itemsList = _.map(tsvContent, this.convertLineToObject);
+      _.forEach(itemsList, (item) => {
+        if ('word' in item) {
+          const word = item['word'];
+          if (!(/[A-Z]/.test(word[0])) && (word.endsWith('tel') || word.endsWith('telka')) && this.ifDerivated(item, itemsList)) {
+            if (letter !== word[0]) {
+              letter = word[0];
+            }
+            if (!(letter in alphDict)) {
+              alphDict[letter] = [];
+            }
+            alphDict[letter].push(word);
           }
-          if (!(letter in alphDict)) {
-            alphDict[letter] = [];
-          }
-          alphDict[letter].push(word);
         }
-      }
-    });
-    return alphDict;
+      });
+      await this.loadDataToStorage(alphDict);
+      this.alphDict = alphDict;
+    }
   }
 
 

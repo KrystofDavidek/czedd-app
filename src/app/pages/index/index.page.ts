@@ -29,9 +29,9 @@ export class IndexPage implements OnInit {
   }
 
   public async makeAlphDict() {
-    if (!this.index.alphDict) {
-      this.dict = await this.index.makeAlphDict();
-      this.index.alphDict = this.dict;
+    if (!Object.keys(this.index.alphDict).length) {
+      await this.index.makeAlphDict();
+      this.dict = this.index.alphDict;
     } else {
       this.dict = this.index.alphDict;
     }
