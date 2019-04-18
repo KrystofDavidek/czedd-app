@@ -138,7 +138,10 @@ export class FormatService {
   public telTypeOvatel(infoBase, czechInput, verb) {
     if (!(czechInput.match(/^.*chovatel$/))) {
       if (infoBase.isPrefig) {
-        if (this.ifWordFormInChain(infoBase.derivationPath, ['.*it', '.*nout', '.*[áa]t'], verb, false)) {
+        if (
+          this.ifWordFormInChain(infoBase.derivationPath, ['.*it', '.*nout', '.*[áa]t'], verb, false) &&
+          !this.ifImperfektum(infoBase.derivationPath, infoBase.gender)
+        ) {
           return `${verb.substring(0, verb.length - 4)}uje`;
         } else {
           if (infoBase.gender === 'F') {
@@ -162,6 +165,16 @@ export class FormatService {
         return `${verb.substring(0, verb.length - 2)}al
         nebo ${verb.substring(0, verb.length - 2)}á`;
       }
+    }
+  }
+
+
+  public ifImperfektum(derivationPath, gender) {
+    if ((derivationPath.length === 2 && gender === 'M') ||
+      (derivationPath.length === 3 && gender === 'F')) {
+      return true;
+    } else {
+      return false;
     }
   }
 
@@ -200,7 +213,13 @@ export class FormatService {
         return `${verb.substring(0, verb.length - 2)}al`;
       }
     } else if (verb.match(/^.*[eěi]t$/)) {
-      return `${verb.substring(0, verb.length - 2)}í`;
+      if (infoBase.gender === 'F') {
+        return `${verb.substring(0, verb.length - 2)}ila
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      } else {
+        return `${verb.substring(0, verb.length - 2)}il
+        nebo ${verb.substring(0, verb.length - 2)}í`;
+      }
     }
 
   }
