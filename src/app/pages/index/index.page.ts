@@ -67,14 +67,8 @@ export class IndexPage implements OnInit {
 
   public toAnalyze(word: string) {
     this.analyzator.inputWordFromIndex = word;
-    // tslint:disable-next-line:no-shadowed-variable
-    const NavigationExtras: NavigationExtras = {
-      queryParams: {
-        'word': word
-      }
-    };
     this.zone.run(() => {
-      this.router.navigateByUrl('/menu/(menucontent:insertWord)', NavigationExtras);
+      this.router.navigateByUrl('/menu/(menucontent:insertWord)');
     });
   }
 
