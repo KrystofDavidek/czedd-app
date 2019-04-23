@@ -20,5 +20,17 @@
     "ukázat": "ukáže",
     "přemoci": "přemohla nebo přemůže",
     "psát": "píše"
-  }
+  },
+  "IA": [
+    "jmenovatel",
+    "dělitel",
+    "čitatel",
+    "násobitel",
+    "menšitel",
+    "úročitel",
+    "odmocnitel",
+    "umořovatel",
+    "odúročitel",
+    "součinitel"
+  ]
 }

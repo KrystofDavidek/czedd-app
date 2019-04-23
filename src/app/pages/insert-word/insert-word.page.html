@@ -29,8 +29,8 @@
       </ion-row>
     </ion-item> -->
 
-    <ion-searchbar animated type="text" placeholder="Write the word." [(ngModel)]='inputWord'
-      (ionChange)="showWords(true)" (ionClear)='showWords(false)'>
+    <ion-searchbar animated type="text" placeholder="Write the word." [(ngModel)]='inputWord' (ionCancel)='goToIndex()'
+      [showCancelButton]="showBack" (ionChange)="showWords(true)" (ionClear)='showWords(false)'>
     </ion-searchbar>
     <div *ngIf='!showDefinition'>
       <ion-list class="word-list" *ngIf='listOfWords'>
@@ -40,42 +40,43 @@
         </ion-item>
       </ion-list>
     </div>
-  </div>
 
 
-  <div *ngIf='showDefinition'>
-    <ion-card *ngIf="errorMessage">
-      <p> {{ errorMessage }} </p>
-    </ion-card>
-    <div class='definition'>
-      <div class='main'>
-        <ion-card *ngIf='definition'>
-          <div class='def-title'>
-            <ion-card-title> {{ definition.main.caption }} </ion-card-title>
-          </div>
-          <ion-card-content>
-            <p> {{ definition.main.firstLine }} </p>
-            <p> {{ definition.main.czechLine }} </p>
-            <p> {{ definition.main.englishLine }} </p>
-          </ion-card-content>
-        </ion-card>
-      </div>
-      <div class='secondary'>
-        <ion-card *ngIf="definition">
-          <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
-          <ion-card-content>
-            <p> {{ definition.derivational.baseWord }} </p>
-            <p> {{ definition.derivational.derProcess }} </p>
-          </ion-card-content>
-        </ion-card>
-        <ion-card *ngIf="definition">
-          <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
-          <ion-card-content>
-            <p> {{ definition.morphological.partOfSpeech }} </p>
-            <p> {{ definition.morphological.gender }} </p>
-            <p> {{ definition.morphological.paradigm }} </p>
-          </ion-card-content>
-        </ion-card>
+
+    <div *ngIf='showDefinition'>
+      <ion-card *ngIf="errorMessage">
+        <p> {{ errorMessage }} </p>
+      </ion-card>
+      <div class='definition'>
+        <div class='main'>
+          <ion-card *ngIf='definition'>
+            <div class='def-title'>
+              <ion-card-title> {{ definition.main.caption }} </ion-card-title>
+            </div>
+            <ion-card-content>
+              <p> {{ definition.main.firstLine }} </p>
+              <p> {{ definition.main.czechLine }} </p>
+              <p> {{ definition.main.englishLine }} </p>
+            </ion-card-content>
+          </ion-card>
+        </div>
+        <div class='secondary'>
+          <ion-card *ngIf="definition">
+            <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
+            <ion-card-content>
+              <p> {{ definition.derivational.baseWord }} </p>
+              <p> {{ definition.derivational.derProcess }} </p>
+            </ion-card-content>
+          </ion-card>
+          <ion-card *ngIf="definition">
+            <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
+            <ion-card-content>
+              <p> {{ definition.morphological.partOfSpeech }} </p>
+              <p> {{ definition.morphological.gender }} </p>
+              <p> {{ definition.morphological.paradigm }} </p>
+            </ion-card-content>
+          </ion-card>
+        </div>
       </div>
     </div>
   </div>

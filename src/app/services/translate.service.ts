@@ -28,7 +28,11 @@ export class TranslateService {
           }
         }
       }
-      words[mainVerb.id] = words[mainVerb.id] + 's';
+      if (words[mainVerb.id].endsWith('s') || words[mainVerb.id].endsWith('ch')) {
+        words[mainVerb.id] = words[mainVerb.id] + 'es';
+      } else {
+        words[mainVerb.id] = words[mainVerb.id] + 's';
+      }
       console.log(words);
       translation = words.join(' ');
     }

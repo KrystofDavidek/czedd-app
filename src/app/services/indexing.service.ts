@@ -13,6 +13,7 @@ export class IndexingService {
 
 
   public alphDict = {};
+  public show = '';
 
 
   public async getDataFromStorage() {

@@ -1,7 +1,7 @@
 import { AnalyzeService } from './../../services/analyze.service';
 import { IndexingService } from './../../services/indexing.service';
-import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
+import { Component, OnInit, NgZone } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import * as _ from 'lodash';
 
 @Component({
@@ -11,9 +11,12 @@ import * as _ from 'lodash';
 })
 export class IndexPage implements OnInit {
 
-  constructor(public index: IndexingService, public nav: NavController, public analyzator: AnalyzeService) {
-    this.loading = true;
-    this.makeAlphDict();
+  constructor(public index: IndexingService, public analyzator: AnalyzeService,
+    public router: Router, public activatedRoute: ActivatedRoute, public zone: NgZone) {
+    this.activatedRoute.params.subscribe(val => {
+      this.init();
+    }
+    );
   }
 
   public dict;
@@ -28,6 +31,18 @@ export class IndexPage implements OnInit {
   ngOnInit() {
   }
 
+
+  public init() {
+    console.log('Change!');
+    this.loading = true;
+    this.makeAlphDict();
+    if (this.index.show) {
+      this.showPartOfDict(this.index.show);
+      this.index.show = '';
+    }
+  }
+
+
   public async makeAlphDict() {
     if (!Object.keys(this.index.alphDict).length) {
       await this.index.makeAlphDict();
@@ -37,7 +52,6 @@ export class IndexPage implements OnInit {
     }
     this.listOfAlph = Object.keys(this.dict).sort();
     this.loading = false;
-    console.log(this.listOfAlph);
   }
 
 
@@ -49,6 +63,9 @@ export class IndexPage implements OnInit {
 
   public toAnalyze(word: string) {
     this.analyzator.inputWordFromIndex = word;
+    return this.zone.run(() => {
+      this.router.navigateByUrl('/menu/(menucontent:insertWord)');
+    });
   }
 
 

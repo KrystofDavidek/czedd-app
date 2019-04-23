@@ -34,11 +34,34 @@ export class FormatService {
     };
     definiton.morphological = {
       caption: 'Morphological information',
-      partOfSpeech: 'Part of speech: Noun',
-      gender: 'Noun gender: Masculine Animate',
-      paradigm: 'Noun paradigm: ...',
+      partOfSpeech: 'Part of speech: noun',
+      gender: 'Noun gender: ' + this.getMorphInfo('gender', infoBase.gender),
+      paradigm: 'Noun paradigm: ' + this.getMorphInfo('paradigm', infoBase.gender),
     };
     return definiton;
+  }
+
+
+  public getMorphInfo(information: string, gender: string): string {
+    if (information === 'gender') {
+      if (gender === 'IA') {
+        return 'masculine inanimate';
+      } else if (gender === 'M') {
+        return 'masculine Animate';
+      } else {
+        return 'feminime';
+      }
+    }
+    if (information === 'paradigm') {
+      if (gender === 'IA') {
+        return 'stroj';
+      } else if (gender === 'M') {
+        return 'muž';
+      } else {
+        return 'žena';
+      }
+    }
+    return '...';
   }
 
 
@@ -55,7 +78,12 @@ export class FormatService {
       infoBase.englishParent = '...';
     }
 
-    if (infoBase.gender === 'F') {
+    if (infoBase.gender === 'IA') {
+      const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length + 1);
+      mainResult.firstLine = `${inputName}-${infoBase.derivType}`;
+      mainResult.czechLine = `To, co ${thirdPerson} (infinitive: ${infoBase.czechParent})`;
+      mainResult.englishLine = `Something what ${infoBase.englishParent} (masculine inanimate)`;
+    } else if (infoBase.gender === 'F') {
       const inputName = infoBase.czechInput.substring(0, infoBase.czechInput.length - infoBase.derivType.length - 1);
       mainResult.firstLine = `${inputName}-${infoBase.derivType}ka`;
       mainResult.czechLine = `Ta, která ${thirdPerson} (infinitive: ${infoBase.czechParent})`;

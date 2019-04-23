@@ -1,6 +1,7 @@
+import { Router, ActivatedRoute } from '@angular/router';
 import { IndexingService } from './../../services/indexing.service';
 import { DatabaseService } from './../../services/database.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 import { AnalyzeService } from '../../services/analyze.service';
 import { FormatService } from '../../services/format.service';
 import * as _ from 'lodash';
@@ -12,21 +13,18 @@ import * as _ from 'lodash';
 })
 export class InsertWordPage implements OnInit {
 
-  constructor(public analyzator: AnalyzeService, public formator: FormatService,
-    /* public database: DatabaseService, */ public index: IndexingService) {
-    if (this.analyzator.inputWordFromIndex !== '') {
-      this.inputWord = this.analyzator.inputWordFromIndex;
-      this.analyzator.inputWordFromIndex = '';
-      this.analyze();
-    }
-    this.loading = true;
-    this.makeDict();
-
-    /* this.database.getDatabaseState().subscribe(rdy => {
-      if (rdy) {
-        this.dbIsLoaded = true;
-      }
-    }); */
+  constructor(
+    public analyzator: AnalyzeService,
+    public formator: FormatService,
+    /* public database: DatabaseService, */
+    public index: IndexingService,
+    public router: Router,
+    public activatedRoute: ActivatedRoute,
+    public zone: NgZone
+  ) {
+    this.activatedRoute.params.subscribe(val => {
+      this.init();
+    });
   }
 
   public listOfWords = [];
@@ -34,9 +32,11 @@ export class InsertWordPage implements OnInit {
   public dict;
   public showDefinition = false;
   public analyzedWord: string;
+  public showBack = false;
 
   public inputWord = '';
   public definition;
+
   public errorMessage = '';
   public isLoading = false;
 
@@ -47,6 +47,25 @@ export class InsertWordPage implements OnInit {
 
 
   ngOnInit() {
+  }
+
+
+  public init() {
+    console.log('Change!');
+    if (this.analyzator.inputWordFromIndex !== '') {
+      this.inputWord = this.analyzator.inputWordFromIndex;
+      this.analyzator.inputWordFromIndex = '';
+      this.analyze();
+      this.showBack = true;
+    }
+    this.loading = true;
+    this.makeDict();
+
+    /* this.database.getDatabaseState().subscribe(rdy => {
+      if (rdy) {
+        this.dbIsLoaded = true;
+      }
+    }); */
   }
 
 
@@ -76,6 +95,7 @@ export class InsertWordPage implements OnInit {
           this.listOfWords = _.filter(this.dict[lowerCaseWord[0]], (word) => {
             return word.startsWith(lowerCaseWord);
           });
+          this.showBack = false;
         } else {
           this.listOfWords = [];
         }
@@ -87,7 +107,10 @@ export class InsertWordPage implements OnInit {
   }
 
 
-  public async analyze() {
+  public async analyze(inputWord?) {
+    if (inputWord) {
+      this.inputWord = inputWord;
+    }
     this.analyzedWord = this.inputWord;
     this.isLoading = true;
     let infoBase;
@@ -101,6 +124,19 @@ export class InsertWordPage implements OnInit {
     }
     this.isLoading = false;
     this.showDefinition = true;
+  }
+
+
+  public goToIndex() {
+    this.loading = true;
+    this.index.show = this.inputWord[0];
+    console.log(this.index.show);
+    this.inputWord = '';
+    this.showBack = false;
+    this.loading = false;
+    return this.zone.run(() => {
+      this.router.navigateByUrl('/menu/(menucontent:index)');
+    });
   }
 
 

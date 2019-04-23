@@ -23,13 +23,9 @@
       </ion-item>
     </ion-list>
     <ion-list *ngIf='showPart' lines="none">
-      <ion-item>
-        <ion-button color='dark' shape='round' fill='solid' (click)='backToLetters()'>
-          Back
-        </ion-button>
-      </ion-item>
+      <ion-icon name="arrow-round-back" (click)='backToLetters()'></ion-icon>
       <ion-item *ngFor="let word of partOfDict" [ngClass]="{'itemEven': partOfDict.indexOf(word)%2==0}"
-        (click)='toAnalyze(word)' href='/menu/(menucontent:insertWord)'>
+        (click)='toAnalyze(word)'>
         <ion-label>{{ word }}</ion-label>
       </ion-item>
       <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">

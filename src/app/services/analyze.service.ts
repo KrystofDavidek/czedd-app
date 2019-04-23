@@ -42,7 +42,7 @@ export class AnalyzeService {
     this.infoBase.isPrefig = false;
     this.infoBase.prefix = '';
     this.infoBase.derProcess = '';
-    this.infoBase.gender = 'M';
+    this.infoBase.gender = '';
     this.infoBase.derivationPath = [];
   }
 
@@ -161,6 +161,7 @@ export class AnalyzeService {
 
 
   public async checkDertivationType(item, prevItem) {
+    const dictOfExceptions = await this.load.loadJson('exceptions.json');
     const rules = (await this.load.loadJson('derivTypes.json'));
     _.forEach(rules[prevItem.category][item.category], (affix, derivType) => {
       if (affix.startsWith('-') && prevItem.word.endsWith(affix.substring(1))) {
@@ -168,6 +169,10 @@ export class AnalyzeService {
         this.infoBase.derProcess = 'suffixation';
         if (derivType === 'tel' && this.infoBase.czechInput.endsWith('ka')) {
           this.infoBase.gender = 'F';
+        } else if (dictOfExceptions['IA'].includes(this.infoBase.czechInput)) {
+          this.infoBase.gender = 'IA';
+        } else {
+          this.infoBase.gender = 'M';
         }
       }
     });
