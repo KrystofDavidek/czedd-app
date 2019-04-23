@@ -47,7 +47,7 @@ export class FormatService {
       if (gender === 'IA') {
         return 'masculine inanimate';
       } else if (gender === 'M') {
-        return 'masculine Animate';
+        return 'masculine animate';
       } else {
         return 'feminime';
       }

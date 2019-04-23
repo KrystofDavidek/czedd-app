@@ -11,6 +11,7 @@ import * as _ from 'lodash';
   templateUrl: './insert-word.page.html',
   styleUrls: ['./insert-word.page.scss'],
 })
+
 export class InsertWordPage implements OnInit {
 
   constructor(
@@ -23,6 +24,9 @@ export class InsertWordPage implements OnInit {
     public zone: NgZone
   ) {
     this.activatedRoute.params.subscribe(val => {
+      this.activatedRoute.queryParams.subscribe(params => {
+        this.inputWord = params['word'];
+      });
       this.init();
     });
   }
@@ -134,7 +138,7 @@ export class InsertWordPage implements OnInit {
     this.inputWord = '';
     this.showBack = false;
     this.loading = false;
-    return this.zone.run(() => {
+    this.zone.run(() => {
       this.router.navigateByUrl('/menu/(menucontent:index)');
     });
   }

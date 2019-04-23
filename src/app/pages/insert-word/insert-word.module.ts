@@ -23,4 +23,4 @@ const routes: Routes = [
   ],
   declarations: [InsertWordPage]
 })
-export class InsertWordPageModule {}
+export class InsertWordPageModule { }

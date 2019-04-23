@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone } from '@angular/core';
 import { Router, RouterEvent } from '@angular/router';
 
 @Component({
@@ -29,7 +29,7 @@ export class MenuPage implements OnInit {
     }
   ];
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public zone: NgZone) {
     this.router.events.subscribe((event: RouterEvent) => {
       this.selectedPath = event.url;
       if (this.selectedPath === '/') {
@@ -40,6 +40,12 @@ export class MenuPage implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  public goToPage(url: string): void {
+    this.zone.run(() => {
+      this.router.navigateByUrl(url);
+    });
   }
 
 }

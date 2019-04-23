@@ -25,7 +25,7 @@
     <ion-list *ngIf='showPart' lines="none">
       <ion-icon name="arrow-round-back" (click)='backToLetters()'></ion-icon>
       <ion-item *ngFor="let word of partOfDict" [ngClass]="{'itemEven': partOfDict.indexOf(word)%2==0}"
-        (click)='toAnalyze(word)'>
+        (click)='toAnalyze(word)' routerDirection="forward">
         <ion-label>{{ word }}</ion-label>
       </ion-item>
       <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMore($event)">

@@ -1,7 +1,7 @@
 import { AnalyzeService } from './../../services/analyze.service';
 import { IndexingService } from './../../services/indexing.service';
 import { Component, OnInit, NgZone } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute, NavigationExtras } from '@angular/router';
 import * as _ from 'lodash';
 
 @Component({
@@ -11,8 +11,12 @@ import * as _ from 'lodash';
 })
 export class IndexPage implements OnInit {
 
-  constructor(public index: IndexingService, public analyzator: AnalyzeService,
-    public router: Router, public activatedRoute: ActivatedRoute, public zone: NgZone) {
+  constructor(public index: IndexingService,
+    public analyzator: AnalyzeService,
+    public router: Router,
+    public activatedRoute: ActivatedRoute,
+    public zone: NgZone
+  ) {
     this.activatedRoute.params.subscribe(val => {
       this.init();
     }
@@ -63,8 +67,14 @@ export class IndexPage implements OnInit {
 
   public toAnalyze(word: string) {
     this.analyzator.inputWordFromIndex = word;
-    return this.zone.run(() => {
-      this.router.navigateByUrl('/menu/(menucontent:insertWord)');
+    // tslint:disable-next-line:no-shadowed-variable
+    const NavigationExtras: NavigationExtras = {
+      queryParams: {
+        'word': word
+      }
+    };
+    this.zone.run(() => {
+      this.router.navigateByUrl('/menu/(menucontent:insertWord)', NavigationExtras);
     });
   }
 

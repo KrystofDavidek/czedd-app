@@ -29,7 +29,7 @@
       </ion-row>
     </ion-item> -->
 
-    <ion-searchbar animated type="text" placeholder="Write the word." [(ngModel)]='inputWord' (ionCancel)='goToIndex()'
+    <ion-searchbar animated type="text" placeholder="Write the word" [(ngModel)]='inputWord' (ionCancel)='goToIndex()'
       [showCancelButton]="showBack" (ionChange)="showWords(true)" (ionClear)='showWords(false)'>
     </ion-searchbar>
     <div *ngIf='!showDefinition'>
@@ -41,7 +41,7 @@
       </ion-list>
     </div>
 
-
+    <ion-spinner name="crescent" *ngIf='isLoading'></ion-spinner>
 
     <div *ngIf='showDefinition'>
       <ion-card *ngIf="errorMessage">
@@ -51,7 +51,13 @@
         <div class='main'>
           <ion-card *ngIf='definition'>
             <div class='def-title'>
-              <ion-card-title> {{ definition.main.caption }} </ion-card-title>
+              <ion-card-title>
+                <div class="caption">
+                  <div class="caption-text">
+                    {{ definition.main.caption }}
+                  </div>
+                </div>
+              </ion-card-title>
             </div>
             <ion-card-content>
               <p> {{ definition.main.firstLine }} </p>
@@ -62,14 +68,26 @@
         </div>
         <div class='secondary'>
           <ion-card *ngIf="definition">
-            <ion-card-title> {{ definition.derivational.caption }} </ion-card-title>
+            <ion-card-title>
+              <div class="caption">
+                <div class="caption-text">
+                  {{ definition.derivational.caption }}
+                </div>
+              </div>
+            </ion-card-title>
             <ion-card-content>
               <p> {{ definition.derivational.baseWord }} </p>
               <p> {{ definition.derivational.derProcess }} </p>
             </ion-card-content>
           </ion-card>
           <ion-card *ngIf="definition">
-            <ion-card-title> {{ definition.morphological.caption }} </ion-card-title>
+            <ion-card-title>
+              <div class="caption">
+                <div class="caption-text">
+                  {{ definition.morphological.caption }}
+                </div>
+              </div>
+            </ion-card-title>
             <ion-card-content>
               <p> {{ definition.morphological.partOfSpeech }} </p>
               <p> {{ definition.morphological.gender }} </p>
