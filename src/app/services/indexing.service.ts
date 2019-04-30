@@ -70,12 +70,12 @@ export class IndexingService {
     let result = false;
     let parent;
     if ('parent' in item) {
-      if (_.find(itemList, { id: item.parent, category: 'V' })) {
+      if (_.find(itemList, { id: item.parent, category: 'V' }) && item.category === 'N') {
         result = true;
       } else {
         parent = _.find(itemList, { id: item.parent, category: 'N' });
         if (parent && 'parent' in parent) {
-          if (_.find(itemList, { id: parent.parent, category: 'V' })) {
+          if (_.find(itemList, { id: parent.parent, category: 'V' }) && item.category === 'N') {
             result = true;
           }
         }
