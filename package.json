@@ -39,7 +39,7 @@
     "cordova-plugin-whitelist": "^1.3.3",
     "cordova-sqlite-storage": "^3.2.0",
     "core-js": "^2.5.3",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "rxjs": "6.2.2",
     "zone.js": "^0.8.26",
     "uk.co.workingedge.cordova.plugin.sqliteporter": "~1.1.0"
